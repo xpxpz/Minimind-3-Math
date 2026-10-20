@@ -1,0 +1,154 @@
+{
+  "version": "math-data-v1",
+  "seed": 42,
+  "generator_sha256": "8bfaf3e71861be396c11cc9206140a13d546b089f537ddca720352bbcffc7960",
+  "grouping": "global AST key; flatten/sort associative + and *; no full algebraic equivalence",
+  "ranges": {
+    "id_leaf_operands": [
+      1,
+      99
+    ],
+    "range_ood_leaf_operands": [
+      1000,
+      9999
+    ]
+  },
+  "splits": {
+    "train": {
+      "count": 8000,
+      "tasks": {
+        "word": 2666,
+        "mixed": 2667,
+        "arithmetic": 2667
+      },
+      "templates": {
+        "word_direct_-": 671,
+        "mixed_direct_1": 899,
+        "arithmetic_direct_*": 630,
+        "mixed_direct_0": 943,
+        "word_direct_/": 708,
+        "arithmetic_direct_/": 698,
+        "word_direct_*": 652,
+        "arithmetic_direct_-": 682,
+        "word_direct_+": 635,
+        "mixed_direct_2": 825,
+        "arithmetic_direct_+": 657
+      },
+      "sha256": "44ce9d8504ec125f568347ed94fef85379243a3e32cebab7890f3352421f89dc"
+    },
+    "validation": {
+      "count": 1000,
+      "tasks": {
+        "word": 333,
+        "mixed": 333,
+        "arithmetic": 334
+      },
+      "templates": {
+        "word_direct_*": 86,
+        "word_direct_+": 67,
+        "mixed_direct_2": 110,
+        "arithmetic_direct_+": 87,
+        "arithmetic_direct_-": 86,
+        "mixed_direct_0": 107,
+        "mixed_direct_1": 116,
+        "arithmetic_direct_/": 86,
+        "word_direct_/": 107,
+        "word_direct_-": 73,
+        "arithmetic_direct_*": 75
+      },
+      "sha256": "50f2945c59d312e9f8d10d74c1b4ede66ba6fbeb48a3a3f23078999c50fa270a"
+    },
+    "test_id": {
+      "count": 1000,
+      "tasks": {
+        "arithmetic": 334,
+        "mixed": 333,
+        "word": 333
+      },
+      "templates": {
+        "arithmetic_direct_*": 76,
+        "mixed_direct_1": 99,
+        "mixed_direct_0": 124,
+        "arithmetic_direct_/": 95,
+        "word_direct_+": 85,
+        "mixed_direct_2": 110,
+        "word_direct_-": 76,
+        "arithmetic_direct_-": 78,
+        "word_direct_*": 77,
+        "word_direct_/": 95,
+        "arithmetic_direct_+": 85
+      },
+      "sha256": "56ed0a0c22287abb172ed3d3084d529dbb75d9f231735201052c6cb478e8c0fb"
+    },
+    "test_template": {
+      "count": 300,
+      "tasks": {
+        "word": 100,
+        "arithmetic": 100,
+        "mixed": 100
+      },
+      "templates": {
+        "word_heldout_-": 27,
+        "word_heldout_+": 25,
+        "word_heldout_/": 26,
+        "arithmetic_heldout_-": 28,
+        "arithmetic_heldout_/": 33,
+        "arithmetic_heldout_*": 20,
+        "mixed_heldout_1": 42,
+        "mixed_heldout_2": 30,
+        "word_heldout_*": 22,
+        "mixed_heldout_0": 28,
+        "arithmetic_heldout_+": 19
+      },
+      "sha256": "653f411ce842e37aa5a62213f36e45e2312796cf84fe26fee5f37785bc1c0158"
+    },
+    "test_range": {
+      "count": 300,
+      "tasks": {
+        "word": 100,
+        "arithmetic": 100,
+        "mixed": 100
+      },
+      "templates": {
+        "word_direct_/": 29,
+        "arithmetic_direct_/": 28,
+        "mixed_direct_2": 35,
+        "mixed_direct_1": 35,
+        "word_direct_+": 24,
+        "arithmetic_direct_*": 29,
+        "arithmetic_direct_+": 26,
+        "word_direct_-": 28,
+        "mixed_direct_0": 30,
+        "word_direct_*": 19,
+        "arithmetic_direct_-": 17
+      },
+      "sha256": "7cfffcf6876adc714974eaf011055445fedb2c444b11ef4770acd0a310174928"
+    },
+    "smoke": {
+      "count": 240,
+      "tasks": {
+        "word": 80,
+        "mixed": 80,
+        "arithmetic": 80
+      },
+      "templates": {
+        "word_direct_+": 14,
+        "word_direct_*": 21,
+        "mixed_direct_0": 33,
+        "mixed_direct_2": 17,
+        "word_direct_/": 27,
+        "word_direct_-": 18,
+        "mixed_direct_1": 30,
+        "arithmetic_direct_*": 17,
+        "arithmetic_direct_-": 19,
+        "arithmetic_direct_+": 18,
+        "arithmetic_direct_/": 26
+      },
+      "sha256": "69730ffb8c3468d83b81070ed4f41ef7444903bee7de213c5cdec7f964a72898"
+    }
+  },
+  "sft_sha256": {
+    "train_sft.jsonl": "d682f3f45eb20d5479de713e57766d13c25d2e6b7d729cad53a127d95404178a",
+    "validation_sft.jsonl": "ca1a8a221ffd112f012f1f8351652f647c2208423a4c7efae3a31f7b8dcc6c68"
+  }
+}

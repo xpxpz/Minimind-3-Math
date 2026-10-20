@@ -1,0 +1,6 @@
+{"epoch": 1, "examples": 4, "gradient_norm": 5.127296447753906, "loss": 3.018125534057617, "target_tokens": 28, "update": 1}
+{"epoch": 1, "examples": 4, "gradient_norm": 5.734089374542236, "loss": 3.499940037727356, "target_tokens": 25, "update": 2}
+{"update": 3, "epoch": 1, "loss": 3.0940935611724854, "gradient_norm": 5.602954864501953, "examples": 4, "target_tokens": 28}
+{"update": 4, "epoch": 1, "loss": 3.321288585662842, "gradient_norm": 5.450766563415527, "examples": 4, "target_tokens": 28}
+{"update": 5, "epoch": 2, "loss": 3.325842022895813, "gradient_norm": 6.9907660484313965, "examples": 4, "target_tokens": 26}
+{"update": 6, "epoch": 2, "loss": 2.9379992485046387, "gradient_norm": 5.820183277130127, "examples": 4, "target_tokens": 28}

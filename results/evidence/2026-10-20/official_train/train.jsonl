@@ -1,0 +1,2 @@
+{"update": 1, "epoch": 1, "loss": 3.018125534057617, "gradient_norm": 3.908033609390259, "examples": 4, "target_tokens": 28}
+{"update": 2, "epoch": 1, "loss": 3.500858783721924, "gradient_norm": 4.235339164733887, "examples": 4, "target_tokens": 25}

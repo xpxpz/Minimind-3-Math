@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minimind-3-math"
+version = "0.1.0"
+description = "Reproducible MiniMind-3 arithmetic post-training experiments"
+requires-python = ">=3.10,<3.13"
+dependencies = ["torch==2.6.0", "transformers==4.57.6", "numpy>=1.26,<3", "safetensors>=0.4,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7,<9"]
+
+[tool.setuptools.packages.find]
+include = ["mathlab*", "vendor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
