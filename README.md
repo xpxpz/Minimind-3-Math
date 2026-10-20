@@ -1,6 +1,6 @@
 # MiniMind-3-Math
 
-基于 **MiniMind-3 Dense** 的可复现数学后训练实验。第一阶段研究整数/有理数四则运算、带括号的混合运算及简单应用题，比较官方 LoRA 与可配置 LoRA 的注入位置。这里的模型是 [MiniMind](https://github.com/jingyaogong/minimind)，与 MiniMax 是不同项目。
+基于 **MiniMind-3 Dense** 的可复现数学后训练实验。第一阶段研究整数/有理数四则运算、带括号的混合运算及简单应用题，比较官方 LoRA 与可配置 LoRA 的注入位置。这里的模型是 [MiniMind](https://github.com/jingyaogong/minimind)
 
 **当前状态：** 已实现数据、评测、LoRA-SFT、断点恢复和对比工具。正式微调、消融及最终测试结果尚未完成；短运行只验证工程链路，不证明数学能力提升。实际验证记录见 [本地验证](docs/local_validation.md)。
 
