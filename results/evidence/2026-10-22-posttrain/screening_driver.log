@@ -1,0 +1,35 @@
+START screen-train-official_r16
+DONE screen-train-official_r16
+START screen-eval-official_r16
+DONE screen-eval-official_r16
+START screen-train-qv_r16
+DONE screen-train-qv_r16
+START screen-eval-qv_r16
+DONE screen-eval-qv_r16
+START screen-train-qkvo_r16
+DONE screen-train-qkvo_r16
+START screen-eval-qkvo_r16
+DONE screen-eval-qkvo_r16
+START screen-train-ffn_r8
+DONE screen-train-ffn_r8
+START screen-eval-ffn_r8
+DONE screen-eval-ffn_r8
+START screen-train-ffn_r16
+DONE screen-train-ffn_r16
+START screen-eval-ffn_r16
+DONE screen-eval-ffn_r16
+START screen-train-ffn_r32
+DONE screen-train-ffn_r32
+START screen-eval-ffn_r32
+DONE screen-eval-ffn_r32
+{
+  "arm": "qv_r16",
+  "split": "validation",
+  "correct": 23,
+  "n": 120,
+  "trainable_parameters": 344064,
+  "best_validation_loss": 0.9355708968950416,
+  "seconds": 153.51104883398511,
+  "updates": 500,
+  "adapter": "artifacts/SFT-qv_r16/best"
+}

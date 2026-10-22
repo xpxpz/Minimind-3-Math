@@ -1,0 +1,33 @@
+{
+  "base_files": {
+    "chat_template.jinja": "97c6a9ef3f8d35044f435bb7773f1af160a7328ab6e8d2e9d67702941320a711",
+    "config.json": "efcfa39ede9bbb5b64ded2bb90969e4b840f0f9e1e36725d386acb7eca1c6d05",
+    "generation_config.json": "3ee3cbe9acb55059b37a4e90bb843812eb86f70c5ebea404f137cd9c80127870",
+    "model.safetensors": "3adf69402b5d22e693151cabadc12528f923c4ba6bf343738aaf13f0892162e8",
+    "special_tokens_map.json": "f85ecedc16cf0083242e21ac2ef23ac613153b71240c7d2ab61de24f085d2db9",
+    "tokenizer.json": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+    "tokenizer_config.json": "04ae7620b9cf93fd2d6fbf94936b0c3c4be65f30cd6ef6fa8741baac986525d1"
+  },
+  "adapter": "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math/artifacts/SFT-qv_r16/best",
+  "adapter_sha256": "1467af11668be5393921d80fe98b4e75a1b8400bdbcd5b2a754bc3a709c447d8",
+  "merged_files": {
+    "chat_template.jinja": "97c6a9ef3f8d35044f435bb7773f1af160a7328ab6e8d2e9d67702941320a711",
+    "config.json": "a3de21b500018213f2610ca1a7c08a9fba0fae6c4b10c88764a9022645f3a15d",
+    "generation_config.json": "3ee3cbe9acb55059b37a4e90bb843812eb86f70c5ebea404f137cd9c80127870",
+    "model.safetensors": "c24414fd4b1304b64d4580caa69ae32b890e11963785a118b26f8e099193d37e",
+    "special_tokens_map.json": "f85ecedc16cf0083242e21ac2ef23ac613153b71240c7d2ab61de24f085d2db9",
+    "tokenizer.json": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+    "tokenizer_config.json": "04ae7620b9cf93fd2d6fbf94936b0c3c4be65f30cd6ef6fa8741baac986525d1"
+  },
+  "test_question": "计算 12 + 7。只需给出最终结果，格式为“答案：数值”；非整数请用最简分数，不要带单位。",
+  "merge_max_absolute_logit_difference": 7.915496826171875e-05,
+  "reloaded_logits_exact_equal": true,
+  "dtype": "float32",
+  "device": "cpu",
+  "tolerance": {
+    "rtol": 0.0001,
+    "atol": 0.0001
+  },
+  "script_sha256": "64f20379b1988fec6beb1aadcdcdac684fc98cdb00749cacd909cc8e3d696cca",
+  "limitation": "single prompt numerical export check; capability measured in campaign test runs"
+}

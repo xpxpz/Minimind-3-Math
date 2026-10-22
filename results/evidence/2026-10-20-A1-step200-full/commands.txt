@@ -1,0 +1,4 @@
+python -m mathlab.train --config configs/official_lora.json --out artifacts/A1-pilot --resume --stop-after-updates 150
+python -m mathlab.evaluate --data data/processed/v1/validation.jsonl --adapter artifacts/A1-step200/best --out results/runs/A1-step200-validation-full
+python -m scripts.analyze_predictions results/runs/A1-step200-validation-full --data data/processed/v1/validation.jsonl --out results/runs/A1-step200-validation-full/analysis.json
+python -m mathlab.compare results/runs/A1-step50-validation-full results/runs/A1-step200-validation-full --out results/runs/A1-step50-vs-step200-full.json

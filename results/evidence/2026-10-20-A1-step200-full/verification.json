@@ -1,0 +1,11 @@
+{
+  "first_50_log_entries_preserved": true,
+  "updates_1_to_200_contiguous": true,
+  "seen_training_examples": 3200,
+  "target_tokens": 21635,
+  "comparison_protocol_check_passed": true,
+  "analysis_matches_metrics": true,
+  "prediction_and_analysis_hashes_verified": true,
+  "report_links_checked": true,
+  "weights_excluded_from_archive": true
+}

@@ -1,0 +1,14 @@
+{
+  "n": 90,
+  "baseline_accuracy": 0.0,
+  "candidate_accuracy": 0.08888888888888889,
+  "difference_percentage_points": 8.88888888888889,
+  "paired_bootstrap_95_percentile_interval_pp": [
+    3.3333333333333335,
+    14.444444444444445
+  ],
+  "bootstrap_repeats": 5000,
+  "seed": 42,
+  "unit": "one unique canonical problem group per question",
+  "limitation": "question sampling uncertainty only; does not measure training-seed variability"
+}

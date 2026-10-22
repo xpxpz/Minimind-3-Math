@@ -1,0 +1,16 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "scripts.use_math_model",
+    "export",
+    "--adapter",
+    "artifacts/SFT-qv_r16/best",
+    "--device",
+    "cpu",
+    "--out",
+    "artifacts/SFT-merged-seed42"
+  ],
+  "returncode": 0,
+  "log": "results/evidence/2026-10-22-posttrain/export.log"
+}

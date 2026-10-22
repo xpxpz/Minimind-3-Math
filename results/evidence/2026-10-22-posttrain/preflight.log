@@ -1,0 +1,2 @@
+device=mps, base_parameters=63,912,192, max_train_tokens=74
+report=results/runs/preflight.json

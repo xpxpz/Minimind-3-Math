@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "training": {
+    "42": {
+      "updates": 1500,
+      "presentations": 24000,
+      "best_sha256": "1467af11668be5393921d80fe98b4e75a1b8400bdbcd5b2a754bc3a709c447d8",
+      "best_equals_last": true
+    },
+    "123": {
+      "updates": 1500,
+      "presentations": 24000,
+      "best_sha256": "b8827ec9fead5c928b2518ceb67750808d18f5e9bb581c06d808eaf01445477e",
+      "best_equals_last": true
+    },
+    "2026": {
+      "updates": 1500,
+      "presentations": 24000,
+      "best_sha256": "6a47dace646f6b2a56f13bb0a7f5009bdeee26cce434ed334e706fdd9b94ede0",
+      "best_equals_last": true
+    }
+  },
+  "successful_subprocesses": 36,
+  "final_question_count": 270,
+  "final_training_seeds": 3,
+  "report_links_checked": 118,
+  "release_adapter_hash_verified": true,
+  "merged_files_hash_verified": true,
+  "exported_reload_logits_exact_equal": true,
+  "weights_git_ignored": true,
+  "final_summary_sha256": "5767ecaf8c858ceced91bcf9dcc38e36e9458925a89590d601e065cbe016e803",
+  "source_sha256": {
+    "scripts/__init__.py": "07ed697087906f251d24ad127976b74235e67eaf5f21099675ba1b92a6dc6b43",
+    "scripts/analyze_predictions.py": "b9f059d6ea861e96dc394c44da35851654a0e7181e2635649b54abcc3a891db8",
+    "scripts/check_compatibility.py": "cbb747354037c4e5151f148e3bf40d12588fa08489fa4f2d7115a7eef3ce73ad",
+    "scripts/compare_shared_validation.py": "5b0772664a57e759b38d42d2d153f7e1bdf818ce288f2cc44a673330f6144656",
+    "scripts/expand_easy_coverage.py": "9a5c41dbf295354bc2b43bc2e8e29fb09205b4dc486f22d69dd0c8c95e5e29e1",
+    "scripts/generate_easy_math.py": "b71092760bf3c05812ff9b1449b7d67f60a0013251325a8cbb961b828d823ce5",
+    "scripts/posttrain_campaign.py": "ed98879afdb94498a710fbdfc97cab3ae4d359cadead86f93fea7d45831f0099",
+    "scripts/release_campaign.py": "ed0365e02254f66c29c244245b1e23adf155664b454f4c77eefa5d6a11711ef1",
+    "scripts/summarize_campaign.py": "c461ce6ce6026bc94e89c39bc9eecfd915c3483befcbf85362ba10794c36765a",
+    "scripts/use_math_model.py": "64f20379b1988fec6beb1aadcdcdac684fc98cdb00749cacd909cc8e3d696cca"
+  },
+  "audit_script_sha256": "9d89baee90c243e76dfe399142acbba2a0cb29e70a1e52f4bb200836b6952c1a"
+}

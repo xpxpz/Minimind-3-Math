@@ -1,0 +1,137 @@
+{
+  "version": "math-prediction-analysis-v1",
+  "analysis_sha256": "b9f059d6ea861e96dc394c44da35851654a0e7181e2635649b54abcc3a891db8",
+  "data_sha256": "b0b0a5399ac7b8987e972fc4efcc37b139de6d3ee399987f24f9e8de925e8ac9",
+  "predictions_sha256": "64838c4e7d03429b4012692dfba8b6fcae8d21c217c0dbd4bc8a64e76b0ce362",
+  "scorer_sha256": "38501242b35fd46205598ef5f5735fd44ea3c5e95db36949a49b95a83dea3d05",
+  "evaluated_ids": [
+    "easy_train_08464f7faa196e48",
+    "easy_train_36aaeeb6ea126b2d",
+    "easy_train_4b7abbdf42715bb0",
+    "easy_train_aed3824d42590c11",
+    "easy_train_1d8ecad358322251",
+    "easy_train_4a0f382c9f446d50",
+    "easy_train_50f6a54e7ca47e51",
+    "easy_train_873f62b956d763ee",
+    "easy_train_6433f6de297754b3",
+    "easy_train_66dbac6e09cfd651",
+    "easy_train_97ecc92c6036ce68",
+    "easy_train_29c0dc72ded57aab",
+    "easy_train_04e065b40e47104b",
+    "easy_train_d838c431767132dc",
+    "easy_train_6cbe253ec8b954cb",
+    "easy_train_2e23bc3250d6950c",
+    "easy_train_4a73a45dccd582d7",
+    "easy_train_670d3650b24bf911",
+    "easy_train_6f9aca469a644801",
+    "easy_train_137ef2b54f730ca3",
+    "easy_train_01804c136ab3ab13",
+    "easy_train_5713e23ac96770e1",
+    "easy_train_939c65d43b97476b",
+    "easy_train_8883fff0bbc3f540",
+    "easy_train_966b685313ff2fe0",
+    "easy_train_6d2568b262b2034a",
+    "easy_train_759fbecf02713171",
+    "easy_train_12f540b3335d0e37",
+    "easy_train_ca16f1924c1c43be",
+    "easy_train_4e1cd7e9eb3ed643",
+    "easy_train_36864383bb403a4c",
+    "easy_train_3505ca2300590397"
+  ],
+  "groups": {
+    "all": {
+      "n": 32,
+      "correct": 32,
+      "accuracy": 1.0,
+      "valid_completed_answers": 32,
+      "failures": {
+        "correct": 32
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "contains_division": {
+      "n": 0,
+      "correct": 0,
+      "accuracy": null,
+      "valid_completed_answers": 0,
+      "failures": {},
+      "correct_literal_fraction_copies": 0
+    },
+    "non_division": {
+      "n": 32,
+      "correct": 32,
+      "accuracy": 1.0,
+      "valid_completed_answers": 32,
+      "failures": {
+        "correct": 32
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:add": {
+      "n": 16,
+      "correct": 16,
+      "accuracy": 1.0,
+      "valid_completed_answers": 16,
+      "failures": {
+        "correct": 16
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:subtract": {
+      "n": 16,
+      "correct": 16,
+      "accuracy": 1.0,
+      "valid_completed_answers": 16,
+      "failures": {
+        "correct": 16
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "single_division": {
+      "n": 0,
+      "correct": 0,
+      "accuracy": null,
+      "valid_completed_answers": 0,
+      "failures": {},
+      "correct_literal_fraction_copies": 0
+    },
+    "task:arithmetic": {
+      "n": 32,
+      "correct": 32,
+      "accuracy": 1.0,
+      "valid_completed_answers": 32,
+      "failures": {
+        "correct": 32
+      },
+      "correct_literal_fraction_copies": 0
+    }
+  },
+  "examples": {
+    "operation:subtract": {
+      "first_correct": {
+        "sample_id": "easy_train_08464f7faa196e48",
+        "expression": "1 - 8",
+        "answer": "-7",
+        "raw_output": "答案：-7",
+        "parsed_answer": "-7",
+        "failure_type": null,
+        "literal_fraction_copy": false
+      },
+      "first_incorrect": null
+    },
+    "operation:add": {
+      "first_correct": {
+        "sample_id": "easy_train_36aaeeb6ea126b2d",
+        "expression": "0 + 9",
+        "answer": "9",
+        "raw_output": "答案：9",
+        "parsed_answer": "9",
+        "failure_type": null,
+        "literal_fraction_copy": false
+      },
+      "first_incorrect": null
+    }
+  },
+  "example_rule": "first correct and first incorrect per operation in frozen prediction order",
+  "interpretation": "Literal fraction copying is a diagnostic, not proof of a model's internal algorithm."
+}

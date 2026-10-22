@@ -1,0 +1,134 @@
+[1/90] test_id_638cb92a8769ab95 correct=False wrong_answer
+[2/90] test_id_af7248fcdc98722d correct=False wrong_answer
+[3/90] test_id_4719ec24b8c82e26 correct=False wrong_answer
+[4/90] test_id_2c8d9e63d3c5aa47 correct=True None
+[5/90] test_id_677932b6a2491274 correct=False wrong_answer
+[6/90] test_id_ffb70eba6cd51196 correct=False wrong_answer
+[7/90] test_id_6fe7fe641bad5a3d correct=True None
+[8/90] test_id_0316abc2a4ce1a72 correct=False wrong_answer
+[9/90] test_id_84da6d36d4873f49 correct=False wrong_answer
+[10/90] test_id_ffac3c5489a06e2b correct=False wrong_answer
+[11/90] test_id_735c95d7d1414791 correct=False wrong_answer
+[12/90] test_id_f54d3967d344b5eb correct=False wrong_answer
+[13/90] test_id_727257e7401cfb8e correct=False wrong_answer
+[14/90] test_id_9cdc32a488a19fdd correct=False wrong_answer
+[15/90] test_id_8096665a0a6ad1f3 correct=False wrong_answer
+[16/90] test_id_193181a041191e25 correct=False wrong_answer
+[17/90] test_id_ae6771a039cb1fcb correct=False wrong_answer
+[18/90] test_id_47fc642aee60b468 correct=False wrong_answer
+[19/90] test_id_584272035878e4ab correct=True None
+[20/90] test_id_fc266b0e1d697add correct=False wrong_answer
+[21/90] test_id_79d22ff2957a3fe1 correct=False wrong_answer
+[22/90] test_id_2927237b25a38c14 correct=True None
+[23/90] test_id_005a16366d2d7b77 correct=False wrong_answer
+[24/90] test_id_eb89efc23d63c997 correct=False wrong_answer
+[25/90] test_id_0049cf18da79ea36 correct=False wrong_answer
+[26/90] test_id_f71bb61b282e63bb correct=False wrong_answer
+[27/90] test_id_1b72a9970df8aafd correct=False wrong_answer
+[28/90] test_id_c9c2fd5448cb913c correct=True None
+[29/90] test_id_21c2db63fe6dc0a7 correct=False wrong_answer
+[30/90] test_id_c55a322e1dc7c81a correct=False wrong_answer
+[31/90] test_id_0d28e614651d658c correct=False wrong_answer
+[32/90] test_id_4974ddcdcc0b01d8 correct=False wrong_answer
+[33/90] test_id_4158095f1ad8c19a correct=False wrong_answer
+[34/90] test_id_6289f446e22145ef correct=False wrong_answer
+[35/90] test_id_88cb3622c059d214 correct=False wrong_answer
+[36/90] test_id_fd535d7afa66be3e correct=True None
+[37/90] test_id_13d33dc0e44fa6d7 correct=False wrong_answer
+[38/90] test_id_f57cb3b4a4ef5efa correct=False wrong_answer
+[39/90] test_id_f514267cf7412fc9 correct=True None
+[40/90] test_id_3f4c73ce75a7e8b5 correct=False wrong_answer
+[41/90] test_id_71848973e9d69558 correct=False wrong_answer
+[42/90] test_id_ef5023bde0d7f902 correct=False wrong_answer
+[43/90] test_id_2c6d8d02788c6dc9 correct=False wrong_answer
+[44/90] test_id_d83a75dcd3ede422 correct=False wrong_answer
+[45/90] test_id_aff58441ac2988bb correct=False wrong_answer
+[46/90] test_id_6ce00d25f686460f correct=False wrong_answer
+[47/90] test_id_5cbd7ea9a165dd3c correct=False wrong_answer
+[48/90] test_id_8201f019383a984b correct=False wrong_answer
+[49/90] test_id_d0a1e7aa90ee86c3 correct=False wrong_answer
+[50/90] test_id_c7a4ef8708da9618 correct=False wrong_answer
+[51/90] test_id_f3c545b72f9a765f correct=False wrong_answer
+[52/90] test_id_d8808aad668f6d01 correct=True None
+[53/90] test_id_364ed05deb29fbf2 correct=False wrong_answer
+[54/90] test_id_4eada8c935092142 correct=False wrong_answer
+[55/90] test_id_5a20c13ead5dcb62 correct=False wrong_answer
+[56/90] test_id_901b066c557e840a correct=False wrong_answer
+[57/90] test_id_497103766f084fa9 correct=True None
+[58/90] test_id_36052e564c0476b0 correct=False wrong_answer
+[59/90] test_id_ebbff04c8aac436a correct=False wrong_answer
+[60/90] test_id_acbc69b27c326ca9 correct=False wrong_answer
+[61/90] test_id_d5e071ffba9c0ab7 correct=False wrong_answer
+[62/90] test_id_0c8eeac59b0c5688 correct=False wrong_answer
+[63/90] test_id_25e9834310a5d449 correct=True None
+[64/90] test_id_06b8443e850cba33 correct=False wrong_answer
+[65/90] test_id_9bb257c5a4f6d622 correct=False wrong_answer
+[66/90] test_id_55f795283a76867a correct=False wrong_answer
+[67/90] test_id_ef88b07af6d0cafb correct=False wrong_answer
+[68/90] test_id_cd769cc09d1ec7a0 correct=False wrong_answer
+[69/90] test_id_308a63db37801174 correct=False wrong_answer
+[70/90] test_id_7ceb5de92a6ec154 correct=True None
+[71/90] test_id_87eb068f7860848e correct=False wrong_answer
+[72/90] test_id_fc57ae73f3593c80 correct=False wrong_answer
+[73/90] test_id_bb5e7742ea8eed18 correct=True None
+[74/90] test_id_73364afdf6ac3561 correct=False wrong_answer
+[75/90] test_id_e3d829aa3a9e18a1 correct=False wrong_answer
+[76/90] test_id_9b2c5fc1355a1109 correct=True None
+[77/90] test_id_facdc995feb126a3 correct=False wrong_answer
+[78/90] test_id_0143420e79db0be9 correct=False wrong_answer
+[79/90] test_id_704f6107732c93d1 correct=False wrong_answer
+[80/90] test_id_752c7555787082d6 correct=False wrong_answer
+[81/90] test_id_a10acaf3ade0afb9 correct=False wrong_answer
+[82/90] test_id_bd6aa17a2d6ac447 correct=False wrong_answer
+[83/90] test_id_1d0325485d1cbac2 correct=False wrong_answer
+[84/90] test_id_5365b3a4d84c8954 correct=False wrong_answer
+[85/90] test_id_b5e56701af506f32 correct=True None
+[86/90] test_id_5f9528978cb40a34 correct=False wrong_answer
+[87/90] test_id_a6d86408a6aac6e6 correct=False wrong_answer
+[88/90] test_id_50ce1ce687246525 correct=True None
+[89/90] test_id_2e670f23c641e7d3 correct=False wrong_answer
+[90/90] test_id_7e0fb3dbbb2fc2c9 correct=True None
+{
+  "all": {
+    "n": 90,
+    "accuracy": 0.17777777777777778,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "task:arithmetic": {
+    "n": 30,
+    "accuracy": 0.36666666666666664,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "distribution:id": {
+    "n": 90,
+    "accuracy": 0.17777777777777778,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "task:mixed": {
+    "n": 30,
+    "accuracy": 0.0,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "task:word": {
+    "n": 30,
+    "accuracy": 0.16666666666666666,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "macro_task_accuracy": 0.17777777777777776,
+  "latency": {
+    "p50_seconds": 0.13034356301068328,
+    "p95_seconds": 0.25740358300390653,
+    "generation_tokens_per_second": 42.28083329358553,
+    "warmup_examples_excluded": 1
+  }
+}

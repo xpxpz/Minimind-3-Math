@@ -1,0 +1,8 @@
+{
+  "cpu": "Apple M4",
+  "memory_bytes": 17179869184,
+  "memory_gib": 16.0,
+  "training_device": "mps",
+  "training_dtype": "float32",
+  "export_verification_device": "cpu"
+}

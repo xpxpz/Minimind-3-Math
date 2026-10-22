@@ -1,0 +1,89 @@
+{
+  "version": "easy-addsub-v1",
+  "seed": 42,
+  "generator_sha256": "b71092760bf3c05812ff9b1449b7d67f60a0013251325a8cbb961b828d823ce5",
+  "grouping": "one canonical AST key globally; addition a<=b removes swapped duplicates",
+  "purpose": "finite learnability probe; train accuracy measures fitting, not generalization",
+  "ranges": {
+    "id_leaf_operands": [
+      0,
+      9
+    ],
+    "range_ood_leaf_operands": [
+      10,
+      19
+    ]
+  },
+  "splits": {
+    "train": {
+      "count": 32,
+      "tasks": {
+        "arithmetic": 32
+      },
+      "templates": {
+        "easy_direct_-": 16,
+        "easy_direct_+": 16
+      },
+      "sha256": "b0b0a5399ac7b8987e972fc4efcc37b139de6d3ee399987f24f9e8de925e8ac9"
+    },
+    "validation": {
+      "count": 32,
+      "tasks": {
+        "arithmetic": 32
+      },
+      "templates": {
+        "easy_direct_+": 16,
+        "easy_direct_-": 16
+      },
+      "sha256": "c8391e1465a346139d79ca5a2f2d0a4d36ab2d15810631b5f44b004766eacf0a"
+    },
+    "test_id": {
+      "count": 16,
+      "tasks": {
+        "arithmetic": 16
+      },
+      "templates": {
+        "easy_direct_+": 8,
+        "easy_direct_-": 8
+      },
+      "sha256": "a4803f9958fd06a90c425fd3eecc7afc216e7fa3b0fb8d17f41d01b3ba23ade3"
+    },
+    "test_template": {
+      "count": 12,
+      "tasks": {
+        "arithmetic": 12
+      },
+      "templates": {
+        "easy_heldout_-": 6,
+        "easy_heldout_+": 6
+      },
+      "sha256": "257f429f0a6fd1f7106cc227157f1d2d3e48b6eccd53572f7d2ce4351416c235"
+    },
+    "test_range": {
+      "count": 32,
+      "tasks": {
+        "arithmetic": 32
+      },
+      "templates": {
+        "easy_direct_+": 16,
+        "easy_direct_-": 16
+      },
+      "sha256": "9729624653a87e936ab460cde78fc8b74bccb483b36c52d94d3e28227c52ee93"
+    },
+    "smoke": {
+      "count": 12,
+      "tasks": {
+        "arithmetic": 12
+      },
+      "templates": {
+        "easy_direct_+": 6,
+        "easy_direct_-": 6
+      },
+      "sha256": "f83119abd80a6cfb7ba148fcf7f09c937ed4b37bc9a203204ba49c981c54e794"
+    }
+  },
+  "sft_sha256": {
+    "train_sft.jsonl": "7de42a0b8a6fa09eac4dcbe3da5db14a3635b0f31b1b20283ce7888a0e67c47b",
+    "validation_sft.jsonl": "9622c5fbcf15f1fbf73b0a238dbde7778542bd0ee94c5f4380066632bb697905"
+  }
+}

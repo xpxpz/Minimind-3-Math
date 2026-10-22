@@ -9,6 +9,8 @@
 | 非方阵 LoRA、模块选择、元数据与合并 | 本项目新增，标准 LoRA 方法扩展 | 见 mathlab/lora.py；标准算法，不宣称方法原创 |
 | 统一训练、mask、累积、恢复 | 本项目新增，Codex 协助编写 | 见 mathlab/train.py、sft.py |
 | 评测与配对比较 | 本项目新增，Codex 协助编写 | 见 mathlab/evaluate.py、compare.py |
+| 真实LoRA兼容性、覆盖率与失败诊断 | 本项目新增实验 | 检查训练张量、保留逐题输出，区分答案格式、分数复制与普通计算 |
+| 固定候选编排、三种子验收、模型使用与导出 | 本项目新增，Codex协助编写 | scripts/posttrain_campaign.py、summarize_campaign.py、release_campaign.py、use_math_model.py；由实际工件做完整性验证 |
 | 个人规划参考 | 用户提供的 2026-10-16 规划 | 原文保留在 project_plan.md，不把计划当作已完成证据 |
 
-上游核心模型和官方 LoRA 并非个人从零原创。实验尚未完成；简历、README 和报告只能列出真实运行结果。新增代码需要由项目作者理解、复核，并在实际研究迭代中维护。
+上游核心模型和官方 LoRA 并非个人从零原创。实验进度和结论以 [报告索引](reports/README.md) 为准；简历、README和报告只能列出真实运行结果，不能把loss下降或训练完成写成数学能力稳定提升。新增代码需要由项目作者理解、复核，并在实际研究迭代中维护。

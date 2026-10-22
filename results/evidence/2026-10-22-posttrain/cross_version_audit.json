@@ -1,0 +1,18 @@
+{
+  "splits": {
+    "test_id": {
+      "n": 90,
+      "previous_E2_train_overlap_ids": []
+    },
+    "test_template": {
+      "n": 90,
+      "previous_E2_train_overlap_ids": []
+    },
+    "test_range": {
+      "n": 90,
+      "previous_E2_train_overlap_ids": []
+    }
+  },
+  "n_unique": 270,
+  "interpretation": "All main campaign arms initialize from original base weights, never E1/E2 adapters; overlap with diagnostic data is disclosed but not training exposure for these fresh models."
+}

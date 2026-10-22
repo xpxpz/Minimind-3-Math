@@ -1,0 +1,134 @@
+[1/90] test_range_96f3fea17c1030fa correct=False truncated
+[2/90] test_range_b2c72e5994a834e9 correct=False truncated
+[3/90] test_range_4bd0d567dd7b8c69 correct=False truncated
+[4/90] test_range_106e6c7d160dba7b correct=False truncated
+[5/90] test_range_e7fba6430c306ce8 correct=False truncated
+[6/90] test_range_214762ac35a20dfb correct=False truncated
+[7/90] test_range_d34175d7d1d95009 correct=False truncated
+[8/90] test_range_2ec0d7f0871fd6df correct=False truncated
+[9/90] test_range_e50d6e3116804c64 correct=False parse_failure
+[10/90] test_range_0b653fcacb8eca87 correct=False parse_failure
+[11/90] test_range_71f1297d18f3b6cf correct=False parse_failure
+[12/90] test_range_95dd9fd5e33ff6fa correct=False truncated
+[13/90] test_range_7b738ec25d017737 correct=False parse_failure
+[14/90] test_range_fe5a49676c53e361 correct=False truncated
+[15/90] test_range_34b56b49828e4d8f correct=False parse_failure
+[16/90] test_range_6e2716e2c24fb859 correct=False truncated
+[17/90] test_range_209926b58de66cab correct=False truncated
+[18/90] test_range_7cc779fdb91f373d correct=False parse_failure
+[19/90] test_range_74640ff193f58f56 correct=False parse_failure
+[20/90] test_range_6fd949582adabe76 correct=False truncated
+[21/90] test_range_a9081096cee28c8e correct=False truncated
+[22/90] test_range_4055a344f205e009 correct=False parse_failure
+[23/90] test_range_f8fc70d9476f8170 correct=False truncated
+[24/90] test_range_bf50a42015a13a9f correct=False truncated
+[25/90] test_range_8e7da68f44ecbf4b correct=False parse_failure
+[26/90] test_range_e9fdfdf15dfe98a0 correct=False truncated
+[27/90] test_range_7d4aa94818f0bf94 correct=False truncated
+[28/90] test_range_f3a089058df897a2 correct=False truncated
+[29/90] test_range_dafd158f0a6d2615 correct=False truncated
+[30/90] test_range_1e17b9ef358f7ca3 correct=False truncated
+[31/90] test_range_97831a875edaa9e8 correct=False parse_failure
+[32/90] test_range_f0c168f210163115 correct=False truncated
+[33/90] test_range_a8ab9d06783e2f80 correct=False truncated
+[34/90] test_range_2d4467e0d0a504b8 correct=False parse_failure
+[35/90] test_range_a04cc300421836c3 correct=False truncated
+[36/90] test_range_97b7573c5e35eb24 correct=False parse_failure
+[37/90] test_range_e529ee524e06fa44 correct=False truncated
+[38/90] test_range_40e05be95b6f4f63 correct=False truncated
+[39/90] test_range_d8c2b87192685ebd correct=False truncated
+[40/90] test_range_cfcd4d99b3bf46e4 correct=False truncated
+[41/90] test_range_bc62fd856897c2d1 correct=False truncated
+[42/90] test_range_bdfbb27639b56201 correct=False truncated
+[43/90] test_range_fe6dd264f843c8ec correct=False truncated
+[44/90] test_range_9ee79d4e395f2de0 correct=False truncated
+[45/90] test_range_de0d513693a500d1 correct=False truncated
+[46/90] test_range_1fae30f9bd8bccce correct=False truncated
+[47/90] test_range_a5cb37d093a4a101 correct=False parse_failure
+[48/90] test_range_70f0fe7eb15bd0de correct=False parse_failure
+[49/90] test_range_ad00ab7c3953a856 correct=False truncated
+[50/90] test_range_e89f52e4604e10a0 correct=False truncated
+[51/90] test_range_edd680393fb8ab50 correct=False truncated
+[52/90] test_range_9d541294daddd5ec correct=False parse_failure
+[53/90] test_range_a5e5c7b41e9d8e20 correct=False truncated
+[54/90] test_range_c38dc5ad142d0b53 correct=False parse_failure
+[55/90] test_range_f0dbc4166dfaf39d correct=False truncated
+[56/90] test_range_044751a565e1f558 correct=False truncated
+[57/90] test_range_0cefbfc7d3d3eae4 correct=False parse_failure
+[58/90] test_range_6e67bc08f1dc18b8 correct=False truncated
+[59/90] test_range_d098e5f93734723e correct=False parse_failure
+[60/90] test_range_6b93b7bc2e0987bb correct=False parse_failure
+[61/90] test_range_5812da99d0bfba9b correct=False parse_failure
+[62/90] test_range_e5c1929523797373 correct=False truncated
+[63/90] test_range_26b6b37e9b1f43f1 correct=False truncated
+[64/90] test_range_5a90855c12069326 correct=False truncated
+[65/90] test_range_f26fec0815b638f5 correct=False truncated
+[66/90] test_range_4f01256c30f11489 correct=False truncated
+[67/90] test_range_d17ef8d73a1c5fae correct=False parse_failure
+[68/90] test_range_1e76ee2f780db55d correct=False truncated
+[69/90] test_range_d9f606df28fced1c correct=False parse_failure
+[70/90] test_range_e7a3107547b1e3e9 correct=False truncated
+[71/90] test_range_7f39c8d6a6c68e7f correct=False parse_failure
+[72/90] test_range_51367abd4b3195a4 correct=False truncated
+[73/90] test_range_718011cdcbbee6ae correct=False truncated
+[74/90] test_range_b5f0928eb049fc52 correct=False truncated
+[75/90] test_range_de53e6efdaec93db correct=False truncated
+[76/90] test_range_5b1bc0934b5da230 correct=False truncated
+[77/90] test_range_7b516ea8512b6cc6 correct=False parse_failure
+[78/90] test_range_3c778a2bad81ce1a correct=False truncated
+[79/90] test_range_3f06b3b62789d46d correct=False truncated
+[80/90] test_range_b141a5ed78ef95df correct=False truncated
+[81/90] test_range_6e7fb959c4ed0192 correct=False parse_failure
+[82/90] test_range_b00707ed55f45bd2 correct=False parse_failure
+[83/90] test_range_3bab1384ba23d33e correct=False truncated
+[84/90] test_range_80e8e1fcaef75b92 correct=False truncated
+[85/90] test_range_18f81be0d5e9bf3f correct=False truncated
+[86/90] test_range_ff5a8acf7de14dcf correct=False truncated
+[87/90] test_range_e6b23bc98244e99a correct=False truncated
+[88/90] test_range_f72f941d8f04cc8c correct=False parse_failure
+[89/90] test_range_0f1dd964641c98f6 correct=False truncated
+[90/90] test_range_955b6416f6a1d702 correct=False truncated
+{
+  "all": {
+    "n": 90,
+    "accuracy": 0.0,
+    "parse_failure_rate": 0.3,
+    "truncation_rate": 0.7,
+    "runtime_error_rate": 0.0
+  },
+  "task:arithmetic": {
+    "n": 30,
+    "accuracy": 0.0,
+    "parse_failure_rate": 0.4,
+    "truncation_rate": 0.6,
+    "runtime_error_rate": 0.0
+  },
+  "distribution:range": {
+    "n": 90,
+    "accuracy": 0.0,
+    "parse_failure_rate": 0.3,
+    "truncation_rate": 0.7,
+    "runtime_error_rate": 0.0
+  },
+  "task:mixed": {
+    "n": 30,
+    "accuracy": 0.0,
+    "parse_failure_rate": 0.16666666666666666,
+    "truncation_rate": 0.8333333333333334,
+    "runtime_error_rate": 0.0
+  },
+  "task:word": {
+    "n": 30,
+    "accuracy": 0.0,
+    "parse_failure_rate": 0.3333333333333333,
+    "truncation_rate": 0.6666666666666666,
+    "runtime_error_rate": 0.0
+  },
+  "macro_task_accuracy": 0.0,
+  "latency": {
+    "p50_seconds": 5.033201791506144,
+    "p95_seconds": 5.71936195899616,
+    "generation_tokens_per_second": 48.886451136692926,
+    "warmup_examples_excluded": 1
+  }
+}

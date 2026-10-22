@@ -1,0 +1,47 @@
+{
+  "policy": "identical validation bytes/IDs/protocol; independently validated data manifests may differ",
+  "validation_sha256": "c8391e1465a346139d79ca5a2f2d0a4d36ab2d15810631b5f44b004766eacf0a",
+  "baseline_manifest_sha256": "2d6157dcf8c93a1e967db4e84ee40e3e8eb0f67fa95c9f53d1cd51d610cb977e",
+  "candidate_manifest_sha256": "af5a16a21158dd5eba0c6296483bebf94cdda5f01caf39d27a6b7f9be5b58adc",
+  "repeats": 5000,
+  "seed": 42,
+  "groups": {
+    "all": {
+      "n": 32,
+      "baseline_correct": 6,
+      "candidate_correct": 5,
+      "became_correct": 1,
+      "became_incorrect": 2,
+      "difference_pp": -3.125,
+      "paired_bootstrap_95_percentile_interval_pp": [
+        -12.5,
+        6.25
+      ]
+    },
+    "add": {
+      "n": 16,
+      "baseline_correct": 2,
+      "candidate_correct": 3,
+      "became_correct": 1,
+      "became_incorrect": 0,
+      "difference_pp": 6.25,
+      "paired_bootstrap_95_percentile_interval_pp": [
+        0.0,
+        18.75
+      ]
+    },
+    "subtract": {
+      "n": 16,
+      "baseline_correct": 4,
+      "candidate_correct": 2,
+      "became_correct": 0,
+      "became_incorrect": 2,
+      "difference_pp": -12.5,
+      "paired_bootstrap_95_percentile_interval_pp": [
+        -31.25,
+        0.0
+      ]
+    }
+  },
+  "limitation": "exploratory reused validation; one training seed; subgroup intervals not multiplicity-adjusted"
+}

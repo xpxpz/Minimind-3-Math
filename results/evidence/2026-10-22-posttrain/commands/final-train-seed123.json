@@ -1,0 +1,19 @@
+{
+  "label": "final-train-seed123",
+  "command": [
+    "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math/.venv/bin/python",
+    "-m",
+    "mathlab.train",
+    "--config",
+    "configs/campaign/final_seed123.json",
+    "--data",
+    "data/processed/v1",
+    "--out",
+    "artifacts/SFT-final-seed123"
+  ],
+  "cwd": "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math",
+  "started_utc": "2026-10-22T05:50:10Z",
+  "log": "results/evidence/2026-10-22-posttrain/logs/final-train-seed123.log",
+  "returncode": 0,
+  "finished_utc": "2026-10-22T05:57:26Z"
+}

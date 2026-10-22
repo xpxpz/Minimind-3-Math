@@ -1,0 +1,448 @@
+{
+  "protocol": "math-answer-v1",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "git_revision": "170d095c23da50d5e91a8790f16ca912509f683f",
+    "git_dirty": true,
+    "upstream_revision": "f659b55761b754d306bd140573493a6543cafd7f",
+    "versions": {
+      "torch": "2.6.0",
+      "transformers": "4.57.6",
+      "tokenizers": "0.22.2",
+      "safetensors": "0.8.0",
+      "numpy": "2.5.4"
+    },
+    "cuda": null,
+    "gpu": null
+  },
+  "model_files": {
+    "chat_template.jinja": "97c6a9ef3f8d35044f435bb7773f1af160a7328ab6e8d2e9d67702941320a711",
+    "config.json": "efcfa39ede9bbb5b64ded2bb90969e4b840f0f9e1e36725d386acb7eca1c6d05",
+    "generation_config.json": "3ee3cbe9acb55059b37a4e90bb843812eb86f70c5ebea404f137cd9c80127870",
+    "model.safetensors": "3adf69402b5d22e693151cabadc12528f923c4ba6bf343738aaf13f0892162e8",
+    "special_tokens_map.json": "f85ecedc16cf0083242e21ac2ef23ac613153b71240c7d2ab61de24f085d2db9",
+    "tokenizer.json": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+    "tokenizer_config.json": "04ae7620b9cf93fd2d6fbf94936b0c3c4be65f30cd6ef6fa8741baac986525d1"
+  },
+  "data_sha256": "7cfffcf6876adc714974eaf011055445fedb2c444b11ef4770acd0a310174928",
+  "data_manifest_sha256": "e9e2af8bfe7aefd4b1d26bb52747131e5de486eaae02c9e14a272fb9e4766531",
+  "split": "test_range",
+  "limit": 90,
+  "subset_rule": "stable task round-robin if limited",
+  "evaluated_ids": [
+    "test_range_96f3fea17c1030fa",
+    "test_range_b2c72e5994a834e9",
+    "test_range_4bd0d567dd7b8c69",
+    "test_range_106e6c7d160dba7b",
+    "test_range_e7fba6430c306ce8",
+    "test_range_214762ac35a20dfb",
+    "test_range_d34175d7d1d95009",
+    "test_range_2ec0d7f0871fd6df",
+    "test_range_e50d6e3116804c64",
+    "test_range_0b653fcacb8eca87",
+    "test_range_71f1297d18f3b6cf",
+    "test_range_95dd9fd5e33ff6fa",
+    "test_range_7b738ec25d017737",
+    "test_range_fe5a49676c53e361",
+    "test_range_34b56b49828e4d8f",
+    "test_range_6e2716e2c24fb859",
+    "test_range_209926b58de66cab",
+    "test_range_7cc779fdb91f373d",
+    "test_range_74640ff193f58f56",
+    "test_range_6fd949582adabe76",
+    "test_range_a9081096cee28c8e",
+    "test_range_4055a344f205e009",
+    "test_range_f8fc70d9476f8170",
+    "test_range_bf50a42015a13a9f",
+    "test_range_8e7da68f44ecbf4b",
+    "test_range_e9fdfdf15dfe98a0",
+    "test_range_7d4aa94818f0bf94",
+    "test_range_f3a089058df897a2",
+    "test_range_dafd158f0a6d2615",
+    "test_range_1e17b9ef358f7ca3",
+    "test_range_97831a875edaa9e8",
+    "test_range_f0c168f210163115",
+    "test_range_a8ab9d06783e2f80",
+    "test_range_2d4467e0d0a504b8",
+    "test_range_a04cc300421836c3",
+    "test_range_97b7573c5e35eb24",
+    "test_range_e529ee524e06fa44",
+    "test_range_40e05be95b6f4f63",
+    "test_range_d8c2b87192685ebd",
+    "test_range_cfcd4d99b3bf46e4",
+    "test_range_bc62fd856897c2d1",
+    "test_range_bdfbb27639b56201",
+    "test_range_fe6dd264f843c8ec",
+    "test_range_9ee79d4e395f2de0",
+    "test_range_de0d513693a500d1",
+    "test_range_1fae30f9bd8bccce",
+    "test_range_a5cb37d093a4a101",
+    "test_range_70f0fe7eb15bd0de",
+    "test_range_ad00ab7c3953a856",
+    "test_range_e89f52e4604e10a0",
+    "test_range_edd680393fb8ab50",
+    "test_range_9d541294daddd5ec",
+    "test_range_a5e5c7b41e9d8e20",
+    "test_range_c38dc5ad142d0b53",
+    "test_range_f0dbc4166dfaf39d",
+    "test_range_044751a565e1f558",
+    "test_range_0cefbfc7d3d3eae4",
+    "test_range_6e67bc08f1dc18b8",
+    "test_range_d098e5f93734723e",
+    "test_range_6b93b7bc2e0987bb",
+    "test_range_5812da99d0bfba9b",
+    "test_range_e5c1929523797373",
+    "test_range_26b6b37e9b1f43f1",
+    "test_range_5a90855c12069326",
+    "test_range_f26fec0815b638f5",
+    "test_range_4f01256c30f11489",
+    "test_range_d17ef8d73a1c5fae",
+    "test_range_1e76ee2f780db55d",
+    "test_range_d9f606df28fced1c",
+    "test_range_e7a3107547b1e3e9",
+    "test_range_7f39c8d6a6c68e7f",
+    "test_range_51367abd4b3195a4",
+    "test_range_718011cdcbbee6ae",
+    "test_range_b5f0928eb049fc52",
+    "test_range_de53e6efdaec93db",
+    "test_range_5b1bc0934b5da230",
+    "test_range_7b516ea8512b6cc6",
+    "test_range_3c778a2bad81ce1a",
+    "test_range_3f06b3b62789d46d",
+    "test_range_b141a5ed78ef95df",
+    "test_range_6e7fb959c4ed0192",
+    "test_range_b00707ed55f45bd2",
+    "test_range_3bab1384ba23d33e",
+    "test_range_80e8e1fcaef75b92",
+    "test_range_18f81be0d5e9bf3f",
+    "test_range_ff5a8acf7de14dcf",
+    "test_range_e6b23bc98244e99a",
+    "test_range_f72f941d8f04cc8c",
+    "test_range_0f1dd964641c98f6",
+    "test_range_955b6416f6a1d702"
+  ],
+  "adapter": {
+    "format": "mathlab-lora-v1",
+    "base_files": {
+      "chat_template.jinja": "97c6a9ef3f8d35044f435bb7773f1af160a7328ab6e8d2e9d67702941320a711",
+      "config.json": "efcfa39ede9bbb5b64ded2bb90969e4b840f0f9e1e36725d386acb7eca1c6d05",
+      "generation_config.json": "3ee3cbe9acb55059b37a4e90bb843812eb86f70c5ebea404f137cd9c80127870",
+      "model.safetensors": "3adf69402b5d22e693151cabadc12528f923c4ba6bf343738aaf13f0892162e8",
+      "special_tokens_map.json": "f85ecedc16cf0083242e21ac2ef23ac613153b71240c7d2ab61de24f085d2db9",
+      "tokenizer.json": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+      "tokenizer_config.json": "04ae7620b9cf93fd2d6fbf94936b0c3c4be65f30cd6ef6fa8741baac986525d1"
+    },
+    "lora": {
+      "mode": "custom",
+      "targets": "qv",
+      "rank": 16,
+      "alpha": 16,
+      "dropout": 0.0,
+      "matched": [
+        {
+          "name": "model.layers.0.self_attn.q_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.0.self_attn.v_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.1.self_attn.q_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.1.self_attn.v_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.2.self_attn.q_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.2.self_attn.v_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.3.self_attn.q_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.3.self_attn.v_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.4.self_attn.q_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.4.self_attn.v_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.5.self_attn.q_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.5.self_attn.v_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.6.self_attn.q_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.6.self_attn.v_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.7.self_attn.q_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.7.self_attn.v_proj",
+          "in_features": 768,
+          "out_features": 384
+        }
+      ],
+      "excluded": [
+        {
+          "name": "model.layers.0.self_attn.k_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.0.self_attn.o_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.0.mlp.gate_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.0.mlp.up_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.0.mlp.down_proj",
+          "in_features": 2432,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.1.self_attn.k_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.1.self_attn.o_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.1.mlp.gate_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.1.mlp.up_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.1.mlp.down_proj",
+          "in_features": 2432,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.2.self_attn.k_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.2.self_attn.o_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.2.mlp.gate_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.2.mlp.up_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.2.mlp.down_proj",
+          "in_features": 2432,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.3.self_attn.k_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.3.self_attn.o_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.3.mlp.gate_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.3.mlp.up_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.3.mlp.down_proj",
+          "in_features": 2432,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.4.self_attn.k_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.4.self_attn.o_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.4.mlp.gate_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.4.mlp.up_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.4.mlp.down_proj",
+          "in_features": 2432,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.5.self_attn.k_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.5.self_attn.o_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.5.mlp.gate_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.5.mlp.up_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.5.mlp.down_proj",
+          "in_features": 2432,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.6.self_attn.k_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.6.self_attn.o_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.6.mlp.gate_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.6.mlp.up_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.6.mlp.down_proj",
+          "in_features": 2432,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.7.self_attn.k_proj",
+          "in_features": 768,
+          "out_features": 384
+        },
+        {
+          "name": "model.layers.7.self_attn.o_proj",
+          "in_features": 768,
+          "out_features": 768
+        },
+        {
+          "name": "model.layers.7.mlp.gate_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.7.mlp.up_proj",
+          "in_features": 768,
+          "out_features": 2432
+        },
+        {
+          "name": "model.layers.7.mlp.down_proj",
+          "in_features": 2432,
+          "out_features": 768
+        },
+        {
+          "name": "lm_head",
+          "in_features": 768,
+          "out_features": 6400
+        }
+      ]
+    },
+    "weights_sha256": "b8827ec9fead5c928b2518ceb67750808d18f5e9bb581c06d808eaf01445477e"
+  },
+  "device": "mps",
+  "dtype": "float32",
+  "decoding": {
+    "do_sample": false,
+    "batch_size": 1,
+    "open_thinking": false,
+    "max_new_tokens": 256,
+    "repetition_penalty": 1.0,
+    "use_cache": true
+  },
+  "started_utc": "2026-10-22T06:33:37Z",
+  "scorer_sha256": "38501242b35fd46205598ef5f5735fd44ea3c5e95db36949a49b95a83dea3d05",
+  "evaluator_sha256": "1a12db4b8d3720b7dd1a8e1d6d815c13da838d48169183a182a9ff823b3be2a4",
+  "runtime_sha256": "74e9482ebf17e553de535bc46a5189f1d9b56eaea09f3778a96fb95ccca81320"
+}

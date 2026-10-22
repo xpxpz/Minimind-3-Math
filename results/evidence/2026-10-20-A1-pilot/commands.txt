@@ -1,0 +1,4 @@
+python -m mathlab.train --config configs/official_lora.json --out artifacts/A1-pilot --stop-after-updates 50
+python -m mathlab.evaluate --data data/processed/v1/validation.jsonl --limit 24 --out results/runs/A0-pilot-validation
+python -m mathlab.evaluate --data data/processed/v1/validation.jsonl --adapter artifacts/A1-pilot/best --limit 24 --out results/runs/A1-pilot-validation
+python -m mathlab.compare results/runs/A0-pilot-validation results/runs/A1-pilot-validation --out results/runs/A1-pilot-comparison.json

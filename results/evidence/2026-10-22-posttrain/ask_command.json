@@ -1,0 +1,17 @@
+{
+  "command": [
+    ".venv/bin/python",
+    "-m",
+    "scripts.use_math_model",
+    "ask",
+    "计算 12 + 7。",
+    "--adapter",
+    "artifacts/SFT-qv_r16/best",
+    "--device",
+    "cpu"
+  ],
+  "returncode": 0,
+  "expected": "19",
+  "actual": "答案：10",
+  "interpretation": "fixed CLI smoke, not part of heldout metrics and not used for model selection"
+}

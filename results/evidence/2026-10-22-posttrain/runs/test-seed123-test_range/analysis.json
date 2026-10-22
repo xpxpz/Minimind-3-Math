@@ -1,0 +1,299 @@
+{
+  "version": "math-prediction-analysis-v1",
+  "analysis_sha256": "b9f059d6ea861e96dc394c44da35851654a0e7181e2635649b54abcc3a891db8",
+  "data_sha256": "7cfffcf6876adc714974eaf011055445fedb2c444b11ef4770acd0a310174928",
+  "predictions_sha256": "e10c5c9f1a0b5b0e086fd9cdd3b34b5296e79455db9376bf2031cb7be435e7d3",
+  "scorer_sha256": "38501242b35fd46205598ef5f5735fd44ea3c5e95db36949a49b95a83dea3d05",
+  "evaluated_ids": [
+    "test_range_96f3fea17c1030fa",
+    "test_range_b2c72e5994a834e9",
+    "test_range_4bd0d567dd7b8c69",
+    "test_range_106e6c7d160dba7b",
+    "test_range_e7fba6430c306ce8",
+    "test_range_214762ac35a20dfb",
+    "test_range_d34175d7d1d95009",
+    "test_range_2ec0d7f0871fd6df",
+    "test_range_e50d6e3116804c64",
+    "test_range_0b653fcacb8eca87",
+    "test_range_71f1297d18f3b6cf",
+    "test_range_95dd9fd5e33ff6fa",
+    "test_range_7b738ec25d017737",
+    "test_range_fe5a49676c53e361",
+    "test_range_34b56b49828e4d8f",
+    "test_range_6e2716e2c24fb859",
+    "test_range_209926b58de66cab",
+    "test_range_7cc779fdb91f373d",
+    "test_range_74640ff193f58f56",
+    "test_range_6fd949582adabe76",
+    "test_range_a9081096cee28c8e",
+    "test_range_4055a344f205e009",
+    "test_range_f8fc70d9476f8170",
+    "test_range_bf50a42015a13a9f",
+    "test_range_8e7da68f44ecbf4b",
+    "test_range_e9fdfdf15dfe98a0",
+    "test_range_7d4aa94818f0bf94",
+    "test_range_f3a089058df897a2",
+    "test_range_dafd158f0a6d2615",
+    "test_range_1e17b9ef358f7ca3",
+    "test_range_97831a875edaa9e8",
+    "test_range_f0c168f210163115",
+    "test_range_a8ab9d06783e2f80",
+    "test_range_2d4467e0d0a504b8",
+    "test_range_a04cc300421836c3",
+    "test_range_97b7573c5e35eb24",
+    "test_range_e529ee524e06fa44",
+    "test_range_40e05be95b6f4f63",
+    "test_range_d8c2b87192685ebd",
+    "test_range_cfcd4d99b3bf46e4",
+    "test_range_bc62fd856897c2d1",
+    "test_range_bdfbb27639b56201",
+    "test_range_fe6dd264f843c8ec",
+    "test_range_9ee79d4e395f2de0",
+    "test_range_de0d513693a500d1",
+    "test_range_1fae30f9bd8bccce",
+    "test_range_a5cb37d093a4a101",
+    "test_range_70f0fe7eb15bd0de",
+    "test_range_ad00ab7c3953a856",
+    "test_range_e89f52e4604e10a0",
+    "test_range_edd680393fb8ab50",
+    "test_range_9d541294daddd5ec",
+    "test_range_a5e5c7b41e9d8e20",
+    "test_range_c38dc5ad142d0b53",
+    "test_range_f0dbc4166dfaf39d",
+    "test_range_044751a565e1f558",
+    "test_range_0cefbfc7d3d3eae4",
+    "test_range_6e67bc08f1dc18b8",
+    "test_range_d098e5f93734723e",
+    "test_range_6b93b7bc2e0987bb",
+    "test_range_5812da99d0bfba9b",
+    "test_range_e5c1929523797373",
+    "test_range_26b6b37e9b1f43f1",
+    "test_range_5a90855c12069326",
+    "test_range_f26fec0815b638f5",
+    "test_range_4f01256c30f11489",
+    "test_range_d17ef8d73a1c5fae",
+    "test_range_1e76ee2f780db55d",
+    "test_range_d9f606df28fced1c",
+    "test_range_e7a3107547b1e3e9",
+    "test_range_7f39c8d6a6c68e7f",
+    "test_range_51367abd4b3195a4",
+    "test_range_718011cdcbbee6ae",
+    "test_range_b5f0928eb049fc52",
+    "test_range_de53e6efdaec93db",
+    "test_range_5b1bc0934b5da230",
+    "test_range_7b516ea8512b6cc6",
+    "test_range_3c778a2bad81ce1a",
+    "test_range_3f06b3b62789d46d",
+    "test_range_b141a5ed78ef95df",
+    "test_range_6e7fb959c4ed0192",
+    "test_range_b00707ed55f45bd2",
+    "test_range_3bab1384ba23d33e",
+    "test_range_80e8e1fcaef75b92",
+    "test_range_18f81be0d5e9bf3f",
+    "test_range_ff5a8acf7de14dcf",
+    "test_range_e6b23bc98244e99a",
+    "test_range_f72f941d8f04cc8c",
+    "test_range_0f1dd964641c98f6",
+    "test_range_955b6416f6a1d702"
+  ],
+  "groups": {
+    "all": {
+      "n": 90,
+      "correct": 14,
+      "accuracy": 0.15555555555555556,
+      "valid_completed_answers": 90,
+      "failures": {
+        "correct": 14,
+        "wrong_answer": 76
+      },
+      "correct_literal_fraction_copies": 14
+    },
+    "contains_division": {
+      "n": 28,
+      "correct": 14,
+      "accuracy": 0.5,
+      "valid_completed_answers": 28,
+      "failures": {
+        "correct": 14,
+        "wrong_answer": 14
+      },
+      "correct_literal_fraction_copies": 14
+    },
+    "non_division": {
+      "n": 62,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 62,
+      "failures": {
+        "wrong_answer": 62
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:add": {
+      "n": 16,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 16,
+      "failures": {
+        "wrong_answer": 16
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:divide": {
+      "n": 18,
+      "correct": 14,
+      "accuracy": 0.7777777777777778,
+      "valid_completed_answers": 18,
+      "failures": {
+        "correct": 14,
+        "wrong_answer": 4
+      },
+      "correct_literal_fraction_copies": 14
+    },
+    "operation:mixed": {
+      "n": 30,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 30,
+      "failures": {
+        "wrong_answer": 30
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:multiply": {
+      "n": 13,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 13,
+      "failures": {
+        "wrong_answer": 13
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:subtract": {
+      "n": 13,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 13,
+      "failures": {
+        "wrong_answer": 13
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "single_division": {
+      "n": 18,
+      "correct": 14,
+      "accuracy": 0.7777777777777778,
+      "valid_completed_answers": 18,
+      "failures": {
+        "correct": 14,
+        "wrong_answer": 4
+      },
+      "correct_literal_fraction_copies": 14
+    },
+    "task:arithmetic": {
+      "n": 30,
+      "correct": 7,
+      "accuracy": 0.23333333333333334,
+      "valid_completed_answers": 30,
+      "failures": {
+        "correct": 7,
+        "wrong_answer": 23
+      },
+      "correct_literal_fraction_copies": 7
+    },
+    "task:mixed": {
+      "n": 30,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 30,
+      "failures": {
+        "wrong_answer": 30
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "task:word": {
+      "n": 30,
+      "correct": 7,
+      "accuracy": 0.23333333333333334,
+      "valid_completed_answers": 30,
+      "failures": {
+        "correct": 7,
+        "wrong_answer": 23
+      },
+      "correct_literal_fraction_copies": 7
+    }
+  },
+  "examples": {
+    "operation:divide": {
+      "first_correct": {
+        "sample_id": "test_range_96f3fea17c1030fa",
+        "expression": "8675 / 7309",
+        "answer": "8675/7309",
+        "raw_output": "答案：8675/7309",
+        "parsed_answer": "8675/7309",
+        "failure_type": null,
+        "literal_fraction_copy": true
+      },
+      "first_incorrect": {
+        "sample_id": "test_range_214762ac35a20dfb",
+        "expression": "2017 / 7028",
+        "answer": "2017/7028",
+        "raw_output": "答案：5/19",
+        "parsed_answer": "5/19",
+        "failure_type": "wrong_answer",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:mixed": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "test_range_b2c72e5994a834e9",
+        "expression": "8539 + 9588 * 2299",
+        "answer": "22051351",
+        "raw_output": "答案：265394",
+        "parsed_answer": "265394",
+        "failure_type": "wrong_answer",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:multiply": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "test_range_106e6c7d160dba7b",
+        "expression": "5292 * 8176",
+        "answer": "43267392",
+        "raw_output": "答案：529266",
+        "parsed_answer": "529266",
+        "failure_type": "wrong_answer",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:add": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "test_range_d34175d7d1d95009",
+        "expression": "8720 + 1692",
+        "answer": "10412",
+        "raw_output": "答案：1056",
+        "parsed_answer": "1056",
+        "failure_type": "wrong_answer",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:subtract": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "test_range_7cc779fdb91f373d",
+        "expression": "5735 - 3793",
+        "answer": "1942",
+        "raw_output": "答案：5735",
+        "parsed_answer": "5735",
+        "failure_type": "wrong_answer",
+        "literal_fraction_copy": false
+      }
+    }
+  },
+  "example_rule": "first correct and first incorrect per operation in frozen prediction order",
+  "interpretation": "Literal fraction copying is a diagnostic, not proof of a model's internal algorithm."
+}

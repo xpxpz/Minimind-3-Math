@@ -1,0 +1,76 @@
+{
+  "all_correct_validation_cases": [
+    {
+      "sample_id": "easy_validation_ef19e9abbc90211f",
+      "expression": "3 - 3",
+      "answer": "0",
+      "output": "答案：0"
+    },
+    {
+      "sample_id": "easy_validation_cab3ddccc1028b07",
+      "expression": "0 - 3",
+      "answer": "-3",
+      "output": "答案：-3"
+    },
+    {
+      "sample_id": "easy_validation_fe1b8bbf9615f307",
+      "expression": "0 - 1",
+      "answer": "-1",
+      "output": "答案：-1"
+    },
+    {
+      "sample_id": "easy_validation_5e364612d0044989",
+      "expression": "0 + 4",
+      "answer": "4",
+      "output": "答案：4"
+    },
+    {
+      "sample_id": "easy_validation_4d689e338c56d18d",
+      "expression": "5 - 6",
+      "answer": "-1",
+      "output": "答案：-1"
+    },
+    {
+      "sample_id": "easy_validation_536a683ce977e33a",
+      "expression": "0 + 0",
+      "answer": "0",
+      "output": "答案：0"
+    }
+  ],
+  "answer_value_coverage": {
+    "answer_value_seen_in_training": {
+      "n": 23,
+      "correct": 6
+    },
+    "answer_value_unseen_in_training": {
+      "n": 9,
+      "correct": 0
+    }
+  },
+  "training_answer_distribution": {
+    "-7": 1,
+    "9": 3,
+    "0": 6,
+    "-6": 1,
+    "8": 3,
+    "2": 1,
+    "15": 1,
+    "3": 2,
+    "12": 1,
+    "14": 2,
+    "4": 1,
+    "11": 1,
+    "17": 1,
+    "-5": 1,
+    "7": 1,
+    "5": 1,
+    "-3": 1,
+    "1": 2,
+    "18": 1,
+    "-1": 1
+  },
+  "primary_last_sha256": "78a46569bd2a9de577a143d6c16eaa1aa41dd9b074a295fe4034ea404c2f285d",
+  "trainer_best_sha256": "0e1bd75fb2cbe4377099098c43029b1a7250e6c6b16205d1f3220f0e3a0cd7ad",
+  "primary_last_differs_from_validation_loss_best": true,
+  "primary_checkpoint_rule": "predeclared last after first training budget reaching >=29/32; last used for both train/validation generation"
+}

@@ -1,0 +1,44 @@
+{
+  "all": {
+    "n": 1000,
+    "accuracy": 0.174,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "task:word": {
+    "n": 333,
+    "accuracy": 0.2882882882882883,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "distribution:validation": {
+    "n": 1000,
+    "accuracy": 0.174,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "task:mixed": {
+    "n": 333,
+    "accuracy": 0.003003003003003003,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "task:arithmetic": {
+    "n": 334,
+    "accuracy": 0.23053892215568864,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "macro_task_accuracy": 0.17394340448232665,
+  "latency": {
+    "p50_seconds": 0.12595250050071627,
+    "p95_seconds": 0.18972308398224413,
+    "generation_tokens_per_second": 49.63688392897914,
+    "warmup_examples_excluded": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mode": "official",
+  "targets": "official_square",
+  "rank": 16,
+  "alpha": 16,
+  "dropout": 0.0,
+  "seed": 42,
+  "epochs": 3,
+  "batch_size": 4,
+  "accumulation_steps": 4,
+  "learning_rate": 0.0001,
+  "max_length": 256,
+  "max_updates": 1500,
+  "save_every": 100
+}

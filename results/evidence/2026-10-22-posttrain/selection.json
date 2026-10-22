@@ -1,0 +1,85 @@
+{
+  "selected_utc": "2026-10-22T05:44:52Z",
+  "plan_sha256": "a9f30372c278cbbd665fa1f757a6559751521f2decdeb78b94e3609bfdf5b9e6",
+  "rule": "validation120 correct descending; parameters ascending; best loss ascending; arm name ascending",
+  "candidates": [
+    {
+      "arm": "official_r16",
+      "split": "validation",
+      "correct": 23,
+      "n": 120,
+      "trainable_parameters": 393216,
+      "best_validation_loss": 0.934094124868167,
+      "seconds": 152.84190266698715,
+      "updates": 500,
+      "adapter": "artifacts/SFT-official_r16/best"
+    },
+    {
+      "arm": "qv_r16",
+      "split": "validation",
+      "correct": 23,
+      "n": 120,
+      "trainable_parameters": 344064,
+      "best_validation_loss": 0.9355708968950416,
+      "seconds": 153.51104883398511,
+      "updates": 500,
+      "adapter": "artifacts/SFT-qv_r16/best"
+    },
+    {
+      "arm": "qkvo_r16",
+      "split": "validation",
+      "correct": 23,
+      "n": 120,
+      "trainable_parameters": 688128,
+      "best_validation_loss": 0.9154026023901581,
+      "seconds": 169.616390124982,
+      "updates": 500,
+      "adapter": "artifacts/SFT-qkvo_r16/best"
+    },
+    {
+      "arm": "ffn_r8",
+      "split": "validation",
+      "correct": 23,
+      "n": 120,
+      "trainable_parameters": 958464,
+      "best_validation_loss": 0.9029751346716606,
+      "seconds": 191.75137333301245,
+      "updates": 500,
+      "adapter": "artifacts/SFT-ffn_r8/best"
+    },
+    {
+      "arm": "ffn_r16",
+      "split": "validation",
+      "correct": 23,
+      "n": 120,
+      "trainable_parameters": 1916928,
+      "best_validation_loss": 0.888584984695237,
+      "seconds": 191.13153591699665,
+      "updates": 500,
+      "adapter": "artifacts/SFT-ffn_r16/best"
+    },
+    {
+      "arm": "ffn_r32",
+      "split": "validation",
+      "correct": 21,
+      "n": 120,
+      "trainable_parameters": 3833856,
+      "best_validation_loss": 0.8641897500679662,
+      "seconds": 189.45884274999844,
+      "updates": 500,
+      "adapter": "artifacts/SFT-ffn_r32/best"
+    }
+  ],
+  "selected": {
+    "arm": "qv_r16",
+    "split": "validation",
+    "correct": 23,
+    "n": 120,
+    "trainable_parameters": 344064,
+    "best_validation_loss": 0.9355708968950416,
+    "seconds": 153.51104883398511,
+    "updates": 500,
+    "adapter": "artifacts/SFT-qv_r16/best"
+  },
+  "test_results_used": false
+}

@@ -1,0 +1,3 @@
+python -m mathlab.evaluate --data data/processed/v1/validation.jsonl --adapter artifacts/A1-step50/best --out results/runs/A1-step50-validation-full
+python -m pytest -q tests/test_prediction_analysis.py
+python -m scripts.analyze_predictions results/runs/A1-step50-validation-full --data data/processed/v1/validation.jsonl --out results/runs/A1-step50-validation-full/analysis.json

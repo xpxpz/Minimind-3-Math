@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-10-22T05:37:40Z",
+  "finished_utc": "2026-10-22T05:40:51Z",
+  "updates": 500,
+  "target_tokens": 54145,
+  "nonpadding_tokens": 504202,
+  "training_and_validation_seconds": 191.13153591699665,
+  "nonpadding_tokens_per_second_including_validation": 2637.984347172104,
+  "best_validation_loss": 0.888584984695237,
+  "last_validation_loss": 0.888584984695237,
+  "selection_rule": "minimum validation target-token loss (includes step 0)",
+  "peak_cuda_allocated_bytes": null,
+  "peak_cuda_reserved_bytes": null,
+  "checkpoint": "checkpoint.pt",
+  "selected_adapter": "best"
+}

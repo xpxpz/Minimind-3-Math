@@ -1,0 +1,314 @@
+{
+  "version": "math-prediction-analysis-v1",
+  "analysis_sha256": "b9f059d6ea861e96dc394c44da35851654a0e7181e2635649b54abcc3a891db8",
+  "data_sha256": "653f411ce842e37aa5a62213f36e45e2312796cf84fe26fee5f37785bc1c0158",
+  "predictions_sha256": "1d9e0a5c808d091480bcc4badd194bdffe2e1df3be6693087c0881dc7b59b488",
+  "scorer_sha256": "38501242b35fd46205598ef5f5735fd44ea3c5e95db36949a49b95a83dea3d05",
+  "evaluated_ids": [
+    "test_template_9f140d76f3b8583b",
+    "test_template_165343610a1bc691",
+    "test_template_5e84ceb02c5dea16",
+    "test_template_3ad324ec8bd07a80",
+    "test_template_47a83afc0d504902",
+    "test_template_022ce09a7c42a5dc",
+    "test_template_598157585b74f1e6",
+    "test_template_df479725a2806fd3",
+    "test_template_1fcd16b1ca00ad75",
+    "test_template_86cab54fb09a2613",
+    "test_template_4c8fcf4f746a5a53",
+    "test_template_da9a526328c7dc8c",
+    "test_template_e2181f2644b7c31a",
+    "test_template_2bda976f3c436908",
+    "test_template_792c582a7a270463",
+    "test_template_a4c90e47b5d78ecd",
+    "test_template_04d7d87d905e3e19",
+    "test_template_269c72bebaa3f9d2",
+    "test_template_75540e0a3ec4930a",
+    "test_template_b27362d425ed2559",
+    "test_template_137979b5a7c55834",
+    "test_template_9223b45bedd3bb6a",
+    "test_template_722dc75b9e3de05e",
+    "test_template_c3a3346899f439aa",
+    "test_template_eefdbf3c0ad2045f",
+    "test_template_7d600429fc753b4b",
+    "test_template_d4727f14c6c4dc20",
+    "test_template_59c2cdc08404ce7a",
+    "test_template_af0013a8fb5b82af",
+    "test_template_f7927bfd30725997",
+    "test_template_71dc73e8a6a79f87",
+    "test_template_208908530ba6bd34",
+    "test_template_597ad355239448ce",
+    "test_template_d8a59dc47c6083c9",
+    "test_template_0e7eafcb0d02044e",
+    "test_template_805432fb3797eefe",
+    "test_template_8f3189e3fa09cf91",
+    "test_template_7c0c3828d3150a56",
+    "test_template_99066b4e140d3ca9",
+    "test_template_93a4d4918c1eed34",
+    "test_template_79f9daccf45c2dba",
+    "test_template_a741f7ea94309bc9",
+    "test_template_cfa62f58fb4ac016",
+    "test_template_452878ab8894b0e7",
+    "test_template_45b459d26ad41656",
+    "test_template_59fa8bb91926ec69",
+    "test_template_b2b0bc558fad1b26",
+    "test_template_9f5cac40e3b7fbd5",
+    "test_template_739cf4249c7b87bd",
+    "test_template_3f9f021be5041e49",
+    "test_template_12c8bccd76a84e9e",
+    "test_template_22145c58f2c4a182",
+    "test_template_bd8df6a5a4278c73",
+    "test_template_a1cf08ff55dd441d",
+    "test_template_d9fc07ca99b072d3",
+    "test_template_87e5819965fe4447",
+    "test_template_89d1917d684a88a7",
+    "test_template_42d578f9ae833c9e",
+    "test_template_885c6ad05adb4284",
+    "test_template_3e9afc831831d260",
+    "test_template_cdbc7421519375fd",
+    "test_template_27a1b6185dbed435",
+    "test_template_4bdeb4bf21d639fb",
+    "test_template_2bf71216a61dc888",
+    "test_template_10d1cded61a56d56",
+    "test_template_7d81444a0b79e343",
+    "test_template_b133e5ab5e416f22",
+    "test_template_24f72365494e1570",
+    "test_template_5c19ecb63482b361",
+    "test_template_3807e9074f030b95",
+    "test_template_ffd46a6f22298c48",
+    "test_template_aa4988be9bedd9b0",
+    "test_template_0c1a60e273cae811",
+    "test_template_bbd14d5bd68a4212",
+    "test_template_4fb57e95ec2f1a2a",
+    "test_template_ead343a9ccc70e1e",
+    "test_template_57316eca753feea0",
+    "test_template_b3c7c4a6e98e730c",
+    "test_template_e3461ee9ef5b092e",
+    "test_template_32e7fbc0f0112bb7",
+    "test_template_484b25caff7eefb3",
+    "test_template_044c938330d74b33",
+    "test_template_664468b86aa2ad82",
+    "test_template_6569510c1cb6ab11",
+    "test_template_7105f35b146a1fe4",
+    "test_template_abb5ef3c741ae033",
+    "test_template_daf2eda818167ebb",
+    "test_template_23ee5c27db4d1ef1",
+    "test_template_be9ed7e86601aca2",
+    "test_template_ed71283a5441f99b"
+  ],
+  "groups": {
+    "all": {
+      "n": 90,
+      "correct": 13,
+      "accuracy": 0.14444444444444443,
+      "valid_completed_answers": 87,
+      "failures": {
+        "wrong_answer": 74,
+        "correct": 13,
+        "parse_failure": 3
+      },
+      "correct_literal_fraction_copies": 12
+    },
+    "contains_division": {
+      "n": 32,
+      "correct": 12,
+      "accuracy": 0.375,
+      "valid_completed_answers": 29,
+      "failures": {
+        "wrong_answer": 17,
+        "correct": 12,
+        "parse_failure": 3
+      },
+      "correct_literal_fraction_copies": 12
+    },
+    "non_division": {
+      "n": 58,
+      "correct": 1,
+      "accuracy": 0.017241379310344827,
+      "valid_completed_answers": 58,
+      "failures": {
+        "wrong_answer": 57,
+        "correct": 1
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:add": {
+      "n": 12,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 12,
+      "failures": {
+        "wrong_answer": 12
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:divide": {
+      "n": 19,
+      "correct": 12,
+      "accuracy": 0.631578947368421,
+      "valid_completed_answers": 16,
+      "failures": {
+        "correct": 12,
+        "parse_failure": 3,
+        "wrong_answer": 4
+      },
+      "correct_literal_fraction_copies": 12
+    },
+    "operation:mixed": {
+      "n": 30,
+      "correct": 1,
+      "accuracy": 0.03333333333333333,
+      "valid_completed_answers": 30,
+      "failures": {
+        "wrong_answer": 29,
+        "correct": 1
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:multiply": {
+      "n": 6,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 6,
+      "failures": {
+        "wrong_answer": 6
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:subtract": {
+      "n": 23,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 23,
+      "failures": {
+        "wrong_answer": 23
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "single_division": {
+      "n": 19,
+      "correct": 12,
+      "accuracy": 0.631578947368421,
+      "valid_completed_answers": 16,
+      "failures": {
+        "correct": 12,
+        "parse_failure": 3,
+        "wrong_answer": 4
+      },
+      "correct_literal_fraction_copies": 12
+    },
+    "task:arithmetic": {
+      "n": 30,
+      "correct": 12,
+      "accuracy": 0.4,
+      "valid_completed_answers": 30,
+      "failures": {
+        "wrong_answer": 18,
+        "correct": 12
+      },
+      "correct_literal_fraction_copies": 12
+    },
+    "task:mixed": {
+      "n": 30,
+      "correct": 1,
+      "accuracy": 0.03333333333333333,
+      "valid_completed_answers": 30,
+      "failures": {
+        "wrong_answer": 29,
+        "correct": 1
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "task:word": {
+      "n": 30,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 27,
+      "failures": {
+        "wrong_answer": 27,
+        "parse_failure": 3
+      },
+      "correct_literal_fraction_copies": 0
+    }
+  },
+  "examples": {
+    "operation:subtract": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "test_template_9f140d76f3b8583b",
+        "expression": "23 - 12",
+        "answer": "11",
+        "raw_output": "答案：-4",
+        "parsed_answer": "-4",
+        "failure_type": "wrong_answer",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:mixed": {
+      "first_correct": {
+        "sample_id": "test_template_24f72365494e1570",
+        "expression": "2 + 84 * 1",
+        "answer": "86",
+        "raw_output": "答案：86",
+        "parsed_answer": "86",
+        "failure_type": null,
+        "literal_fraction_copy": false
+      },
+      "first_incorrect": {
+        "sample_id": "test_template_165343610a1bc691",
+        "expression": "(88 - 58) / 37",
+        "answer": "30/37",
+        "raw_output": "答案：3",
+        "parsed_answer": "3",
+        "failure_type": "wrong_answer",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:divide": {
+      "first_correct": {
+        "sample_id": "test_template_3ad324ec8bd07a80",
+        "expression": "5 / 43",
+        "answer": "5/43",
+        "raw_output": "答案：5/43",
+        "parsed_answer": "5/43",
+        "failure_type": null,
+        "literal_fraction_copy": true
+      },
+      "first_incorrect": {
+        "sample_id": "test_template_1fcd16b1ca00ad75",
+        "expression": "51 / 41",
+        "answer": "51/41",
+        "raw_output": "答案：41天",
+        "parsed_answer": null,
+        "failure_type": "parse_failure",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:add": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "test_template_022ce09a7c42a5dc",
+        "expression": "99 + 27",
+        "answer": "126",
+        "raw_output": "答案：39",
+        "parsed_answer": "39",
+        "failure_type": "wrong_answer",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:multiply": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "test_template_598157585b74f1e6",
+        "expression": "55 * 74",
+        "answer": "4070",
+        "raw_output": "答案：3555",
+        "parsed_answer": "3555",
+        "failure_type": "wrong_answer",
+        "literal_fraction_copy": false
+      }
+    }
+  },
+  "example_rule": "first correct and first incorrect per operation in frozen prediction order",
+  "interpretation": "Literal fraction copying is a diagnostic, not proof of a model's internal algorithm."
+}

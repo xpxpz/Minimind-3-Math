@@ -1,0 +1,309 @@
+{
+  "format": "mathlab-lora-v1",
+  "base_files": {
+    "chat_template.jinja": "97c6a9ef3f8d35044f435bb7773f1af160a7328ab6e8d2e9d67702941320a711",
+    "config.json": "efcfa39ede9bbb5b64ded2bb90969e4b840f0f9e1e36725d386acb7eca1c6d05",
+    "generation_config.json": "3ee3cbe9acb55059b37a4e90bb843812eb86f70c5ebea404f137cd9c80127870",
+    "model.safetensors": "3adf69402b5d22e693151cabadc12528f923c4ba6bf343738aaf13f0892162e8",
+    "special_tokens_map.json": "f85ecedc16cf0083242e21ac2ef23ac613153b71240c7d2ab61de24f085d2db9",
+    "tokenizer.json": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+    "tokenizer_config.json": "04ae7620b9cf93fd2d6fbf94936b0c3c4be65f30cd6ef6fa8741baac986525d1"
+  },
+  "lora": {
+    "mode": "custom",
+    "targets": "qkvo",
+    "rank": 16,
+    "alpha": 16,
+    "dropout": 0.0,
+    "matched": [
+      {
+        "name": "model.layers.0.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.0.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.0.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.0.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.1.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.1.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.1.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.1.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.2.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.2.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.2.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.2.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.3.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.3.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.3.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.3.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.4.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.4.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.4.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.4.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.5.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.5.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.5.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.5.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.6.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.6.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.6.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.6.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.7.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.7.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.7.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.7.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      }
+    ],
+    "excluded": [
+      {
+        "name": "model.layers.0.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.0.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.0.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.1.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.1.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.1.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.2.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.2.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.2.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.3.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.3.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.3.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.4.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.4.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.4.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.5.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.5.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.5.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.6.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.6.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.6.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.7.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.7.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.7.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "lm_head",
+        "in_features": 768,
+        "out_features": 6400
+      }
+    ]
+  },
+  "weights_sha256": "4ad0131cfec3e8cd8f457064c8e8b48328d58d309ed740674f1671e8f890abea"
+}

@@ -1,0 +1,19 @@
+{
+  "tests_command": "python -m pytest -q tests/test_coverage_experiment.py tests/test_easy_math.py",
+  "tests_passed": 8,
+  "test_file_sha256": "09456e251aa15f1c9855d005613f8e884e91e5ce7b84541b1b06822760e4ce5e",
+  "validation_byte_identical": true,
+  "old_training_records_retained": true,
+  "training_validation_problem_groups_disjoint": true,
+  "e1_reference_rerun_matches_history": true,
+  "e1_e2_configuration_base_and_core_sources_identical": true,
+  "primary_last_adapter_hash_verified": true,
+  "updates": 200,
+  "epochs": 50,
+  "presentations": 3200,
+  "training_correct": 64,
+  "validation_correct": 5,
+  "reference_correct": 6,
+  "report_links_checked": true,
+  "weights_excluded_from_archive": true
+}

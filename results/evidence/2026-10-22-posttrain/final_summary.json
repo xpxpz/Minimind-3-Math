@@ -1,0 +1,2096 @@
+{
+  "completed": {
+    "finished_utc": "2026-10-22T06:34:17Z",
+    "selection_sha256": "6dc7c612c9a527b64149b6b7d3c0c16a0e72d8a2a1600f8b1feef89d9f5c92e8",
+    "release_arm": "qv_r16",
+    "release_seed": 42,
+    "updates_per_seed": 1500
+  },
+  "preregistration_sha256": "a9f30372c278cbbd665fa1f757a6559751521f2decdeb78b94e3609bfdf5b9e6",
+  "selection_sha256": "6dc7c612c9a527b64149b6b7d3c0c16a0e72d8a2a1600f8b1feef89d9f5c92e8",
+  "records": {
+    "base": {
+      "total_questions": 270,
+      "groups": {
+        "all": {
+          "n": 270,
+          "correct": 0,
+          "valid_completed_answers": 0,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "contains_division": {
+          "n": 87,
+          "correct": 0,
+          "valid_completed_answers": 0,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "non_division": {
+          "n": 183,
+          "correct": 0,
+          "valid_completed_answers": 0,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "operation:add": {
+          "n": 44,
+          "correct": 0,
+          "valid_completed_answers": 0,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "operation:divide": {
+          "n": 54,
+          "correct": 0,
+          "valid_completed_answers": 0,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "operation:mixed": {
+          "n": 90,
+          "correct": 0,
+          "valid_completed_answers": 0,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "operation:multiply": {
+          "n": 28,
+          "correct": 0,
+          "valid_completed_answers": 0,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "operation:subtract": {
+          "n": 54,
+          "correct": 0,
+          "valid_completed_answers": 0,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "single_division": {
+          "n": 54,
+          "correct": 0,
+          "valid_completed_answers": 0,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "task:arithmetic": {
+          "n": 90,
+          "correct": 0,
+          "valid_completed_answers": 0,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "task:mixed": {
+          "n": 90,
+          "correct": 0,
+          "valid_completed_answers": 0,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "task:word": {
+          "n": 90,
+          "correct": 0,
+          "valid_completed_answers": 0,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        }
+      },
+      "splits": {
+        "test_id": {
+          "all": {
+            "n": 90,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "parse_failure": 45,
+              "truncated": 45
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "contains_division": {
+            "n": 27,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 16,
+              "parse_failure": 11
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "non_division": {
+            "n": 63,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "parse_failure": 34,
+              "truncated": 29
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:add": {
+            "n": 16,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "parse_failure": 12,
+              "truncated": 4
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:divide": {
+            "n": 17,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "parse_failure": 8,
+              "truncated": 9
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 17,
+              "parse_failure": 13
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:multiply": {
+            "n": 9,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "parse_failure": 4,
+              "truncated": 5
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:subtract": {
+            "n": 18,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "parse_failure": 8,
+              "truncated": 10
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "single_division": {
+            "n": 17,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "parse_failure": 8,
+              "truncated": 9
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:arithmetic": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "parse_failure": 11,
+              "truncated": 19
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 17,
+              "parse_failure": 13
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:word": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "parse_failure": 21,
+              "truncated": 9
+            },
+            "correct_literal_fraction_copies": 0
+          }
+        },
+        "test_template": {
+          "all": {
+            "n": 90,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 43,
+              "parse_failure": 47
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "contains_division": {
+            "n": 32,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 20,
+              "parse_failure": 12
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "non_division": {
+            "n": 58,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 23,
+              "parse_failure": 35
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:add": {
+            "n": 12,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "parse_failure": 7,
+              "truncated": 5
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:divide": {
+            "n": 19,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 11,
+              "parse_failure": 8
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 18,
+              "parse_failure": 12
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:multiply": {
+            "n": 6,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "parse_failure": 5,
+              "truncated": 1
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:subtract": {
+            "n": 23,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 8,
+              "parse_failure": 15
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "single_division": {
+            "n": 19,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 11,
+              "parse_failure": 8
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:arithmetic": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 10,
+              "parse_failure": 20
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 18,
+              "parse_failure": 12
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:word": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 15,
+              "parse_failure": 15
+            },
+            "correct_literal_fraction_copies": 0
+          }
+        },
+        "test_range": {
+          "all": {
+            "n": 90,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 63,
+              "parse_failure": 27
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "contains_division": {
+            "n": 28,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 21,
+              "parse_failure": 7
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "non_division": {
+            "n": 62,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 42,
+              "parse_failure": 20
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:add": {
+            "n": 16,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 9,
+              "parse_failure": 7
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:divide": {
+            "n": 18,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 12,
+              "parse_failure": 6
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 25,
+              "parse_failure": 5
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:multiply": {
+            "n": 13,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 8,
+              "parse_failure": 5
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:subtract": {
+            "n": 13,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "parse_failure": 4,
+              "truncated": 9
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "single_division": {
+            "n": 18,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 12,
+              "parse_failure": 6
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:arithmetic": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 18,
+              "parse_failure": 12
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 25,
+              "parse_failure": 5
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:word": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 0,
+            "failures": {
+              "truncated": 20,
+              "parse_failure": 10
+            },
+            "correct_literal_fraction_copies": 0
+          }
+        }
+      }
+    },
+    "seed42": {
+      "total_questions": 270,
+      "groups": {
+        "all": {
+          "n": 270,
+          "correct": 38,
+          "valid_completed_answers": 269,
+          "correct_literal_fraction_copies": 37,
+          "accuracy": 0.14074074074074075
+        },
+        "contains_division": {
+          "n": 87,
+          "correct": 37,
+          "valid_completed_answers": 86,
+          "correct_literal_fraction_copies": 37,
+          "accuracy": 0.42528735632183906
+        },
+        "non_division": {
+          "n": 183,
+          "correct": 1,
+          "valid_completed_answers": 183,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.00546448087431694
+        },
+        "operation:add": {
+          "n": 44,
+          "correct": 0,
+          "valid_completed_answers": 44,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "operation:divide": {
+          "n": 54,
+          "correct": 37,
+          "valid_completed_answers": 53,
+          "correct_literal_fraction_copies": 37,
+          "accuracy": 0.6851851851851852
+        },
+        "operation:mixed": {
+          "n": 90,
+          "correct": 0,
+          "valid_completed_answers": 90,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "operation:multiply": {
+          "n": 28,
+          "correct": 0,
+          "valid_completed_answers": 28,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "operation:subtract": {
+          "n": 54,
+          "correct": 1,
+          "valid_completed_answers": 54,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.018518518518518517
+        },
+        "single_division": {
+          "n": 54,
+          "correct": 37,
+          "valid_completed_answers": 53,
+          "correct_literal_fraction_copies": 37,
+          "accuracy": 0.6851851851851852
+        },
+        "task:arithmetic": {
+          "n": 90,
+          "correct": 26,
+          "valid_completed_answers": 90,
+          "correct_literal_fraction_copies": 25,
+          "accuracy": 0.28888888888888886
+        },
+        "task:mixed": {
+          "n": 90,
+          "correct": 0,
+          "valid_completed_answers": 90,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "task:word": {
+          "n": 90,
+          "correct": 12,
+          "valid_completed_answers": 89,
+          "correct_literal_fraction_copies": 12,
+          "accuracy": 0.13333333333333333
+        }
+      },
+      "splits": {
+        "test_id": {
+          "all": {
+            "n": 90,
+            "correct": 18,
+            "accuracy": 0.2,
+            "valid_completed_answers": 90,
+            "failures": {
+              "wrong_answer": 72,
+              "correct": 18
+            },
+            "correct_literal_fraction_copies": 17
+          },
+          "contains_division": {
+            "n": 27,
+            "correct": 17,
+            "accuracy": 0.6296296296296297,
+            "valid_completed_answers": 27,
+            "failures": {
+              "wrong_answer": 10,
+              "correct": 17
+            },
+            "correct_literal_fraction_copies": 17
+          },
+          "non_division": {
+            "n": 63,
+            "correct": 1,
+            "accuracy": 0.015873015873015872,
+            "valid_completed_answers": 63,
+            "failures": {
+              "wrong_answer": 62,
+              "correct": 1
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:add": {
+            "n": 16,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 16,
+            "failures": {
+              "wrong_answer": 16
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:divide": {
+            "n": 17,
+            "correct": 17,
+            "accuracy": 1.0,
+            "valid_completed_answers": 17,
+            "failures": {
+              "correct": 17
+            },
+            "correct_literal_fraction_copies": 17
+          },
+          "operation:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:multiply": {
+            "n": 9,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 9,
+            "failures": {
+              "wrong_answer": 9
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:subtract": {
+            "n": 18,
+            "correct": 1,
+            "accuracy": 0.05555555555555555,
+            "valid_completed_answers": 18,
+            "failures": {
+              "wrong_answer": 17,
+              "correct": 1
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "single_division": {
+            "n": 17,
+            "correct": 17,
+            "accuracy": 1.0,
+            "valid_completed_answers": 17,
+            "failures": {
+              "correct": 17
+            },
+            "correct_literal_fraction_copies": 17
+          },
+          "task:arithmetic": {
+            "n": 30,
+            "correct": 12,
+            "accuracy": 0.4,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 18,
+              "correct": 12
+            },
+            "correct_literal_fraction_copies": 11
+          },
+          "task:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:word": {
+            "n": 30,
+            "correct": 6,
+            "accuracy": 0.2,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 24,
+              "correct": 6
+            },
+            "correct_literal_fraction_copies": 6
+          }
+        },
+        "test_template": {
+          "all": {
+            "n": 90,
+            "correct": 12,
+            "accuracy": 0.13333333333333333,
+            "valid_completed_answers": 89,
+            "failures": {
+              "wrong_answer": 77,
+              "correct": 12,
+              "parse_failure": 1
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "contains_division": {
+            "n": 32,
+            "correct": 12,
+            "accuracy": 0.375,
+            "valid_completed_answers": 31,
+            "failures": {
+              "wrong_answer": 19,
+              "correct": 12,
+              "parse_failure": 1
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "non_division": {
+            "n": 58,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 58,
+            "failures": {
+              "wrong_answer": 58
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:add": {
+            "n": 12,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 12,
+            "failures": {
+              "wrong_answer": 12
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:divide": {
+            "n": 19,
+            "correct": 12,
+            "accuracy": 0.631578947368421,
+            "valid_completed_answers": 18,
+            "failures": {
+              "correct": 12,
+              "parse_failure": 1,
+              "wrong_answer": 6
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "operation:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:multiply": {
+            "n": 6,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 6,
+            "failures": {
+              "wrong_answer": 6
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:subtract": {
+            "n": 23,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 23,
+            "failures": {
+              "wrong_answer": 23
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "single_division": {
+            "n": 19,
+            "correct": 12,
+            "accuracy": 0.631578947368421,
+            "valid_completed_answers": 18,
+            "failures": {
+              "correct": 12,
+              "parse_failure": 1,
+              "wrong_answer": 6
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "task:arithmetic": {
+            "n": 30,
+            "correct": 12,
+            "accuracy": 0.4,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 18,
+              "correct": 12
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "task:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:word": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 29,
+            "failures": {
+              "wrong_answer": 29,
+              "parse_failure": 1
+            },
+            "correct_literal_fraction_copies": 0
+          }
+        },
+        "test_range": {
+          "all": {
+            "n": 90,
+            "correct": 8,
+            "accuracy": 0.08888888888888889,
+            "valid_completed_answers": 90,
+            "failures": {
+              "wrong_answer": 82,
+              "correct": 8
+            },
+            "correct_literal_fraction_copies": 8
+          },
+          "contains_division": {
+            "n": 28,
+            "correct": 8,
+            "accuracy": 0.2857142857142857,
+            "valid_completed_answers": 28,
+            "failures": {
+              "wrong_answer": 20,
+              "correct": 8
+            },
+            "correct_literal_fraction_copies": 8
+          },
+          "non_division": {
+            "n": 62,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 62,
+            "failures": {
+              "wrong_answer": 62
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:add": {
+            "n": 16,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 16,
+            "failures": {
+              "wrong_answer": 16
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:divide": {
+            "n": 18,
+            "correct": 8,
+            "accuracy": 0.4444444444444444,
+            "valid_completed_answers": 18,
+            "failures": {
+              "wrong_answer": 10,
+              "correct": 8
+            },
+            "correct_literal_fraction_copies": 8
+          },
+          "operation:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:multiply": {
+            "n": 13,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 13,
+            "failures": {
+              "wrong_answer": 13
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:subtract": {
+            "n": 13,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 13,
+            "failures": {
+              "wrong_answer": 13
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "single_division": {
+            "n": 18,
+            "correct": 8,
+            "accuracy": 0.4444444444444444,
+            "valid_completed_answers": 18,
+            "failures": {
+              "wrong_answer": 10,
+              "correct": 8
+            },
+            "correct_literal_fraction_copies": 8
+          },
+          "task:arithmetic": {
+            "n": 30,
+            "correct": 2,
+            "accuracy": 0.06666666666666667,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 28,
+              "correct": 2
+            },
+            "correct_literal_fraction_copies": 2
+          },
+          "task:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:word": {
+            "n": 30,
+            "correct": 6,
+            "accuracy": 0.2,
+            "valid_completed_answers": 30,
+            "failures": {
+              "correct": 6,
+              "wrong_answer": 24
+            },
+            "correct_literal_fraction_copies": 6
+          }
+        }
+      }
+    },
+    "seed123": {
+      "total_questions": 270,
+      "groups": {
+        "all": {
+          "n": 270,
+          "correct": 43,
+          "valid_completed_answers": 269,
+          "correct_literal_fraction_copies": 41,
+          "accuracy": 0.15925925925925927
+        },
+        "contains_division": {
+          "n": 87,
+          "correct": 42,
+          "valid_completed_answers": 86,
+          "correct_literal_fraction_copies": 41,
+          "accuracy": 0.4827586206896552
+        },
+        "non_division": {
+          "n": 183,
+          "correct": 1,
+          "valid_completed_answers": 183,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.00546448087431694
+        },
+        "operation:add": {
+          "n": 44,
+          "correct": 0,
+          "valid_completed_answers": 44,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "operation:divide": {
+          "n": 54,
+          "correct": 41,
+          "valid_completed_answers": 53,
+          "correct_literal_fraction_copies": 41,
+          "accuracy": 0.7592592592592593
+        },
+        "operation:mixed": {
+          "n": 90,
+          "correct": 1,
+          "valid_completed_answers": 90,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.011111111111111112
+        },
+        "operation:multiply": {
+          "n": 28,
+          "correct": 0,
+          "valid_completed_answers": 28,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "operation:subtract": {
+          "n": 54,
+          "correct": 1,
+          "valid_completed_answers": 54,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.018518518518518517
+        },
+        "single_division": {
+          "n": 54,
+          "correct": 41,
+          "valid_completed_answers": 53,
+          "correct_literal_fraction_copies": 41,
+          "accuracy": 0.7592592592592593
+        },
+        "task:arithmetic": {
+          "n": 90,
+          "correct": 30,
+          "valid_completed_answers": 90,
+          "correct_literal_fraction_copies": 29,
+          "accuracy": 0.3333333333333333
+        },
+        "task:mixed": {
+          "n": 90,
+          "correct": 1,
+          "valid_completed_answers": 90,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.011111111111111112
+        },
+        "task:word": {
+          "n": 90,
+          "correct": 12,
+          "valid_completed_answers": 89,
+          "correct_literal_fraction_copies": 12,
+          "accuracy": 0.13333333333333333
+        }
+      },
+      "splits": {
+        "test_id": {
+          "all": {
+            "n": 90,
+            "correct": 16,
+            "accuracy": 0.17777777777777778,
+            "valid_completed_answers": 90,
+            "failures": {
+              "wrong_answer": 74,
+              "correct": 16
+            },
+            "correct_literal_fraction_copies": 15
+          },
+          "contains_division": {
+            "n": 27,
+            "correct": 15,
+            "accuracy": 0.5555555555555556,
+            "valid_completed_answers": 27,
+            "failures": {
+              "wrong_answer": 12,
+              "correct": 15
+            },
+            "correct_literal_fraction_copies": 15
+          },
+          "non_division": {
+            "n": 63,
+            "correct": 1,
+            "accuracy": 0.015873015873015872,
+            "valid_completed_answers": 63,
+            "failures": {
+              "wrong_answer": 62,
+              "correct": 1
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:add": {
+            "n": 16,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 16,
+            "failures": {
+              "wrong_answer": 16
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:divide": {
+            "n": 17,
+            "correct": 15,
+            "accuracy": 0.8823529411764706,
+            "valid_completed_answers": 17,
+            "failures": {
+              "correct": 15,
+              "wrong_answer": 2
+            },
+            "correct_literal_fraction_copies": 15
+          },
+          "operation:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:multiply": {
+            "n": 9,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 9,
+            "failures": {
+              "wrong_answer": 9
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:subtract": {
+            "n": 18,
+            "correct": 1,
+            "accuracy": 0.05555555555555555,
+            "valid_completed_answers": 18,
+            "failures": {
+              "wrong_answer": 17,
+              "correct": 1
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "single_division": {
+            "n": 17,
+            "correct": 15,
+            "accuracy": 0.8823529411764706,
+            "valid_completed_answers": 17,
+            "failures": {
+              "correct": 15,
+              "wrong_answer": 2
+            },
+            "correct_literal_fraction_copies": 15
+          },
+          "task:arithmetic": {
+            "n": 30,
+            "correct": 11,
+            "accuracy": 0.36666666666666664,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 19,
+              "correct": 11
+            },
+            "correct_literal_fraction_copies": 10
+          },
+          "task:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:word": {
+            "n": 30,
+            "correct": 5,
+            "accuracy": 0.16666666666666666,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 25,
+              "correct": 5
+            },
+            "correct_literal_fraction_copies": 5
+          }
+        },
+        "test_template": {
+          "all": {
+            "n": 90,
+            "correct": 13,
+            "accuracy": 0.14444444444444443,
+            "valid_completed_answers": 89,
+            "failures": {
+              "wrong_answer": 76,
+              "correct": 13,
+              "parse_failure": 1
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "contains_division": {
+            "n": 32,
+            "correct": 13,
+            "accuracy": 0.40625,
+            "valid_completed_answers": 31,
+            "failures": {
+              "wrong_answer": 18,
+              "correct": 13,
+              "parse_failure": 1
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "non_division": {
+            "n": 58,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 58,
+            "failures": {
+              "wrong_answer": 58
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:add": {
+            "n": 12,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 12,
+            "failures": {
+              "wrong_answer": 12
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:divide": {
+            "n": 19,
+            "correct": 12,
+            "accuracy": 0.631578947368421,
+            "valid_completed_answers": 18,
+            "failures": {
+              "correct": 12,
+              "parse_failure": 1,
+              "wrong_answer": 6
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "operation:mixed": {
+            "n": 30,
+            "correct": 1,
+            "accuracy": 0.03333333333333333,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 29,
+              "correct": 1
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:multiply": {
+            "n": 6,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 6,
+            "failures": {
+              "wrong_answer": 6
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:subtract": {
+            "n": 23,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 23,
+            "failures": {
+              "wrong_answer": 23
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "single_division": {
+            "n": 19,
+            "correct": 12,
+            "accuracy": 0.631578947368421,
+            "valid_completed_answers": 18,
+            "failures": {
+              "correct": 12,
+              "parse_failure": 1,
+              "wrong_answer": 6
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "task:arithmetic": {
+            "n": 30,
+            "correct": 12,
+            "accuracy": 0.4,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 18,
+              "correct": 12
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "task:mixed": {
+            "n": 30,
+            "correct": 1,
+            "accuracy": 0.03333333333333333,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 29,
+              "correct": 1
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:word": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 29,
+            "failures": {
+              "wrong_answer": 29,
+              "parse_failure": 1
+            },
+            "correct_literal_fraction_copies": 0
+          }
+        },
+        "test_range": {
+          "all": {
+            "n": 90,
+            "correct": 14,
+            "accuracy": 0.15555555555555556,
+            "valid_completed_answers": 90,
+            "failures": {
+              "correct": 14,
+              "wrong_answer": 76
+            },
+            "correct_literal_fraction_copies": 14
+          },
+          "contains_division": {
+            "n": 28,
+            "correct": 14,
+            "accuracy": 0.5,
+            "valid_completed_answers": 28,
+            "failures": {
+              "correct": 14,
+              "wrong_answer": 14
+            },
+            "correct_literal_fraction_copies": 14
+          },
+          "non_division": {
+            "n": 62,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 62,
+            "failures": {
+              "wrong_answer": 62
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:add": {
+            "n": 16,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 16,
+            "failures": {
+              "wrong_answer": 16
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:divide": {
+            "n": 18,
+            "correct": 14,
+            "accuracy": 0.7777777777777778,
+            "valid_completed_answers": 18,
+            "failures": {
+              "correct": 14,
+              "wrong_answer": 4
+            },
+            "correct_literal_fraction_copies": 14
+          },
+          "operation:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:multiply": {
+            "n": 13,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 13,
+            "failures": {
+              "wrong_answer": 13
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:subtract": {
+            "n": 13,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 13,
+            "failures": {
+              "wrong_answer": 13
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "single_division": {
+            "n": 18,
+            "correct": 14,
+            "accuracy": 0.7777777777777778,
+            "valid_completed_answers": 18,
+            "failures": {
+              "correct": 14,
+              "wrong_answer": 4
+            },
+            "correct_literal_fraction_copies": 14
+          },
+          "task:arithmetic": {
+            "n": 30,
+            "correct": 7,
+            "accuracy": 0.23333333333333334,
+            "valid_completed_answers": 30,
+            "failures": {
+              "correct": 7,
+              "wrong_answer": 23
+            },
+            "correct_literal_fraction_copies": 7
+          },
+          "task:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:word": {
+            "n": 30,
+            "correct": 7,
+            "accuracy": 0.23333333333333334,
+            "valid_completed_answers": 30,
+            "failures": {
+              "correct": 7,
+              "wrong_answer": 23
+            },
+            "correct_literal_fraction_copies": 7
+          }
+        }
+      }
+    },
+    "seed2026": {
+      "total_questions": 270,
+      "groups": {
+        "all": {
+          "n": 270,
+          "correct": 42,
+          "valid_completed_answers": 267,
+          "correct_literal_fraction_copies": 40,
+          "accuracy": 0.15555555555555556
+        },
+        "contains_division": {
+          "n": 87,
+          "correct": 40,
+          "valid_completed_answers": 84,
+          "correct_literal_fraction_copies": 40,
+          "accuracy": 0.45977011494252873
+        },
+        "non_division": {
+          "n": 183,
+          "correct": 2,
+          "valid_completed_answers": 183,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.01092896174863388
+        },
+        "operation:add": {
+          "n": 44,
+          "correct": 0,
+          "valid_completed_answers": 44,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "operation:divide": {
+          "n": 54,
+          "correct": 40,
+          "valid_completed_answers": 51,
+          "correct_literal_fraction_copies": 40,
+          "accuracy": 0.7407407407407407
+        },
+        "operation:mixed": {
+          "n": 90,
+          "correct": 1,
+          "valid_completed_answers": 90,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.011111111111111112
+        },
+        "operation:multiply": {
+          "n": 28,
+          "correct": 0,
+          "valid_completed_answers": 28,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.0
+        },
+        "operation:subtract": {
+          "n": 54,
+          "correct": 1,
+          "valid_completed_answers": 54,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.018518518518518517
+        },
+        "single_division": {
+          "n": 54,
+          "correct": 40,
+          "valid_completed_answers": 51,
+          "correct_literal_fraction_copies": 40,
+          "accuracy": 0.7407407407407407
+        },
+        "task:arithmetic": {
+          "n": 90,
+          "correct": 30,
+          "valid_completed_answers": 90,
+          "correct_literal_fraction_copies": 29,
+          "accuracy": 0.3333333333333333
+        },
+        "task:mixed": {
+          "n": 90,
+          "correct": 1,
+          "valid_completed_answers": 90,
+          "correct_literal_fraction_copies": 0,
+          "accuracy": 0.011111111111111112
+        },
+        "task:word": {
+          "n": 90,
+          "correct": 11,
+          "valid_completed_answers": 87,
+          "correct_literal_fraction_copies": 11,
+          "accuracy": 0.12222222222222222
+        }
+      },
+      "splits": {
+        "test_id": {
+          "all": {
+            "n": 90,
+            "correct": 16,
+            "accuracy": 0.17777777777777778,
+            "valid_completed_answers": 90,
+            "failures": {
+              "wrong_answer": 74,
+              "correct": 16
+            },
+            "correct_literal_fraction_copies": 15
+          },
+          "contains_division": {
+            "n": 27,
+            "correct": 15,
+            "accuracy": 0.5555555555555556,
+            "valid_completed_answers": 27,
+            "failures": {
+              "wrong_answer": 12,
+              "correct": 15
+            },
+            "correct_literal_fraction_copies": 15
+          },
+          "non_division": {
+            "n": 63,
+            "correct": 1,
+            "accuracy": 0.015873015873015872,
+            "valid_completed_answers": 63,
+            "failures": {
+              "wrong_answer": 62,
+              "correct": 1
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:add": {
+            "n": 16,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 16,
+            "failures": {
+              "wrong_answer": 16
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:divide": {
+            "n": 17,
+            "correct": 15,
+            "accuracy": 0.8823529411764706,
+            "valid_completed_answers": 17,
+            "failures": {
+              "correct": 15,
+              "wrong_answer": 2
+            },
+            "correct_literal_fraction_copies": 15
+          },
+          "operation:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:multiply": {
+            "n": 9,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 9,
+            "failures": {
+              "wrong_answer": 9
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:subtract": {
+            "n": 18,
+            "correct": 1,
+            "accuracy": 0.05555555555555555,
+            "valid_completed_answers": 18,
+            "failures": {
+              "wrong_answer": 17,
+              "correct": 1
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "single_division": {
+            "n": 17,
+            "correct": 15,
+            "accuracy": 0.8823529411764706,
+            "valid_completed_answers": 17,
+            "failures": {
+              "correct": 15,
+              "wrong_answer": 2
+            },
+            "correct_literal_fraction_copies": 15
+          },
+          "task:arithmetic": {
+            "n": 30,
+            "correct": 11,
+            "accuracy": 0.36666666666666664,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 19,
+              "correct": 11
+            },
+            "correct_literal_fraction_copies": 10
+          },
+          "task:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:word": {
+            "n": 30,
+            "correct": 5,
+            "accuracy": 0.16666666666666666,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 25,
+              "correct": 5
+            },
+            "correct_literal_fraction_copies": 5
+          }
+        },
+        "test_template": {
+          "all": {
+            "n": 90,
+            "correct": 13,
+            "accuracy": 0.14444444444444443,
+            "valid_completed_answers": 87,
+            "failures": {
+              "wrong_answer": 74,
+              "correct": 13,
+              "parse_failure": 3
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "contains_division": {
+            "n": 32,
+            "correct": 12,
+            "accuracy": 0.375,
+            "valid_completed_answers": 29,
+            "failures": {
+              "wrong_answer": 17,
+              "correct": 12,
+              "parse_failure": 3
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "non_division": {
+            "n": 58,
+            "correct": 1,
+            "accuracy": 0.017241379310344827,
+            "valid_completed_answers": 58,
+            "failures": {
+              "wrong_answer": 57,
+              "correct": 1
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:add": {
+            "n": 12,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 12,
+            "failures": {
+              "wrong_answer": 12
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:divide": {
+            "n": 19,
+            "correct": 12,
+            "accuracy": 0.631578947368421,
+            "valid_completed_answers": 16,
+            "failures": {
+              "correct": 12,
+              "parse_failure": 3,
+              "wrong_answer": 4
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "operation:mixed": {
+            "n": 30,
+            "correct": 1,
+            "accuracy": 0.03333333333333333,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 29,
+              "correct": 1
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:multiply": {
+            "n": 6,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 6,
+            "failures": {
+              "wrong_answer": 6
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:subtract": {
+            "n": 23,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 23,
+            "failures": {
+              "wrong_answer": 23
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "single_division": {
+            "n": 19,
+            "correct": 12,
+            "accuracy": 0.631578947368421,
+            "valid_completed_answers": 16,
+            "failures": {
+              "correct": 12,
+              "parse_failure": 3,
+              "wrong_answer": 4
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "task:arithmetic": {
+            "n": 30,
+            "correct": 12,
+            "accuracy": 0.4,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 18,
+              "correct": 12
+            },
+            "correct_literal_fraction_copies": 12
+          },
+          "task:mixed": {
+            "n": 30,
+            "correct": 1,
+            "accuracy": 0.03333333333333333,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 29,
+              "correct": 1
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:word": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 27,
+            "failures": {
+              "wrong_answer": 27,
+              "parse_failure": 3
+            },
+            "correct_literal_fraction_copies": 0
+          }
+        },
+        "test_range": {
+          "all": {
+            "n": 90,
+            "correct": 13,
+            "accuracy": 0.14444444444444443,
+            "valid_completed_answers": 90,
+            "failures": {
+              "correct": 13,
+              "wrong_answer": 77
+            },
+            "correct_literal_fraction_copies": 13
+          },
+          "contains_division": {
+            "n": 28,
+            "correct": 13,
+            "accuracy": 0.4642857142857143,
+            "valid_completed_answers": 28,
+            "failures": {
+              "correct": 13,
+              "wrong_answer": 15
+            },
+            "correct_literal_fraction_copies": 13
+          },
+          "non_division": {
+            "n": 62,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 62,
+            "failures": {
+              "wrong_answer": 62
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:add": {
+            "n": 16,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 16,
+            "failures": {
+              "wrong_answer": 16
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:divide": {
+            "n": 18,
+            "correct": 13,
+            "accuracy": 0.7222222222222222,
+            "valid_completed_answers": 18,
+            "failures": {
+              "correct": 13,
+              "wrong_answer": 5
+            },
+            "correct_literal_fraction_copies": 13
+          },
+          "operation:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:multiply": {
+            "n": 13,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 13,
+            "failures": {
+              "wrong_answer": 13
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "operation:subtract": {
+            "n": 13,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 13,
+            "failures": {
+              "wrong_answer": 13
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "single_division": {
+            "n": 18,
+            "correct": 13,
+            "accuracy": 0.7222222222222222,
+            "valid_completed_answers": 18,
+            "failures": {
+              "correct": 13,
+              "wrong_answer": 5
+            },
+            "correct_literal_fraction_copies": 13
+          },
+          "task:arithmetic": {
+            "n": 30,
+            "correct": 7,
+            "accuracy": 0.23333333333333334,
+            "valid_completed_answers": 30,
+            "failures": {
+              "correct": 7,
+              "wrong_answer": 23
+            },
+            "correct_literal_fraction_copies": 7
+          },
+          "task:mixed": {
+            "n": 30,
+            "correct": 0,
+            "accuracy": 0.0,
+            "valid_completed_answers": 30,
+            "failures": {
+              "wrong_answer": 30
+            },
+            "correct_literal_fraction_copies": 0
+          },
+          "task:word": {
+            "n": 30,
+            "correct": 6,
+            "accuracy": 0.2,
+            "valid_completed_answers": 30,
+            "failures": {
+              "correct": 6,
+              "wrong_answer": 24
+            },
+            "correct_literal_fraction_copies": 6
+          }
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "42": {
+      "test_id": {
+        "n": 90,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.2,
+        "difference_percentage_points": 20.0,
+        "paired_bootstrap_95_percentile_interval_pp": [
+          12.222222222222221,
+          28.88888888888889
+        ],
+        "bootstrap_repeats": 5000,
+        "seed": 42,
+        "unit": "one unique canonical problem group per question",
+        "limitation": "question sampling uncertainty only; does not measure training-seed variability"
+      },
+      "test_template": {
+        "n": 90,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.13333333333333333,
+        "difference_percentage_points": 13.333333333333334,
+        "paired_bootstrap_95_percentile_interval_pp": [
+          6.666666666666667,
+          21.11111111111111
+        ],
+        "bootstrap_repeats": 5000,
+        "seed": 42,
+        "unit": "one unique canonical problem group per question",
+        "limitation": "question sampling uncertainty only; does not measure training-seed variability"
+      },
+      "test_range": {
+        "n": 90,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.08888888888888889,
+        "difference_percentage_points": 8.88888888888889,
+        "paired_bootstrap_95_percentile_interval_pp": [
+          3.3333333333333335,
+          14.444444444444445
+        ],
+        "bootstrap_repeats": 5000,
+        "seed": 42,
+        "unit": "one unique canonical problem group per question",
+        "limitation": "question sampling uncertainty only; does not measure training-seed variability"
+      }
+    },
+    "123": {
+      "test_id": {
+        "n": 90,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.17777777777777778,
+        "difference_percentage_points": 17.77777777777778,
+        "paired_bootstrap_95_percentile_interval_pp": [
+          10.0,
+          25.555555555555557
+        ],
+        "bootstrap_repeats": 5000,
+        "seed": 42,
+        "unit": "one unique canonical problem group per question",
+        "limitation": "question sampling uncertainty only; does not measure training-seed variability"
+      },
+      "test_template": {
+        "n": 90,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.14444444444444443,
+        "difference_percentage_points": 14.444444444444445,
+        "paired_bootstrap_95_percentile_interval_pp": [
+          7.777777777777778,
+          22.22222222222222
+        ],
+        "bootstrap_repeats": 5000,
+        "seed": 42,
+        "unit": "one unique canonical problem group per question",
+        "limitation": "question sampling uncertainty only; does not measure training-seed variability"
+      },
+      "test_range": {
+        "n": 90,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.15555555555555556,
+        "difference_percentage_points": 15.555555555555555,
+        "paired_bootstrap_95_percentile_interval_pp": [
+          7.777777777777778,
+          23.333333333333332
+        ],
+        "bootstrap_repeats": 5000,
+        "seed": 42,
+        "unit": "one unique canonical problem group per question",
+        "limitation": "question sampling uncertainty only; does not measure training-seed variability"
+      }
+    },
+    "2026": {
+      "test_id": {
+        "n": 90,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.17777777777777778,
+        "difference_percentage_points": 17.77777777777778,
+        "paired_bootstrap_95_percentile_interval_pp": [
+          10.0,
+          25.555555555555557
+        ],
+        "bootstrap_repeats": 5000,
+        "seed": 42,
+        "unit": "one unique canonical problem group per question",
+        "limitation": "question sampling uncertainty only; does not measure training-seed variability"
+      },
+      "test_template": {
+        "n": 90,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.14444444444444443,
+        "difference_percentage_points": 14.444444444444445,
+        "paired_bootstrap_95_percentile_interval_pp": [
+          7.777777777777778,
+          22.22222222222222
+        ],
+        "bootstrap_repeats": 5000,
+        "seed": 42,
+        "unit": "one unique canonical problem group per question",
+        "limitation": "question sampling uncertainty only; does not measure training-seed variability"
+      },
+      "test_range": {
+        "n": 90,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.14444444444444443,
+        "difference_percentage_points": 14.444444444444445,
+        "paired_bootstrap_95_percentile_interval_pp": [
+          7.777777777777778,
+          22.22222222222222
+        ],
+        "bootstrap_repeats": 5000,
+        "seed": 42,
+        "unit": "one unique canonical problem group per question",
+        "limitation": "question sampling uncertainty only; does not measure training-seed variability"
+      }
+    }
+  },
+  "seed_accuracy_mean": 0.15185185185185185,
+  "seed_accuracy_sample_std": 0.009799078929868853,
+  "aggregation": "270 distinct problems, 90 per split; pooled accuracy equals equally weighted split mean",
+  "limitations": [
+    "three training seeds; sample std is not a confidence interval",
+    "paired bootstrap intervals describe question sampling within each split",
+    "same 270 questions for all seeds, not 810 independent questions",
+    "validation used for selection; test results never used for release seed choice"
+  ],
+  "summarizer_sha256": "c461ce6ce6026bc94e89c39bc9eecfd915c3483befcbf85362ba10794c36765a"
+}

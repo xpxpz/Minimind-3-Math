@@ -1,0 +1,21 @@
+{
+  "label": "test-seed123-test_id",
+  "command": [
+    "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math/.venv/bin/python",
+    "-m",
+    "mathlab.evaluate",
+    "--data",
+    "data/processed/v1/test_id.jsonl",
+    "--limit",
+    "90",
+    "--out",
+    "results/runs/SFT-final-seed123-test_id",
+    "--adapter",
+    "artifacts/SFT-final-seed123/best"
+  ],
+  "cwd": "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math",
+  "started_utc": "2026-10-22T06:18:08Z",
+  "log": "results/evidence/2026-10-22-posttrain/logs/test-seed123-test_id.log",
+  "returncode": 0,
+  "finished_utc": "2026-10-22T06:18:24Z"
+}

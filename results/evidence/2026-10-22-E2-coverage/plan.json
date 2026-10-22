@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-22",
+  "reference": "E1 last at 200 updates",
+  "source_training_examples": 32,
+  "training_examples": 64,
+  "validation_examples": 32,
+  "update_budget": 200,
+  "effective_batch": 16,
+  "presentations": 3200,
+  "primary_checkpoint": "last",
+  "base_model": "original MiniMind-3, not E1 adapter",
+  "seed": 42,
+  "validation_sha256": "c8391e1465a346139d79ca5a2f2d0a4d36ab2d15810631b5f44b004766eacf0a",
+  "e1_validation_sha256": "c8391e1465a346139d79ca5a2f2d0a4d36ab2d15810631b5f44b004766eacf0a",
+  "source_manifest_sha256": "2d6157dcf8c93a1e967db4e84ee40e3e8eb0f67fa95c9f53d1cd51d610cb977e",
+  "candidate_manifest_sha256": "af5a16a21158dd5eba0c6296483bebf94cdda5f01caf39d27a6b7f9be5b58adc",
+  "config_sha256": "089f33697ee2a3cf96098d2af785b00627390d8031c5eef82b751a55c130cd00",
+  "dataset_generator_sha256": "9a5c41dbf295354bc2b43bc2e8e29fb09205b4dc486f22d69dd0c8c95e5e29e1",
+  "comparison_script_sha256": "5b0772664a57e759b38d42d2d153f7e1bdf818ce288f2cc44a673330f6144656",
+  "tests_command": "python -m pytest -q tests/test_coverage_experiment.py tests/test_easy_math.py",
+  "tests_passed": 8,
+  "retired_E1_unused_reserve_counts": {
+    "test_id": 9,
+    "test_template": 8,
+    "smoke": 3
+  }
+}

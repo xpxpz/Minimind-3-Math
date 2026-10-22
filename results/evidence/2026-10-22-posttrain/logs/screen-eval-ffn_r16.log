@@ -1,0 +1,164 @@
+[1/120] validation_ba7281f26d74ff27 correct=False wrong_answer
+[2/120] validation_9cf83a62591908c0 correct=False wrong_answer
+[3/120] validation_541bb917bfc30b9e correct=False wrong_answer
+[4/120] validation_8ed8a4d7cdc4ddf4 correct=False wrong_answer
+[5/120] validation_7a8511e00b29e67d correct=False wrong_answer
+[6/120] validation_b3735e34bcdc77ec correct=False wrong_answer
+[7/120] validation_7d5288e8c6f7b192 correct=False wrong_answer
+[8/120] validation_f8b353dee34e938b correct=False wrong_answer
+[9/120] validation_168ea1be45f6679a correct=False wrong_answer
+[10/120] validation_1c4af95b1d456db7 correct=True None
+[11/120] validation_cc9b450bf9c98145 correct=False wrong_answer
+[12/120] validation_d1b3f74e783ba091 correct=True None
+[13/120] validation_8c5ede72462f8e97 correct=False wrong_answer
+[14/120] validation_9b5a375244fb7298 correct=False wrong_answer
+[15/120] validation_a1762d5207b37c9f correct=False wrong_answer
+[16/120] validation_3a43b6b1dd04fc1d correct=True None
+[17/120] validation_9415aea046441542 correct=False wrong_answer
+[18/120] validation_85f921d5b46f3475 correct=False wrong_answer
+[19/120] validation_e94f96014a3b304f correct=False wrong_answer
+[20/120] validation_99a031684d2f0956 correct=False wrong_answer
+[21/120] validation_71b8f7435cbfa444 correct=False wrong_answer
+[22/120] validation_5f9dcd7cc9ff2f80 correct=False wrong_answer
+[23/120] validation_aae564d35b14b573 correct=False wrong_answer
+[24/120] validation_705be040926c2c97 correct=True None
+[25/120] validation_2893dee08de3c9b0 correct=False wrong_answer
+[26/120] validation_62f2562dd15fe734 correct=False wrong_answer
+[27/120] validation_16db0a3ebe3169ed correct=False wrong_answer
+[28/120] validation_5739f4fef22f4827 correct=False wrong_answer
+[29/120] validation_a4df050af83a5f1d correct=False wrong_answer
+[30/120] validation_6539240c7ea7babf correct=False wrong_answer
+[31/120] validation_887c3a4c74bc0178 correct=False wrong_answer
+[32/120] validation_47b6b3ee3f21b934 correct=False wrong_answer
+[33/120] validation_7e429c9e709fd5a2 correct=True None
+[34/120] validation_d59ea9f0b5839464 correct=False wrong_answer
+[35/120] validation_511a4469925bd441 correct=False wrong_answer
+[36/120] validation_88ac0028e8b200f9 correct=False wrong_answer
+[37/120] validation_432391032729a677 correct=False wrong_answer
+[38/120] validation_659e46961be6e48e correct=False wrong_answer
+[39/120] validation_4ecfff3ceca2d953 correct=True None
+[40/120] validation_b65221bb66e6f848 correct=True None
+[41/120] validation_8420c3f205375bc7 correct=False wrong_answer
+[42/120] validation_388c83d5ae9c8e4f correct=True None
+[43/120] validation_b9e9591a22e4ba74 correct=False wrong_answer
+[44/120] validation_08159d6cd9b2e65c correct=False wrong_answer
+[45/120] validation_0d52add06440ae3c correct=False wrong_answer
+[46/120] validation_28eedc87154d1ac6 correct=True None
+[47/120] validation_02e2ae943f618fbf correct=False wrong_answer
+[48/120] validation_7a77f00844817f91 correct=True None
+[49/120] validation_57552ff5f88e161f correct=False wrong_answer
+[50/120] validation_65dc574c82dda8a5 correct=False wrong_answer
+[51/120] validation_c0757dd225a6aa48 correct=False wrong_answer
+[52/120] validation_22b2187b0bac9ae5 correct=True None
+[53/120] validation_9b0f6c3c5f6541d0 correct=False wrong_answer
+[54/120] validation_5753e9debbdcdd2a correct=True None
+[55/120] validation_b8fdffa5944f6e6d correct=False wrong_answer
+[56/120] validation_e374555e40d911b9 correct=False wrong_answer
+[57/120] validation_ff64d524b92e8216 correct=False wrong_answer
+[58/120] validation_55e5e9e2612cb9b5 correct=True None
+[59/120] validation_2df286b0c39abe42 correct=False wrong_answer
+[60/120] validation_db6bab7c51fe8b62 correct=False wrong_answer
+[61/120] validation_77440ae6f8c851ac correct=False wrong_answer
+[62/120] validation_d68337b97e0ca69e correct=False wrong_answer
+[63/120] validation_2e42cbf101265599 correct=False wrong_answer
+[64/120] validation_822523a4d4b95522 correct=False wrong_answer
+[65/120] validation_5cd2e3c62a1fc7c6 correct=False wrong_answer
+[66/120] validation_1118cda5c37881d6 correct=True None
+[67/120] validation_33f24e4fd271507f correct=False wrong_answer
+[68/120] validation_82c62eb14a253138 correct=False wrong_answer
+[69/120] validation_968c414f97855739 correct=False wrong_answer
+[70/120] validation_163235634da08cb3 correct=True None
+[71/120] validation_c511fdfb5e8ede2a correct=False wrong_answer
+[72/120] validation_312def60933e7a0a correct=False wrong_answer
+[73/120] validation_fa988a73e7f57145 correct=False wrong_answer
+[74/120] validation_a4594c5e8678678b correct=False wrong_answer
+[75/120] validation_505806c9570975f4 correct=False wrong_answer
+[76/120] validation_a789cfa128ded852 correct=False wrong_answer
+[77/120] validation_7bdad63b44a6b818 correct=False wrong_answer
+[78/120] validation_730e448470f360fd correct=False wrong_answer
+[79/120] validation_264b25bb56e26cce correct=False wrong_answer
+[80/120] validation_bc4672ac8b33ca5c correct=False wrong_answer
+[81/120] validation_87995edea05b819d correct=True None
+[82/120] validation_fb6fb81ea98d9b96 correct=False wrong_answer
+[83/120] validation_9175b63aaf221d2e correct=False wrong_answer
+[84/120] validation_47c92bea960c8f39 correct=True None
+[85/120] validation_34490460c4c1b9c4 correct=False wrong_answer
+[86/120] validation_585cb8fdb9262b8a correct=False wrong_answer
+[87/120] validation_eb6cf09f0359bab1 correct=False wrong_answer
+[88/120] validation_ffcb09c1c046d914 correct=True None
+[89/120] validation_6b043bc250aa9531 correct=False wrong_answer
+[90/120] validation_2d53f3bb9f182072 correct=True None
+[91/120] validation_d571068e98654cbd correct=True None
+[92/120] validation_fba83049eb10b099 correct=False wrong_answer
+[93/120] validation_1956ac3aa916f9e9 correct=False wrong_answer
+[94/120] validation_c2ec4a702e3bb50f correct=False wrong_answer
+[95/120] validation_80b12c5f2ea0aa6a correct=False wrong_answer
+[96/120] validation_bdf24e74c42e1487 correct=False wrong_answer
+[97/120] validation_d7ab0bcf3318e95b correct=False wrong_answer
+[98/120] validation_bf517c168f6d3c0a correct=False wrong_answer
+[99/120] validation_66dc07af3356a1b2 correct=True None
+[100/120] validation_dea998995cc6e74e correct=False wrong_answer
+[101/120] validation_30c7678244760184 correct=False wrong_answer
+[102/120] validation_81e68d380fd07e27 correct=False wrong_answer
+[103/120] validation_d6355995d773030b correct=False wrong_answer
+[104/120] validation_72d4aeaf5c53ea1f correct=False wrong_answer
+[105/120] validation_88d17041d009e203 correct=False wrong_answer
+[106/120] validation_ce3267c34157ee85 correct=False wrong_answer
+[107/120] validation_f1615f8eb0d2e887 correct=False wrong_answer
+[108/120] validation_1272d1263e7ffedf correct=False wrong_answer
+[109/120] validation_cfd497f6731e2331 correct=False wrong_answer
+[110/120] validation_c4dd8b09f6b4076a correct=False wrong_answer
+[111/120] validation_d74c26143e824b50 correct=False wrong_answer
+[112/120] validation_62dad16d09440227 correct=True None
+[113/120] validation_7eb8e439cf64ea06 correct=False wrong_answer
+[114/120] validation_a65f9481cb35a243 correct=False wrong_answer
+[115/120] validation_ce2bfc84567e1e01 correct=False wrong_answer
+[116/120] validation_07bb5d56879a77a7 correct=False wrong_answer
+[117/120] validation_c2b7f808a4ef6c44 correct=False wrong_answer
+[118/120] validation_b0c763d100e5146f correct=True None
+[119/120] validation_e8c870c68bce47d2 correct=False wrong_answer
+[120/120] validation_32c82d7baf194587 correct=False wrong_answer
+{
+  "all": {
+    "n": 120,
+    "accuracy": 0.19166666666666668,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "task:arithmetic": {
+    "n": 40,
+    "accuracy": 0.275,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "distribution:validation": {
+    "n": 120,
+    "accuracy": 0.19166666666666668,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "task:mixed": {
+    "n": 40,
+    "accuracy": 0.0,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "task:word": {
+    "n": 40,
+    "accuracy": 0.3,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "macro_task_accuracy": 0.19166666666666668,
+  "latency": {
+    "p50_seconds": 0.1641946250165347,
+    "p95_seconds": 0.2928354580071755,
+    "generation_tokens_per_second": 34.89996528154214,
+    "warmup_examples_excluded": 1
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "changed_correctness_cases": [
+    {
+      "sample_id": "easy_validation_ef19e9abbc90211f",
+      "expression": "3 - 3",
+      "answer": "0",
+      "E1_output": "答案：0",
+      "E1_correct": true,
+      "E2_output": "答案：-3",
+      "E2_correct": false
+    },
+    {
+      "sample_id": "easy_validation_4d689e338c56d18d",
+      "expression": "5 - 6",
+      "answer": "-1",
+      "E1_output": "答案：-1",
+      "E1_correct": true,
+      "E2_output": "答案：-2",
+      "E2_correct": false
+    },
+    {
+      "sample_id": "easy_validation_150f50823cf291e0",
+      "expression": "0 + 3",
+      "answer": "3",
+      "E1_output": "答案：9",
+      "E1_correct": false,
+      "E2_output": "答案：3",
+      "E2_correct": true
+    }
+  ],
+  "all_correct_validation_cases": [
+    {
+      "sample_id": "easy_validation_cab3ddccc1028b07",
+      "expression": "0 - 3",
+      "answer": "-3",
+      "output": "答案：-3"
+    },
+    {
+      "sample_id": "easy_validation_fe1b8bbf9615f307",
+      "expression": "0 - 1",
+      "answer": "-1",
+      "output": "答案：-1"
+    },
+    {
+      "sample_id": "easy_validation_5e364612d0044989",
+      "expression": "0 + 4",
+      "answer": "4",
+      "output": "答案：4"
+    },
+    {
+      "sample_id": "easy_validation_150f50823cf291e0",
+      "expression": "0 + 3",
+      "answer": "3",
+      "output": "答案：3"
+    },
+    {
+      "sample_id": "easy_validation_536a683ce977e33a",
+      "expression": "0 + 0",
+      "answer": "0",
+      "output": "答案：0"
+    }
+  ],
+  "answer_value_coverage": {
+    "E1": {
+      "training_unique_answer_values": 20,
+      "validation_answers_not_seen_in_training": 9
+    },
+    "E2": {
+      "training_unique_answer_values": 26,
+      "validation_answers_not_seen_in_training": 1
+    }
+  },
+  "new_answer_values": [
+    "-4",
+    "-2",
+    "6",
+    "10",
+    "13",
+    "16"
+  ],
+  "primary_adapter_sha256": "005c3d9bfdf391b60d9f96b0ee302918179d4b965c81c8674e4f24587ae1c9ae",
+  "reference_history_outputs_identical": true,
+  "cross_dataset_math_v1_problem_overlaps": {
+    "train": [
+      "train_97ecc92c6036ce68",
+      "train_b140d14767de4051",
+      "train_ca16f1924c1c43be",
+      "train_e920ac3a02bb8d72",
+      "train_4a0f382c9f446d50",
+      "train_6d2568b262b2034a",
+      "train_b086e738716b2a5d",
+      "train_50f6a54e7ca47e51",
+      "train_cf6acc1a0b8d7e5e",
+      "train_ec17767b5739a9b5",
+      "train_2942ef4a5797872a"
+    ],
+    "validation": [
+      "validation_63c570bde4e2c524"
+    ],
+    "test_id": [
+      "test_id_606b3a007813797f",
+      "test_id_8883fff0bbc3f540"
+    ],
+    "test_template": [
+      "test_template_37cb51dfbaac4305"
+    ],
+    "test_range": [],
+    "smoke": []
+  },
+  "cross_dataset_overlap_note": "No main-v1 model-generation test performed here; any overlapping v1 questions must not be called unseen tests for E2."
+}

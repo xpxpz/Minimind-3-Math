@@ -1,0 +1,10 @@
+{
+  "updates": 200,
+  "training_correct": 32,
+  "n": 32,
+  "threshold": 29,
+  "decision": "stop at 200 updates",
+  "validation_generation_results_not_used": true,
+  "primary_adapter": "artifacts/E1-step200/last",
+  "budgets_500_and_1000_not_executed": true
+}

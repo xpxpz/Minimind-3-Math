@@ -2,6 +2,8 @@
 
 先建立可复查的 SFT/LoRA 闭环，再考虑强化学习。Tiny 模型测试和短训练只能证明实现能运行；能力是否提高，需要固定测试和足够训练预算回答。
 
+每次实际执行实验步骤后，都要按 [报告模板](reports/_template.md) 写独立 Markdown 报告，并更新 [报告索引](reports/README.md)。报告必须说明具体操作、代码/文件改动、实际完成项、执行命令、验证、产物与局限；未修改代码也要明确说明复用了哪些入口。失败或未完成的实验同样记录。
+
 ## 1. 固定输入
 
 运行 `mathlab.preflight`。核对基础参数量、模型/Tokenizer 哈希、最长训练样本、实际注入层和 supervised_text。当前版本只接受本地 Transformers Qwen3 格式 Dense MiniMind-3，以 `trust_remote_code=False` 加载，不执行模型目录中的任意 Python 源码。
@@ -49,15 +51,23 @@ A1 使用官方注入函数，但训练器是本项目的统一训练器；不�
 
 先单种子筛选，再对关键组使用 3 个训练种子，分别保存目录。模块相同 Rank 时可训练参数量不同；必须报告参数量和资源差异，不直接得出“更高效”的结论。Rank 消融同时调整 alpha=rank，避免改变缩放；Dropout 等变量单独比较。
 
-best 默认按验证 loss 选 epoch/保存点。用 validation 生成准确率进一步比较运行方案；需在最终测试之前确定选择规则。此版本不在训练中自动计算生成准确率，也不自动搜索配置。
+best 默认按验证 loss 选 epoch/保存点。用 validation 生成准确率进一步比较运行方案；需在最终测试之前确定选择规则。训练器本身不在训练中计算生成准确率。`scripts/posttrain_campaign.py` 在外层编排预先固定的六组候选与验证生成，按冻结规则选配置；实际选择见 [E4报告](reports/2026-10-22_E4-module-rank-screening.md)，复现和交付入口见 [使用文档](posttraining_usage.md)。
 
 ## 4. 读结果
 
 `run.json` 保存输入身份、源码哈希、环境和注入清单。`summary.json` 保存更新数、目标/非 padding token 数、训练与验证总耗时及 CUDA allocated/reserved 峰值（MPS/CPU 为 null，不能伪写显存）。此处吞吐明确包含验证开销，不等同纯训练算子吞吐。中断后恢复的墙钟时间累计各段已归档训练时间。
 
-评测在预热后逐题计时，包含模板、生成、解码和设备同步。保存延迟 P50/P95 和总体生成 token/s；不混用合并/未合并形态的速度结论。当前 CLI 评测使用未合并适配器；代码提供 merge 函数并经数值测试，尚未提供合并导出 CLI。
+评测在预热后逐题计时，包含模板、生成、解码和设备同步。保存延迟 P50/P95 和总体生成 token/s；不混用合并/未合并形态的速度结论。评测 CLI 使用未合并适配器；`scripts/use_math_model.py export` 提供合并导出，核对单条固定提示的合并前后logits与磁盘重载一致性。导出检查不代替能力测试，也没有测量合并模型的整体吞吐收益。
 
 同一测试集上的两组输出交给 `mathlab.compare`；它核对基础模型、数据、题目 ID、解码、dtype、设备及判分器代码。配对 Bootstrap 区间表示题目抽样不确定性，不能代替不同训练种子的波动。正式报告要列 N、分题型准确率、ID/模板 OOD/范围 OOD，以及失败率。
+
+除主指标外，可用以下命令诊断运算类型，避免总准确率掩盖“单步除法直接写成分数”的情况。分析脚本只读冻结数据和预测，不重新生成、不改变判分规则；应在生成评测全部完成后运行。
+
+```bash
+python -m scripts.analyze_predictions results/runs/A1-step50-validation-full \
+  --data data/processed/v1/validation.jsonl \
+  --out results/runs/A1-step50-validation-full/analysis.json
+```
 
 ## 5. 什么时候考虑 GRPO
 

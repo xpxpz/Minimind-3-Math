@@ -1,0 +1,17 @@
+{
+  "label": "compare-seed42-test_range",
+  "command": [
+    "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math/.venv/bin/python",
+    "-m",
+    "mathlab.compare",
+    "results/runs/SFT-final-base-test_range",
+    "results/runs/SFT-final-seed42-test_range",
+    "--out",
+    "results/evidence/2026-10-22-posttrain/comparison-seed42-test_range.json"
+  ],
+  "cwd": "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math",
+  "started_utc": "2026-10-22T06:33:35Z",
+  "log": "results/evidence/2026-10-22-posttrain/logs/compare-seed42-test_range.log",
+  "returncode": 0,
+  "finished_utc": "2026-10-22T06:33:35Z"
+}

@@ -1,0 +1,27 @@
+{
+  "purpose": "50-update pilot; validation subset, not final test",
+  "n": 24,
+  "per_task": {
+    "arithmetic": 8,
+    "mixed": 8,
+    "word": 8
+  },
+  "baseline_correct": 0,
+  "official_lora_correct": 3,
+  "baseline_valid_completed_answers": 0,
+  "official_lora_valid_completed_answers": 24,
+  "official_lora_wrong_values": 21,
+  "baseline_mean_generated_tokens": 217.95833333333334,
+  "official_lora_mean_generated_tokens": 5.958333333333333,
+  "correct_sample_ids": [
+    "validation_1c4af95b1d456db7",
+    "validation_3a43b6b1dd04fc1d",
+    "validation_705be040926c2c97"
+  ],
+  "limitations": [
+    "All three correct cases are division expressed as fractions; this can be solved by copying operands.",
+    "24 validation questions, one training seed; no held-out final test or OOD generation evaluation.",
+    "Bootstrap interval covers question sampling only and includes zero.",
+    "No code or scorer changes; same model/data/decoding identities verified by compare."
+  ]
+}

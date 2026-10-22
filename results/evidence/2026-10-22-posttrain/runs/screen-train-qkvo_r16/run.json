@@ -1,0 +1,377 @@
+{
+  "config": {
+    "mode": "custom",
+    "targets": "qkvo",
+    "rank": 16,
+    "alpha": 16,
+    "dropout": 0.0,
+    "seed": 42,
+    "epochs": 3,
+    "batch_size": 4,
+    "accumulation_steps": 4,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "max_length": 256,
+    "train_limit": null,
+    "validation_limit": null,
+    "max_updates": 1500,
+    "save_every": 100,
+    "dtype": "float32"
+  },
+  "model_files": {
+    "chat_template.jinja": "97c6a9ef3f8d35044f435bb7773f1af160a7328ab6e8d2e9d67702941320a711",
+    "config.json": "efcfa39ede9bbb5b64ded2bb90969e4b840f0f9e1e36725d386acb7eca1c6d05",
+    "generation_config.json": "3ee3cbe9acb55059b37a4e90bb843812eb86f70c5ebea404f137cd9c80127870",
+    "model.safetensors": "3adf69402b5d22e693151cabadc12528f923c4ba6bf343738aaf13f0892162e8",
+    "special_tokens_map.json": "f85ecedc16cf0083242e21ac2ef23ac613153b71240c7d2ab61de24f085d2db9",
+    "tokenizer.json": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+    "tokenizer_config.json": "04ae7620b9cf93fd2d6fbf94936b0c3c4be65f30cd6ef6fa8741baac986525d1"
+  },
+  "data_manifest_sha256": "e9e2af8bfe7aefd4b1d26bb52747131e5de486eaae02c9e14a272fb9e4766531",
+  "train_file_sha256": "44ce9d8504ec125f568347ed94fef85379243a3e32cebab7890f3352421f89dc",
+  "validation_file_sha256": "50f2945c59d312e9f8d10d74c1b4ede66ba6fbeb48a3a3f23078999c50fa270a",
+  "sources_sha256": {
+    "mathlab/__init__ 2.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mathlab/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mathlab/answers 2.py": "38501242b35fd46205598ef5f5735fd44ea3c5e95db36949a49b95a83dea3d05",
+    "mathlab/answers.py": "38501242b35fd46205598ef5f5735fd44ea3c5e95db36949a49b95a83dea3d05",
+    "mathlab/compare 2.py": "9ca3609adfc3268bf9313779caf1d860653581b00e97355bc92ba771543a4cdc",
+    "mathlab/compare.py": "9ca3609adfc3268bf9313779caf1d860653581b00e97355bc92ba771543a4cdc",
+    "mathlab/data 2.py": "8bfaf3e71861be396c11cc9206140a13d546b089f537ddca720352bbcffc7960",
+    "mathlab/data.py": "8bfaf3e71861be396c11cc9206140a13d546b089f537ddca720352bbcffc7960",
+    "mathlab/evaluate 2.py": "1a12db4b8d3720b7dd1a8e1d6d815c13da838d48169183a182a9ff823b3be2a4",
+    "mathlab/evaluate.py": "1a12db4b8d3720b7dd1a8e1d6d815c13da838d48169183a182a9ff823b3be2a4",
+    "mathlab/io 2.py": "21df890371f360e585a8456ee4b84d4aeca49fb5b74ae63526fa8a9a8c0d35ef",
+    "mathlab/io.py": "21df890371f360e585a8456ee4b84d4aeca49fb5b74ae63526fa8a9a8c0d35ef",
+    "mathlab/lora 2.py": "2e8e56ac0ff4f9405ce26c6973caf5373e351dc928b0a4ec8b385c6ceadc8507",
+    "mathlab/lora.py": "2e8e56ac0ff4f9405ce26c6973caf5373e351dc928b0a4ec8b385c6ceadc8507",
+    "mathlab/preflight 2.py": "ef532bae11148aa727d8d5a63e7414a4b7069986354ff73e69ad567e9ec3ec70",
+    "mathlab/preflight.py": "ef532bae11148aa727d8d5a63e7414a4b7069986354ff73e69ad567e9ec3ec70",
+    "mathlab/runtime 2.py": "74e9482ebf17e553de535bc46a5189f1d9b56eaea09f3778a96fb95ccca81320",
+    "mathlab/runtime.py": "74e9482ebf17e553de535bc46a5189f1d9b56eaea09f3778a96fb95ccca81320",
+    "mathlab/sft 2.py": "6ce57e3742e04f093d3a88f19f8955894d7c3b1b8f630f282b1dc68e5ac73217",
+    "mathlab/sft.py": "6ce57e3742e04f093d3a88f19f8955894d7c3b1b8f630f282b1dc68e5ac73217",
+    "mathlab/train 2.py": "1e608360de23ee91b065b867922b5f53d6f8c117b1098fbb483dd9861213fafc",
+    "mathlab/train.py": "1e608360de23ee91b065b867922b5f53d6f8c117b1098fbb483dd9861213fafc",
+    "vendor/minimind/model_lora.py": "dcb5196e968be99a4059416f165014bd4cb2bffbf33c74ed445266a1a689c5a5"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "git_revision": "170d095c23da50d5e91a8790f16ca912509f683f",
+    "git_dirty": true,
+    "upstream_revision": "f659b55761b754d306bd140573493a6543cafd7f",
+    "versions": {
+      "torch": "2.6.0",
+      "transformers": "4.57.6",
+      "tokenizers": "0.22.2",
+      "safetensors": "0.8.0",
+      "numpy": "2.5.4"
+    },
+    "cuda": null,
+    "gpu": null
+  },
+  "device": "mps",
+  "train_examples": 8000,
+  "validation_examples": 1000,
+  "total_parameters_including_adapters": 64600320,
+  "trainable_parameters": 688128,
+  "lora": {
+    "mode": "custom",
+    "targets": "qkvo",
+    "rank": 16,
+    "alpha": 16,
+    "dropout": 0.0,
+    "matched": [
+      {
+        "name": "model.layers.0.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.0.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.0.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.0.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.1.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.1.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.1.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.1.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.2.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.2.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.2.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.2.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.3.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.3.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.3.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.3.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.4.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.4.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.4.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.4.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.5.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.5.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.5.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.5.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.6.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.6.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.6.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.6.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.7.self_attn.q_proj",
+        "in_features": 768,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.7.self_attn.k_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.7.self_attn.v_proj",
+        "in_features": 768,
+        "out_features": 384
+      },
+      {
+        "name": "model.layers.7.self_attn.o_proj",
+        "in_features": 768,
+        "out_features": 768
+      }
+    ],
+    "excluded": [
+      {
+        "name": "model.layers.0.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.0.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.0.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.1.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.1.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.1.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.2.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.2.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.2.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.3.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.3.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.3.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.4.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.4.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.4.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.5.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.5.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.5.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.6.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.6.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.6.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "model.layers.7.mlp.gate_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.7.mlp.up_proj",
+        "in_features": 768,
+        "out_features": 2432
+      },
+      {
+        "name": "model.layers.7.mlp.down_proj",
+        "in_features": 2432,
+        "out_features": 768
+      },
+      {
+        "name": "lm_head",
+        "in_features": 768,
+        "out_features": 6400
+      }
+    ]
+  },
+  "started_utc": "2026-10-22T05:30:39Z"
+}

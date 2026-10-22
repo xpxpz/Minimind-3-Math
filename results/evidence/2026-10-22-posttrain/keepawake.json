@@ -1,0 +1,11 @@
+{
+  "command": [
+    "caffeinate",
+    "-i",
+    "-w",
+    "10931"
+  ],
+  "scope": "only while campaign driver PID 10931 exists",
+  "reason": "prevent idle sleep during remaining evaluation; not a confirmed attribution of earlier wall-clock gaps",
+  "device_or_decoding_changed": false
+}

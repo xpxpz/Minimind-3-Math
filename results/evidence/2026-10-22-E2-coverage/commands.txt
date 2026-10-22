@@ -1,0 +1,9 @@
+python -m pytest -q tests/test_coverage_experiment.py tests/test_easy_math.py
+python -m scripts.expand_easy_coverage --source data/processed/easy-addsub-v1 --out data/processed/easy-addsub-coverage-v2
+python -m mathlab.train --config configs/easy_addsub_official_r16.json --data data/processed/easy-addsub-coverage-v2 --out artifacts/E2-coverage --stop-after-updates 200
+python -m mathlab.evaluate --data data/processed/easy-addsub-v1/validation.jsonl --adapter artifacts/E1-step200/last --out results/runs/E2-reference-E1-validation
+python -m mathlab.evaluate --data data/processed/easy-addsub-coverage-v2/train.jsonl --adapter artifacts/E2-step200/last --out results/runs/E2-step200-train
+python -m scripts.analyze_predictions results/runs/E2-step200-train --data data/processed/easy-addsub-coverage-v2/train.jsonl --out results/runs/E2-step200-train/analysis.json
+python -m mathlab.evaluate --data data/processed/easy-addsub-coverage-v2/validation.jsonl --adapter artifacts/E2-step200/last --out results/runs/E2-step200-validation
+python -m scripts.analyze_predictions results/runs/E2-step200-validation --data data/processed/easy-addsub-coverage-v2/validation.jsonl --out results/runs/E2-step200-validation/analysis.json
+python -m scripts.compare_shared_validation results/runs/E2-reference-E1-validation results/runs/E2-step200-validation --baseline-data data/processed/easy-addsub-v1/validation.jsonl --candidate-data data/processed/easy-addsub-coverage-v2/validation.jsonl --out results/runs/E2-vs-E1-shared-validation.json

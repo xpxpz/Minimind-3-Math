@@ -2,6 +2,24 @@
 
 本记录区分工程验证与能力实验。代码已跑通，**尚未验证正式数学能力提升**。全部结果来自用户已下载的 MiniMind-3；未下载或替换基础权重。
 
+## 本阶段写了什么代码、完成了什么
+
+以下为首版工程阶段的回顾，不是后续 A1 试验再次新增了这些代码。基础模型结构来自 MiniMind/Qwen3，官方 LoRA 源码保留上游来源；新增实现由 Codex 协助编写。
+
+| 文件 | 类型 | 具体实现与对应验证 |
+| --- | --- | --- |
+| [mathlab/data.py](../mathlab/data.py)、[io.py](../mathlab/io.py) | 新增 | 数学题生成、分组去重与划分、SFT 导出和冻结清单；生成 10,840 题并检查可重复性、泄漏与篡改检测 |
+| [mathlab/answers.py](../mathlab/answers.py) | 新增 | 受限 AST 精确求值、规范问题键与最终答案解析；验证整数、分数、非法表达式及含糊输出 |
+| [mathlab/lora.py](../mathlab/lora.py) | 新增 | 非方阵 LoRA、配置注入、冻结、加载与合并；验证形状、初始等价、梯度、保存加载、兼容组和合并数值一致 |
+| [vendor/minimind/model_lora.py](../vendor/minimind/model_lora.py) | 上游原样引用 | 官方方阵注入对照，保留许可证并核对源码一致 |
+| [mathlab/runtime.py](../mathlab/runtime.py)、[preflight.py](../mathlab/preflight.py) | 新增 | 本地权重加载、身份/环境记录、设备选择、适配器管理与预检；实际加载 MiniMind-3 并检查参数与模板 |
+| [mathlab/sft.py](../mathlab/sft.py)、[train.py](../mathlab/train.py) | 新增 | assistant mask、目标 token 加权累积、验证、保存与恢复；测试累积梯度和 CPU 恢复轨迹，并运行 MPS 短训练 |
+| [mathlab/evaluate.py](../mathlab/evaluate.py)、[compare.py](../mathlab/compare.py) | 新增 | 固定协议生成、逐题保存、错误分母统计与配对比较；离线测试及真实权重开发评测 |
+| [tests](../tests)、[configs](../configs)、[pyproject.toml](../pyproject.toml)、[uv.lock](../uv.lock) | 新增 | 必要测试、可执行配置及依赖定义/锁定；最终 38 项测试通过 |
+| [README](../README.md)、[docs](.)、[来源说明](../THIRD_PARTY_NOTICES.md) | 新增/整理文档 | 运行说明、数据与评测协议、贡献边界、原始规划参考及实测记录 |
+
+本阶段已完成：首版工程、依赖安装、数据生成/审计、预检、单元测试、官方/自定义 LoRA 短训练、保存/恢复和开发题对比。产物包括 [冻结数据清单](../data/manifests/v1.json)、[首版证据](../results/evidence/2026-10-20) 及本地忽略目录下的权重/检查点。正式完整训练和消融仍未完成。首版代码已以 `170d095` 提交并推送；本报告的后续补充需要单独提交，不能视为已同步。
+
 ## 环境与输入
 
 - Apple M4、16 GB 内存、MPS、float32；Python 3.12.14、PyTorch 2.6.0、Transformers 4.57.6。
@@ -68,3 +86,5 @@ uv run python -m mathlab.evaluate --data data/processed/v1/validation.jsonl \
 ```
 
 协议/配置不变时，可以用相同训练命令添加 `--resume` 继续。正式命令与实验控制说明见 [实验指南](experiments.md)。
+
+上述 50 次更新试验现已执行完成，结果及原始输出见 [A1 后续试验记录](A1_pilot_2026-10-20.md)。本文件中的 2/6 次更新数据保留为较早的工程验证记录。

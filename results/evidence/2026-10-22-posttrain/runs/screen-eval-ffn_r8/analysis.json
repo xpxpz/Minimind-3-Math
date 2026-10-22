@@ -1,0 +1,329 @@
+{
+  "version": "math-prediction-analysis-v1",
+  "analysis_sha256": "b9f059d6ea861e96dc394c44da35851654a0e7181e2635649b54abcc3a891db8",
+  "data_sha256": "50f2945c59d312e9f8d10d74c1b4ede66ba6fbeb48a3a3f23078999c50fa270a",
+  "predictions_sha256": "1b0254b269917257f9346fdd81084ee62c53f5150a24070a8f98107596b7856f",
+  "scorer_sha256": "38501242b35fd46205598ef5f5735fd44ea3c5e95db36949a49b95a83dea3d05",
+  "evaluated_ids": [
+    "validation_ba7281f26d74ff27",
+    "validation_9cf83a62591908c0",
+    "validation_541bb917bfc30b9e",
+    "validation_8ed8a4d7cdc4ddf4",
+    "validation_7a8511e00b29e67d",
+    "validation_b3735e34bcdc77ec",
+    "validation_7d5288e8c6f7b192",
+    "validation_f8b353dee34e938b",
+    "validation_168ea1be45f6679a",
+    "validation_1c4af95b1d456db7",
+    "validation_cc9b450bf9c98145",
+    "validation_d1b3f74e783ba091",
+    "validation_8c5ede72462f8e97",
+    "validation_9b5a375244fb7298",
+    "validation_a1762d5207b37c9f",
+    "validation_3a43b6b1dd04fc1d",
+    "validation_9415aea046441542",
+    "validation_85f921d5b46f3475",
+    "validation_e94f96014a3b304f",
+    "validation_99a031684d2f0956",
+    "validation_71b8f7435cbfa444",
+    "validation_5f9dcd7cc9ff2f80",
+    "validation_aae564d35b14b573",
+    "validation_705be040926c2c97",
+    "validation_2893dee08de3c9b0",
+    "validation_62f2562dd15fe734",
+    "validation_16db0a3ebe3169ed",
+    "validation_5739f4fef22f4827",
+    "validation_a4df050af83a5f1d",
+    "validation_6539240c7ea7babf",
+    "validation_887c3a4c74bc0178",
+    "validation_47b6b3ee3f21b934",
+    "validation_7e429c9e709fd5a2",
+    "validation_d59ea9f0b5839464",
+    "validation_511a4469925bd441",
+    "validation_88ac0028e8b200f9",
+    "validation_432391032729a677",
+    "validation_659e46961be6e48e",
+    "validation_4ecfff3ceca2d953",
+    "validation_b65221bb66e6f848",
+    "validation_8420c3f205375bc7",
+    "validation_388c83d5ae9c8e4f",
+    "validation_b9e9591a22e4ba74",
+    "validation_08159d6cd9b2e65c",
+    "validation_0d52add06440ae3c",
+    "validation_28eedc87154d1ac6",
+    "validation_02e2ae943f618fbf",
+    "validation_7a77f00844817f91",
+    "validation_57552ff5f88e161f",
+    "validation_65dc574c82dda8a5",
+    "validation_c0757dd225a6aa48",
+    "validation_22b2187b0bac9ae5",
+    "validation_9b0f6c3c5f6541d0",
+    "validation_5753e9debbdcdd2a",
+    "validation_b8fdffa5944f6e6d",
+    "validation_e374555e40d911b9",
+    "validation_ff64d524b92e8216",
+    "validation_55e5e9e2612cb9b5",
+    "validation_2df286b0c39abe42",
+    "validation_db6bab7c51fe8b62",
+    "validation_77440ae6f8c851ac",
+    "validation_d68337b97e0ca69e",
+    "validation_2e42cbf101265599",
+    "validation_822523a4d4b95522",
+    "validation_5cd2e3c62a1fc7c6",
+    "validation_1118cda5c37881d6",
+    "validation_33f24e4fd271507f",
+    "validation_82c62eb14a253138",
+    "validation_968c414f97855739",
+    "validation_163235634da08cb3",
+    "validation_c511fdfb5e8ede2a",
+    "validation_312def60933e7a0a",
+    "validation_fa988a73e7f57145",
+    "validation_a4594c5e8678678b",
+    "validation_505806c9570975f4",
+    "validation_a789cfa128ded852",
+    "validation_7bdad63b44a6b818",
+    "validation_730e448470f360fd",
+    "validation_264b25bb56e26cce",
+    "validation_bc4672ac8b33ca5c",
+    "validation_87995edea05b819d",
+    "validation_fb6fb81ea98d9b96",
+    "validation_9175b63aaf221d2e",
+    "validation_47c92bea960c8f39",
+    "validation_34490460c4c1b9c4",
+    "validation_585cb8fdb9262b8a",
+    "validation_eb6cf09f0359bab1",
+    "validation_ffcb09c1c046d914",
+    "validation_6b043bc250aa9531",
+    "validation_2d53f3bb9f182072",
+    "validation_d571068e98654cbd",
+    "validation_fba83049eb10b099",
+    "validation_1956ac3aa916f9e9",
+    "validation_c2ec4a702e3bb50f",
+    "validation_80b12c5f2ea0aa6a",
+    "validation_bdf24e74c42e1487",
+    "validation_d7ab0bcf3318e95b",
+    "validation_bf517c168f6d3c0a",
+    "validation_66dc07af3356a1b2",
+    "validation_dea998995cc6e74e",
+    "validation_30c7678244760184",
+    "validation_81e68d380fd07e27",
+    "validation_d6355995d773030b",
+    "validation_72d4aeaf5c53ea1f",
+    "validation_88d17041d009e203",
+    "validation_ce3267c34157ee85",
+    "validation_f1615f8eb0d2e887",
+    "validation_1272d1263e7ffedf",
+    "validation_cfd497f6731e2331",
+    "validation_c4dd8b09f6b4076a",
+    "validation_d74c26143e824b50",
+    "validation_62dad16d09440227",
+    "validation_7eb8e439cf64ea06",
+    "validation_a65f9481cb35a243",
+    "validation_ce2bfc84567e1e01",
+    "validation_07bb5d56879a77a7",
+    "validation_c2b7f808a4ef6c44",
+    "validation_b0c763d100e5146f",
+    "validation_e8c870c68bce47d2",
+    "validation_32c82d7baf194587"
+  ],
+  "groups": {
+    "all": {
+      "n": 120,
+      "correct": 23,
+      "accuracy": 0.19166666666666668,
+      "valid_completed_answers": 120,
+      "failures": {
+        "wrong_answer": 97,
+        "correct": 23
+      },
+      "correct_literal_fraction_copies": 22
+    },
+    "contains_division": {
+      "n": 32,
+      "correct": 22,
+      "accuracy": 0.6875,
+      "valid_completed_answers": 32,
+      "failures": {
+        "wrong_answer": 10,
+        "correct": 22
+      },
+      "correct_literal_fraction_copies": 22
+    },
+    "non_division": {
+      "n": 88,
+      "correct": 1,
+      "accuracy": 0.011363636363636364,
+      "valid_completed_answers": 88,
+      "failures": {
+        "wrong_answer": 87,
+        "correct": 1
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:add": {
+      "n": 16,
+      "correct": 1,
+      "accuracy": 0.0625,
+      "valid_completed_answers": 16,
+      "failures": {
+        "wrong_answer": 15,
+        "correct": 1
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:divide": {
+      "n": 22,
+      "correct": 22,
+      "accuracy": 1.0,
+      "valid_completed_answers": 22,
+      "failures": {
+        "correct": 22
+      },
+      "correct_literal_fraction_copies": 22
+    },
+    "operation:mixed": {
+      "n": 40,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 40,
+      "failures": {
+        "wrong_answer": 40
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:multiply": {
+      "n": 20,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 20,
+      "failures": {
+        "wrong_answer": 20
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:subtract": {
+      "n": 22,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 22,
+      "failures": {
+        "wrong_answer": 22
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "single_division": {
+      "n": 22,
+      "correct": 22,
+      "accuracy": 1.0,
+      "valid_completed_answers": 22,
+      "failures": {
+        "correct": 22
+      },
+      "correct_literal_fraction_copies": 22
+    },
+    "task:arithmetic": {
+      "n": 40,
+      "correct": 11,
+      "accuracy": 0.275,
+      "valid_completed_answers": 40,
+      "failures": {
+        "wrong_answer": 29,
+        "correct": 11
+      },
+      "correct_literal_fraction_copies": 10
+    },
+    "task:mixed": {
+      "n": 40,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 40,
+      "failures": {
+        "wrong_answer": 40
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "task:word": {
+      "n": 40,
+      "correct": 12,
+      "accuracy": 0.3,
+      "valid_completed_answers": 40,
+      "failures": {
+        "wrong_answer": 28,
+        "correct": 12
+      },
+      "correct_literal_fraction_copies": 12
+    }
+  },
+  "examples": {
+    "operation:add": {
+      "first_correct": {
+        "sample_id": "validation_d59ea9f0b5839464",
+        "expression": "23 + 34",
+        "answer": "57",
+        "raw_output": "答案：57",
+        "parsed_answer": "57",
+        "failure_type": null,
+        "literal_fraction_copy": false
+      },
+      "first_incorrect": {
+        "sample_id": "validation_ba7281f26d74ff27",
+        "expression": "94 + 55",
+        "answer": "149",
+        "raw_output": "答案：55",
+        "parsed_answer": "55",
+        "failure_type": "wrong_answer",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:mixed": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "validation_9cf83a62591908c0",
+        "expression": "11 + 54 * 92",
+        "answer": "4979",
+        "raw_output": "答案：5568",
+        "parsed_answer": "5568",
+        "failure_type": "wrong_answer",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:multiply": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "validation_541bb917bfc30b9e",
+        "expression": "29 * 11",
+        "answer": "319",
+        "raw_output": "答案：392",
+        "parsed_answer": "392",
+        "failure_type": "wrong_answer",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:subtract": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "validation_8ed8a4d7cdc4ddf4",
+        "expression": "32 - 93",
+        "answer": "-61",
+        "raw_output": "答案：-47",
+        "parsed_answer": "-47",
+        "failure_type": "wrong_answer",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:divide": {
+      "first_correct": {
+        "sample_id": "validation_1c4af95b1d456db7",
+        "expression": "53 / 31",
+        "answer": "53/31",
+        "raw_output": "答案：53/31",
+        "parsed_answer": "53/31",
+        "failure_type": null,
+        "literal_fraction_copy": true
+      },
+      "first_incorrect": null
+    }
+  },
+  "example_rule": "first correct and first incorrect per operation in frozen prediction order",
+  "interpretation": "Literal fraction copying is a diagnostic, not proof of a model's internal algorithm."
+}

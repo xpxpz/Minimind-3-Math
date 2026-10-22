@@ -1,0 +1,11 @@
+{
+  "analysis_tests": {
+    "command": "python -m pytest -q tests/test_prediction_analysis.py",
+    "passed": 7,
+    "test_file_sha256": "819d119fd3872e1fdd45541af6c43a14bdca00c7dd283d92f6edf76306f115da"
+  },
+  "analysis_matches_metrics": true,
+  "prediction_and_analysis_hashes_verified": true,
+  "report_links_checked": true,
+  "weights_excluded_from_archive": true
+}

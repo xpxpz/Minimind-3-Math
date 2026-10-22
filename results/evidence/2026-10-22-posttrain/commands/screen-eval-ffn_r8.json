@@ -1,0 +1,21 @@
+{
+  "label": "screen-eval-ffn_r8",
+  "command": [
+    "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math/.venv/bin/python",
+    "-m",
+    "mathlab.evaluate",
+    "--data",
+    "data/processed/v1/validation.jsonl",
+    "--adapter",
+    "artifacts/SFT-ffn_r8/best",
+    "--limit",
+    "120",
+    "--out",
+    "results/runs/SFT-screen-ffn_r8"
+  ],
+  "cwd": "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math",
+  "started_utc": "2026-10-22T05:37:12Z",
+  "log": "results/evidence/2026-10-22-posttrain/logs/screen-eval-ffn_r8.log",
+  "returncode": 0,
+  "finished_utc": "2026-10-22T05:37:37Z"
+}

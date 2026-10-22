@@ -1,0 +1,21 @@
+{
+  "label": "screen-train-ffn_r8",
+  "command": [
+    "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math/.venv/bin/python",
+    "-m",
+    "mathlab.train",
+    "--config",
+    "configs/campaign/ffn_r8.json",
+    "--data",
+    "data/processed/v1",
+    "--out",
+    "artifacts/SFT-ffn_r8",
+    "--stop-after-updates",
+    "500"
+  ],
+  "cwd": "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math",
+  "started_utc": "2026-10-22T05:33:55Z",
+  "log": "results/evidence/2026-10-22-posttrain/logs/screen-train-ffn_r8.log",
+  "returncode": 0,
+  "finished_utc": "2026-10-22T05:37:12Z"
+}

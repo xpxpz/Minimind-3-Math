@@ -1,0 +1,57 @@
+{
+  "arms": {
+    "official_r16": {
+      "updates": 500,
+      "presentations": 8000,
+      "correct": 23,
+      "target_tokens": 54145,
+      "nonpadding_tokens": 504202,
+      "local_adapter_hashes_verified": true
+    },
+    "qv_r16": {
+      "updates": 500,
+      "presentations": 8000,
+      "correct": 23,
+      "target_tokens": 54145,
+      "nonpadding_tokens": 504202,
+      "local_adapter_hashes_verified": true
+    },
+    "qkvo_r16": {
+      "updates": 500,
+      "presentations": 8000,
+      "correct": 23,
+      "target_tokens": 54145,
+      "nonpadding_tokens": 504202,
+      "local_adapter_hashes_verified": true
+    },
+    "ffn_r8": {
+      "updates": 500,
+      "presentations": 8000,
+      "correct": 23,
+      "target_tokens": 54145,
+      "nonpadding_tokens": 504202,
+      "local_adapter_hashes_verified": true
+    },
+    "ffn_r16": {
+      "updates": 500,
+      "presentations": 8000,
+      "correct": 23,
+      "target_tokens": 54145,
+      "nonpadding_tokens": 504202,
+      "local_adapter_hashes_verified": true
+    },
+    "ffn_r32": {
+      "updates": 500,
+      "presentations": 8000,
+      "correct": 21,
+      "target_tokens": 54145,
+      "nonpadding_tokens": 504202,
+      "local_adapter_hashes_verified": true
+    }
+  },
+  "selected": "qv_r16",
+  "plan_sha256": "a9f30372c278cbbd665fa1f757a6559751521f2decdeb78b94e3609bfdf5b9e6",
+  "selection_sha256": "6dc7c612c9a527b64149b6b7d3c0c16a0e72d8a2a1600f8b1feef89d9f5c92e8",
+  "test_results_used": false,
+  "audit_script_sha256": "560b8317a7911e0a73357abc7205e976b0e1a27e340c1f51b68f032a7452d43e"
+}

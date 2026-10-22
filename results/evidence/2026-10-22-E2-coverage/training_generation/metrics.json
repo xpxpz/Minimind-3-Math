@@ -1,0 +1,30 @@
+{
+  "all": {
+    "n": 64,
+    "accuracy": 1.0,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "task:arithmetic": {
+    "n": 64,
+    "accuracy": 1.0,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "distribution:train": {
+    "n": 64,
+    "accuracy": 1.0,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "macro_task_accuracy": 1.0,
+  "latency": {
+    "p50_seconds": 0.05519829200056847,
+    "p95_seconds": 0.09495375002734363,
+    "generation_tokens_per_second": 67.97397539142071,
+    "warmup_examples_excluded": 1
+  }
+}

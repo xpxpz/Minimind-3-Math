@@ -1,0 +1,16 @@
+{
+  "dataset_audit_passed": true,
+  "training_validation_problem_groups_disjoint": true,
+  "generator_hash_verified": true,
+  "primary_last_weights_hash_verified": true,
+  "same_last_used_for_training_and_validation_generation": true,
+  "training_updates": 200,
+  "epochs": 100,
+  "training_presentations": 3200,
+  "training_correct": 32,
+  "validation_correct": 6,
+  "test_command": "python -m pytest -q tests/test_easy_math.py tests/test_data.py",
+  "tests_passed": 4,
+  "report_links_checked": true,
+  "weights_excluded_from_archive": true
+}

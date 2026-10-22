@@ -1,0 +1,297 @@
+{
+  "version": "math-prediction-analysis-v1",
+  "analysis_sha256": "b9f059d6ea861e96dc394c44da35851654a0e7181e2635649b54abcc3a891db8",
+  "data_sha256": "56ed0a0c22287abb172ed3d3084d529dbb75d9f231735201052c6cb478e8c0fb",
+  "predictions_sha256": "0cb9122c5f8c644a752374d550af4b49148084cc83045269011d47be2114220b",
+  "scorer_sha256": "38501242b35fd46205598ef5f5735fd44ea3c5e95db36949a49b95a83dea3d05",
+  "evaluated_ids": [
+    "test_id_638cb92a8769ab95",
+    "test_id_af7248fcdc98722d",
+    "test_id_4719ec24b8c82e26",
+    "test_id_2c8d9e63d3c5aa47",
+    "test_id_677932b6a2491274",
+    "test_id_ffb70eba6cd51196",
+    "test_id_6fe7fe641bad5a3d",
+    "test_id_0316abc2a4ce1a72",
+    "test_id_84da6d36d4873f49",
+    "test_id_ffac3c5489a06e2b",
+    "test_id_735c95d7d1414791",
+    "test_id_f54d3967d344b5eb",
+    "test_id_727257e7401cfb8e",
+    "test_id_9cdc32a488a19fdd",
+    "test_id_8096665a0a6ad1f3",
+    "test_id_193181a041191e25",
+    "test_id_ae6771a039cb1fcb",
+    "test_id_47fc642aee60b468",
+    "test_id_584272035878e4ab",
+    "test_id_fc266b0e1d697add",
+    "test_id_79d22ff2957a3fe1",
+    "test_id_2927237b25a38c14",
+    "test_id_005a16366d2d7b77",
+    "test_id_eb89efc23d63c997",
+    "test_id_0049cf18da79ea36",
+    "test_id_f71bb61b282e63bb",
+    "test_id_1b72a9970df8aafd",
+    "test_id_c9c2fd5448cb913c",
+    "test_id_21c2db63fe6dc0a7",
+    "test_id_c55a322e1dc7c81a",
+    "test_id_0d28e614651d658c",
+    "test_id_4974ddcdcc0b01d8",
+    "test_id_4158095f1ad8c19a",
+    "test_id_6289f446e22145ef",
+    "test_id_88cb3622c059d214",
+    "test_id_fd535d7afa66be3e",
+    "test_id_13d33dc0e44fa6d7",
+    "test_id_f57cb3b4a4ef5efa",
+    "test_id_f514267cf7412fc9",
+    "test_id_3f4c73ce75a7e8b5",
+    "test_id_71848973e9d69558",
+    "test_id_ef5023bde0d7f902",
+    "test_id_2c6d8d02788c6dc9",
+    "test_id_d83a75dcd3ede422",
+    "test_id_aff58441ac2988bb",
+    "test_id_6ce00d25f686460f",
+    "test_id_5cbd7ea9a165dd3c",
+    "test_id_8201f019383a984b",
+    "test_id_d0a1e7aa90ee86c3",
+    "test_id_c7a4ef8708da9618",
+    "test_id_f3c545b72f9a765f",
+    "test_id_d8808aad668f6d01",
+    "test_id_364ed05deb29fbf2",
+    "test_id_4eada8c935092142",
+    "test_id_5a20c13ead5dcb62",
+    "test_id_901b066c557e840a",
+    "test_id_497103766f084fa9",
+    "test_id_36052e564c0476b0",
+    "test_id_ebbff04c8aac436a",
+    "test_id_acbc69b27c326ca9",
+    "test_id_d5e071ffba9c0ab7",
+    "test_id_0c8eeac59b0c5688",
+    "test_id_25e9834310a5d449",
+    "test_id_06b8443e850cba33",
+    "test_id_9bb257c5a4f6d622",
+    "test_id_55f795283a76867a",
+    "test_id_ef88b07af6d0cafb",
+    "test_id_cd769cc09d1ec7a0",
+    "test_id_308a63db37801174",
+    "test_id_7ceb5de92a6ec154",
+    "test_id_87eb068f7860848e",
+    "test_id_fc57ae73f3593c80",
+    "test_id_bb5e7742ea8eed18",
+    "test_id_73364afdf6ac3561",
+    "test_id_e3d829aa3a9e18a1",
+    "test_id_9b2c5fc1355a1109",
+    "test_id_facdc995feb126a3",
+    "test_id_0143420e79db0be9",
+    "test_id_704f6107732c93d1",
+    "test_id_752c7555787082d6",
+    "test_id_a10acaf3ade0afb9",
+    "test_id_bd6aa17a2d6ac447",
+    "test_id_1d0325485d1cbac2",
+    "test_id_5365b3a4d84c8954",
+    "test_id_b5e56701af506f32",
+    "test_id_5f9528978cb40a34",
+    "test_id_a6d86408a6aac6e6",
+    "test_id_50ce1ce687246525",
+    "test_id_2e670f23c641e7d3",
+    "test_id_7e0fb3dbbb2fc2c9"
+  ],
+  "groups": {
+    "all": {
+      "n": 90,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 0,
+      "failures": {
+        "parse_failure": 45,
+        "truncated": 45
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "contains_division": {
+      "n": 27,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 0,
+      "failures": {
+        "truncated": 16,
+        "parse_failure": 11
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "non_division": {
+      "n": 63,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 0,
+      "failures": {
+        "parse_failure": 34,
+        "truncated": 29
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:add": {
+      "n": 16,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 0,
+      "failures": {
+        "parse_failure": 12,
+        "truncated": 4
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:divide": {
+      "n": 17,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 0,
+      "failures": {
+        "parse_failure": 8,
+        "truncated": 9
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:mixed": {
+      "n": 30,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 0,
+      "failures": {
+        "truncated": 17,
+        "parse_failure": 13
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:multiply": {
+      "n": 9,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 0,
+      "failures": {
+        "parse_failure": 4,
+        "truncated": 5
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "operation:subtract": {
+      "n": 18,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 0,
+      "failures": {
+        "parse_failure": 8,
+        "truncated": 10
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "single_division": {
+      "n": 17,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 0,
+      "failures": {
+        "parse_failure": 8,
+        "truncated": 9
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "task:arithmetic": {
+      "n": 30,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 0,
+      "failures": {
+        "parse_failure": 11,
+        "truncated": 19
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "task:mixed": {
+      "n": 30,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 0,
+      "failures": {
+        "truncated": 17,
+        "parse_failure": 13
+      },
+      "correct_literal_fraction_copies": 0
+    },
+    "task:word": {
+      "n": 30,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_completed_answers": 0,
+      "failures": {
+        "parse_failure": 21,
+        "truncated": 9
+      },
+      "correct_literal_fraction_copies": 0
+    }
+  },
+  "examples": {
+    "operation:multiply": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "test_id_638cb92a8769ab95",
+        "expression": "8 * 69",
+        "answer": "552",
+        "raw_output": "为了计算8 * 69，我们首先需要将所有数值相乘。然后将结果除以8，以得到最终结果。\n\n1. 首先，将所有数值相乘：\n\\[8 \\times 69 = 576\\]\n\n2. 接下来，将结果除以8，以得到最终结果：\n\\[576 \\div 8 = 63\\]\n\n因此，8 * 69的结果是63。\n\n所以，最终结果是63。",
+        "parsed_answer": null,
+        "failure_type": "parse_failure",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:mixed": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "test_id_af7248fcdc98722d",
+        "expression": "(42 - 8) / 83",
+        "answer": "34/83",
+        "raw_output": "为了计算表达式 \\((42 - 8) / 83\\)，我们首先需要明确表达式的含义。根据题目描述，表达式是“结果为数值”，这意味着我们需要将结果转换为数值形式。因此，我们将表达式 \\(42 - 8\\) 转换为数值形式 \\((42 - 8) / 83\\)。\n\n首先，我们知道 \\(83\\) 是 \\(8\\) 的平方根，因为 \\(83 = 2^4 \\times 3\\)。\n\n接下来，我们知道 \\(83\\) 是 \\(8\\) 的平方根，因为 \\(83 = 2^4 \\times 3\\)。\n\n现在，我们计算 \\((42 - 8) / 83\\)。\n\n首先，我们计算 \\((42 - 8) / 83\\)。\n\n\\[\n(42 - 8) / 83 = (42 - 8) / 83 = (42 - 8) / 83 = (42 - 8) / 83 = (42 - 8) / 83 = (42 - 8) / 83 = (42 - 8) / 83 = (42 - 8) / 83 = (42 - 8",
+        "parsed_answer": null,
+        "failure_type": "truncated",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:add": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "test_id_4719ec24b8c82e26",
+        "expression": "93 + 28",
+        "answer": "121",
+        "raw_output": "为了计算盒子里有多少个球，我们可以使用以下公式：\n\n\\[ \\text{球的数量} = \\frac{\\text{总球数}}{\\text{盒子数量}} \\]\n\n将已知数值代入公式：\n\n\\[ \\text{球的数量} = \\frac{93}{9} = 8 \\]\n\n所以，盒子里有8个球。\n\n接下来，我们计算盒子里剩下的球数：\n\n\\[ \\text{剩余的球数} = \\text{盒子数量} - \\text{盒子数量} = 8 - 8 = 0 \\]\n\n所以，盒子里剩下的球数是0个。\n\n最后，我们计算盒子里剩下的球数：\n\n\\[ \\text{剩余的球数} = \\text{盒子数量} - \\text{盒子数量} = 0 - 0 = 0 \\]\n\n所以，盒子里剩下的球数是0个。\n\n最终答案：\n\n盒子里有8个球。",
+        "parsed_answer": null,
+        "failure_type": "parse_failure",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:divide": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "test_id_2c8d9e63d3c5aa47",
+        "expression": "54 / 71",
+        "answer": "54/71",
+        "raw_output": "为了计算54除以71的结果，我们首先需要找到一个数，它能被7整除，并且能被7整除。\n\n54除以71的商是2，余数是0。这意味着54除以71等于2。\n\n接下来，我们将找到一个数，它能被7整除，并且能被7整除。\n\n我们可以通过以下步骤计算：\n\n1. 首先，将54除以71，得到商2。\n2. 然后，将商2除以71，得到商1。\n3. 接下来，将商1除以71，得到商1。\n\n因此，54除以71的结果是2。\n\n所以，答案是2。",
+        "parsed_answer": null,
+        "failure_type": "parse_failure",
+        "literal_fraction_copy": false
+      }
+    },
+    "operation:subtract": {
+      "first_correct": null,
+      "first_incorrect": {
+        "sample_id": "test_id_84da6d36d4873f49",
+        "expression": "66 - 22",
+        "answer": "44",
+        "raw_output": "为了解决这个问题，我们首先需要确定铅笔的数量，然后计算出铅笔剩余的数量。\n\n已知条件如下：\n- 铅笔数量：66支\n- 用掉22支后，剩余数量为：\\(66 - 22 = 34\\)支\n\n接下来，我们计算出铅笔剩余的数量：\n- 用掉22支后，剩余34支减去22支，得到剩余的数量：\\(34 - 22 = 16\\)支\n\n因此，铅笔剩余的数量为：\\(16 \\times 34 = 512\\)支。\n\n所以，最终答案是：\\(\\boxed{512}\\)支。",
+        "parsed_answer": null,
+        "failure_type": "parse_failure",
+        "literal_fraction_copy": false
+      }
+    }
+  },
+  "example_rule": "first correct and first incorrect per operation in frozen prediction order",
+  "interpretation": "Literal fraction copying is a diagnostic, not proof of a model's internal algorithm."
+}

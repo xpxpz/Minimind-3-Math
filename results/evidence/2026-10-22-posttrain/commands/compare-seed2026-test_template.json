@@ -1,0 +1,17 @@
+{
+  "label": "compare-seed2026-test_template",
+  "command": [
+    "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math/.venv/bin/python",
+    "-m",
+    "mathlab.compare",
+    "results/runs/SFT-final-base-test_template",
+    "results/runs/SFT-final-seed2026-test_template",
+    "--out",
+    "results/evidence/2026-10-22-posttrain/comparison-seed2026-test_template.json"
+  ],
+  "cwd": "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math",
+  "started_utc": "2026-10-22T06:25:45Z",
+  "log": "results/evidence/2026-10-22-posttrain/logs/compare-seed2026-test_template.log",
+  "returncode": 0,
+  "finished_utc": "2026-10-22T06:25:45Z"
+}

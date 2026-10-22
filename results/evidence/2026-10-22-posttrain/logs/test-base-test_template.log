@@ -1,0 +1,134 @@
+[1/90] test_template_9f140d76f3b8583b correct=False truncated
+[2/90] test_template_165343610a1bc691 correct=False truncated
+[3/90] test_template_5e84ceb02c5dea16 correct=False truncated
+[4/90] test_template_3ad324ec8bd07a80 correct=False truncated
+[5/90] test_template_47a83afc0d504902 correct=False truncated
+[6/90] test_template_022ce09a7c42a5dc correct=False parse_failure
+[7/90] test_template_598157585b74f1e6 correct=False parse_failure
+[8/90] test_template_df479725a2806fd3 correct=False truncated
+[9/90] test_template_1fcd16b1ca00ad75 correct=False truncated
+[10/90] test_template_86cab54fb09a2613 correct=False parse_failure
+[11/90] test_template_4c8fcf4f746a5a53 correct=False truncated
+[12/90] test_template_da9a526328c7dc8c correct=False truncated
+[13/90] test_template_e2181f2644b7c31a correct=False truncated
+[14/90] test_template_2bda976f3c436908 correct=False parse_failure
+[15/90] test_template_792c582a7a270463 correct=False parse_failure
+[16/90] test_template_a4c90e47b5d78ecd correct=False truncated
+[17/90] test_template_04d7d87d905e3e19 correct=False truncated
+[18/90] test_template_269c72bebaa3f9d2 correct=False parse_failure
+[19/90] test_template_75540e0a3ec4930a correct=False parse_failure
+[20/90] test_template_b27362d425ed2559 correct=False parse_failure
+[21/90] test_template_137979b5a7c55834 correct=False truncated
+[22/90] test_template_9223b45bedd3bb6a correct=False parse_failure
+[23/90] test_template_722dc75b9e3de05e correct=False truncated
+[24/90] test_template_c3a3346899f439aa correct=False parse_failure
+[25/90] test_template_eefdbf3c0ad2045f correct=False truncated
+[26/90] test_template_7d600429fc753b4b correct=False parse_failure
+[27/90] test_template_d4727f14c6c4dc20 correct=False parse_failure
+[28/90] test_template_59c2cdc08404ce7a correct=False truncated
+[29/90] test_template_af0013a8fb5b82af correct=False parse_failure
+[30/90] test_template_f7927bfd30725997 correct=False truncated
+[31/90] test_template_71dc73e8a6a79f87 correct=False parse_failure
+[32/90] test_template_208908530ba6bd34 correct=False truncated
+[33/90] test_template_597ad355239448ce correct=False truncated
+[34/90] test_template_d8a59dc47c6083c9 correct=False truncated
+[35/90] test_template_0e7eafcb0d02044e correct=False truncated
+[36/90] test_template_805432fb3797eefe correct=False truncated
+[37/90] test_template_8f3189e3fa09cf91 correct=False truncated
+[38/90] test_template_7c0c3828d3150a56 correct=False parse_failure
+[39/90] test_template_99066b4e140d3ca9 correct=False parse_failure
+[40/90] test_template_93a4d4918c1eed34 correct=False parse_failure
+[41/90] test_template_79f9daccf45c2dba correct=False truncated
+[42/90] test_template_a741f7ea94309bc9 correct=False parse_failure
+[43/90] test_template_cfa62f58fb4ac016 correct=False truncated
+[44/90] test_template_452878ab8894b0e7 correct=False truncated
+[45/90] test_template_45b459d26ad41656 correct=False truncated
+[46/90] test_template_59fa8bb91926ec69 correct=False parse_failure
+[47/90] test_template_b2b0bc558fad1b26 correct=False truncated
+[48/90] test_template_9f5cac40e3b7fbd5 correct=False truncated
+[49/90] test_template_739cf4249c7b87bd correct=False parse_failure
+[50/90] test_template_3f9f021be5041e49 correct=False truncated
+[51/90] test_template_12c8bccd76a84e9e correct=False parse_failure
+[52/90] test_template_22145c58f2c4a182 correct=False parse_failure
+[53/90] test_template_bd8df6a5a4278c73 correct=False parse_failure
+[54/90] test_template_a1cf08ff55dd441d correct=False parse_failure
+[55/90] test_template_d9fc07ca99b072d3 correct=False parse_failure
+[56/90] test_template_87e5819965fe4447 correct=False truncated
+[57/90] test_template_89d1917d684a88a7 correct=False parse_failure
+[58/90] test_template_42d578f9ae833c9e correct=False parse_failure
+[59/90] test_template_885c6ad05adb4284 correct=False parse_failure
+[60/90] test_template_3e9afc831831d260 correct=False truncated
+[61/90] test_template_cdbc7421519375fd correct=False parse_failure
+[62/90] test_template_27a1b6185dbed435 correct=False truncated
+[63/90] test_template_4bdeb4bf21d639fb correct=False truncated
+[64/90] test_template_2bf71216a61dc888 correct=False parse_failure
+[65/90] test_template_10d1cded61a56d56 correct=False parse_failure
+[66/90] test_template_7d81444a0b79e343 correct=False truncated
+[67/90] test_template_b133e5ab5e416f22 correct=False parse_failure
+[68/90] test_template_24f72365494e1570 correct=False truncated
+[69/90] test_template_5c19ecb63482b361 correct=False truncated
+[70/90] test_template_3807e9074f030b95 correct=False parse_failure
+[71/90] test_template_ffd46a6f22298c48 correct=False parse_failure
+[72/90] test_template_aa4988be9bedd9b0 correct=False truncated
+[73/90] test_template_0c1a60e273cae811 correct=False parse_failure
+[74/90] test_template_bbd14d5bd68a4212 correct=False parse_failure
+[75/90] test_template_4fb57e95ec2f1a2a correct=False parse_failure
+[76/90] test_template_ead343a9ccc70e1e correct=False truncated
+[77/90] test_template_57316eca753feea0 correct=False parse_failure
+[78/90] test_template_b3c7c4a6e98e730c correct=False parse_failure
+[79/90] test_template_e3461ee9ef5b092e correct=False parse_failure
+[80/90] test_template_32e7fbc0f0112bb7 correct=False truncated
+[81/90] test_template_484b25caff7eefb3 correct=False parse_failure
+[82/90] test_template_044c938330d74b33 correct=False parse_failure
+[83/90] test_template_664468b86aa2ad82 correct=False truncated
+[84/90] test_template_6569510c1cb6ab11 correct=False parse_failure
+[85/90] test_template_7105f35b146a1fe4 correct=False parse_failure
+[86/90] test_template_abb5ef3c741ae033 correct=False parse_failure
+[87/90] test_template_daf2eda818167ebb correct=False truncated
+[88/90] test_template_23ee5c27db4d1ef1 correct=False parse_failure
+[89/90] test_template_be9ed7e86601aca2 correct=False truncated
+[90/90] test_template_ed71283a5441f99b correct=False parse_failure
+{
+  "all": {
+    "n": 90,
+    "accuracy": 0.0,
+    "parse_failure_rate": 0.5222222222222223,
+    "truncation_rate": 0.4777777777777778,
+    "runtime_error_rate": 0.0
+  },
+  "task:arithmetic": {
+    "n": 30,
+    "accuracy": 0.0,
+    "parse_failure_rate": 0.6666666666666666,
+    "truncation_rate": 0.3333333333333333,
+    "runtime_error_rate": 0.0
+  },
+  "distribution:template": {
+    "n": 90,
+    "accuracy": 0.0,
+    "parse_failure_rate": 0.5222222222222223,
+    "truncation_rate": 0.4777777777777778,
+    "runtime_error_rate": 0.0
+  },
+  "task:mixed": {
+    "n": 30,
+    "accuracy": 0.0,
+    "parse_failure_rate": 0.4,
+    "truncation_rate": 0.6,
+    "runtime_error_rate": 0.0
+  },
+  "task:word": {
+    "n": 30,
+    "accuracy": 0.0,
+    "parse_failure_rate": 0.5,
+    "truncation_rate": 0.5,
+    "runtime_error_rate": 0.0
+  },
+  "macro_task_accuracy": 0.0,
+  "latency": {
+    "p50_seconds": 4.5145106249983655,
+    "p95_seconds": 5.48202112497529,
+    "generation_tokens_per_second": 51.91926505277053,
+    "warmup_examples_excluded": 1
+  }
+}

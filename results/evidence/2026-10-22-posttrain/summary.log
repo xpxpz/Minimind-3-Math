@@ -1,0 +1,30 @@
+{
+  "base": {
+    "n": 270,
+    "correct": 0,
+    "valid_completed_answers": 0,
+    "correct_literal_fraction_copies": 0,
+    "accuracy": 0.0
+  },
+  "seed42": {
+    "n": 270,
+    "correct": 38,
+    "valid_completed_answers": 269,
+    "correct_literal_fraction_copies": 37,
+    "accuracy": 0.14074074074074075
+  },
+  "seed123": {
+    "n": 270,
+    "correct": 43,
+    "valid_completed_answers": 269,
+    "correct_literal_fraction_copies": 41,
+    "accuracy": 0.15925925925925927
+  },
+  "seed2026": {
+    "n": 270,
+    "correct": 42,
+    "valid_completed_answers": 267,
+    "correct_literal_fraction_copies": 40,
+    "accuracy": 0.15555555555555556
+  }
+}

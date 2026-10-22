@@ -1,0 +1,21 @@
+{
+  "label": "screen-train-qv_r16",
+  "command": [
+    "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math/.venv/bin/python",
+    "-m",
+    "mathlab.train",
+    "--config",
+    "configs/campaign/qv_r16.json",
+    "--data",
+    "data/processed/v1",
+    "--out",
+    "artifacts/SFT-qv_r16",
+    "--stop-after-updates",
+    "500"
+  ],
+  "cwd": "/Users/xiexianpei/Documents/ChatGPT/minimind-3-math",
+  "started_utc": "2026-10-22T05:27:36Z",
+  "log": "results/evidence/2026-10-22-posttrain/logs/screen-train-qv_r16.log",
+  "returncode": 0,
+  "finished_utc": "2026-10-22T05:30:14Z"
+}

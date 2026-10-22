@@ -1,0 +1,55 @@
+{
+  "seed": 42,
+  "repeats": 5000,
+  "groups": {
+    "all": {
+      "n": 1000,
+      "step50_correct": 141,
+      "step200_correct": 174,
+      "became_correct": 39,
+      "became_incorrect": 6,
+      "difference_pp": 3.3,
+      "paired_bootstrap_95_percentile_interval_pp": [
+        2.1,
+        4.6
+      ]
+    },
+    "non_division": {
+      "n": 691,
+      "step50_correct": 0,
+      "step200_correct": 4,
+      "became_correct": 4,
+      "became_incorrect": 0,
+      "difference_pp": 0.5788712011577424,
+      "paired_bootstrap_95_percentile_interval_pp": [
+        0.1447178002894356,
+        1.1577424023154848
+      ]
+    },
+    "single_division": {
+      "n": 193,
+      "step50_correct": 140,
+      "step200_correct": 169,
+      "became_correct": 34,
+      "became_incorrect": 5,
+      "difference_pp": 15.025906735751295,
+      "paired_bootstrap_95_percentile_interval_pp": [
+        9.32642487046632,
+        21.243523316062177
+      ]
+    },
+    "mixed": {
+      "n": 333,
+      "step50_correct": 1,
+      "step200_correct": 1,
+      "became_correct": 1,
+      "became_incorrect": 1,
+      "difference_pp": 0.0,
+      "paired_bootstrap_95_percentile_interval_pp": [
+        -0.9009009009009009,
+        0.9009009009009009
+      ]
+    }
+  },
+  "limitation": "Exploratory validation subgroup intervals; no adjustment for multiple comparisons; one training seed."
+}

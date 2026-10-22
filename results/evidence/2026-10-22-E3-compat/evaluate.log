@@ -1,0 +1,62 @@
+[1/32] easy_validation_f9f0cf2c07b3911f correct=False wrong_answer
+[2/32] easy_validation_2797382b429104dd correct=False wrong_answer
+[3/32] easy_validation_575d12a13879854a correct=False wrong_answer
+[4/32] easy_validation_979b492710dc1c49 correct=False wrong_answer
+[5/32] easy_validation_6c2506a7240f46a5 correct=False wrong_answer
+[6/32] easy_validation_ef19e9abbc90211f correct=False wrong_answer
+[7/32] easy_validation_803bcfa7202a0d97 correct=False wrong_answer
+[8/32] easy_validation_bdcbd0f65f171e5f correct=False wrong_answer
+[9/32] easy_validation_668e68216697d4b1 correct=False wrong_answer
+[10/32] easy_validation_2bb9c3a035d2c329 correct=False wrong_answer
+[11/32] easy_validation_b6f704b7c08631d3 correct=False wrong_answer
+[12/32] easy_validation_db1c2518d6beafa4 correct=False wrong_answer
+[13/32] easy_validation_6602e8753d581fa7 correct=False wrong_answer
+[14/32] easy_validation_cab3ddccc1028b07 correct=True None
+[15/32] easy_validation_fe1b8bbf9615f307 correct=True None
+[16/32] easy_validation_3a0d59aba91b4c65 correct=False wrong_answer
+[17/32] easy_validation_dd448a9074e9f08a correct=False wrong_answer
+[18/32] easy_validation_5e364612d0044989 correct=True None
+[19/32] easy_validation_4d689e338c56d18d correct=False wrong_answer
+[20/32] easy_validation_37e051b091e1c903 correct=False wrong_answer
+[21/32] easy_validation_150f50823cf291e0 correct=True None
+[22/32] easy_validation_2909151ca04155a2 correct=False wrong_answer
+[23/32] easy_validation_536a683ce977e33a correct=True None
+[24/32] easy_validation_baf7dd0fcc49788c correct=False wrong_answer
+[25/32] easy_validation_ecaad5fbb812090f correct=False wrong_answer
+[26/32] easy_validation_457d2eefebd1df26 correct=False wrong_answer
+[27/32] easy_validation_9bf80ea76b6642b2 correct=False wrong_answer
+[28/32] easy_validation_7002714dc35a2117 correct=False wrong_answer
+[29/32] easy_validation_14028a99fb845d9c correct=False wrong_answer
+[30/32] easy_validation_ed6ea7eb50d64680 correct=False wrong_answer
+[31/32] easy_validation_cbeb748194ff3450 correct=False wrong_answer
+[32/32] easy_validation_19d475a328ed39f7 correct=False wrong_answer
+{
+  "all": {
+    "n": 32,
+    "accuracy": 0.15625,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "task:arithmetic": {
+    "n": 32,
+    "accuracy": 0.15625,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "distribution:validation": {
+    "n": 32,
+    "accuracy": 0.15625,
+    "parse_failure_rate": 0.0,
+    "truncation_rate": 0.0,
+    "runtime_error_rate": 0.0
+  },
+  "macro_task_accuracy": 0.15625,
+  "latency": {
+    "p50_seconds": 0.0545799999817973,
+    "p95_seconds": 0.07198691598023288,
+    "generation_tokens_per_second": 71.98849396768532,
+    "warmup_examples_excluded": 1
+  }
+}

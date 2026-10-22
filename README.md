@@ -2,9 +2,23 @@
 
 基于 **MiniMind-3 Dense** 的可复现数学后训练实验。第一阶段研究整数/有理数四则运算、带括号的混合运算及简单应用题，比较官方 LoRA 与可配置 LoRA 的注入位置。这里的模型是 [MiniMind](https://github.com/jingyaogong/minimind)
 
-**当前状态：** 已实现数据、评测、LoRA-SFT、断点恢复和对比工具。正式微调、消融及最终测试结果尚未完成；短运行只验证工程链路，不证明数学能力提升。实际验证记录见 [本地验证](docs/local_validation.md)。
+**当前状态：** 首版 **LoRA-SFT 后训练与交付已完成**：真实模型上的官方/自定义实现对齐、六组模块/Rank筛选、选定Q/V rank16的三种子三轮训练、预注册270题测试、本地适配器及完整HF模型导出。**普通数学计算目标尚未达标**，不能将训练完成写成数学推理能力提升成功。
 
-## 先做什么
+**实测结果：** 发布种子42在ID、模板OOD、范围OOD各90题上分别18、12、8题正确，共38/270（14.07%）；三个种子均值15.19%，样本标准差0.98个百分点。原始模型在同一严格格式协议下0/270，不能据此声称原模型全部数学能力为0。发布模型38个正确答案中37个直接保留了除法分子/分母，无除法题仅1/183。完整结果、代码改动、原始输出及限制见 [最终报告](docs/reports/2026-10-22_E5-final-sft-release.md)、[模型卡](docs/model_card.md)。这里是固定子集测试，并未测完全部1,600道测试题。
+
+**实验记录：** 后续每次实验步骤都单独编写 Markdown 报告，记录做了什么、代码改了什么、完成了什么及其证据。统一入口见 [实验报告索引](docs/reports/README.md)。
+
+## 使用已训练的本地模型
+
+在本仓库根目录运行（基础权重路径已在本机 `configs/local.json` 配置）：
+
+```bash
+.venv/bin/python -m scripts.use_math_model ask "计算 12 + 7。"
+```
+
+默认加载 `artifacts/release/adapter`；完整HF模型位于 `artifacts/release/merged`。入口能正常加载，但上述固定冒烟题实际输出 `答案：10`，说明它仍不能作为可靠计算器。权重和恢复状态仅保留本地、不提交Git。[使用、导出与完整复现说明](docs/posttraining_usage.md) 记录实际命令和覆盖保护。
+
+## 训练路线
 
 从已经下载的对话权重开始：**固定数据与 Baseline → 官方 LoRA-SFT → 自定义兼容组 → Q/V、Q/K/V/O、Attention+FFN 对照 → Rank 消融**。SFT 是训练目标，LoRA 是参数微调方式；现在做的是 LoRA-SFT。暂不加入 GRPO，先验证监督训练有效且评测可靠。完整实验顺序见 [实验指南](docs/experiments.md)。
 
@@ -85,6 +99,9 @@ uv run python -m mathlab.compare results/runs/A0-id results/runs/A3-id \
 | `mathlab/train.py` / `mathlab/sft.py` | LoRA-SFT、assistant mask、保存与恢复 |
 | `mathlab/lora.py` | 可配置非方阵 LoRA、官方对照、加载及合并 |
 | `mathlab/evaluate.py` / `mathlab/compare.py` | 逐题评测和配对 Bootstrap |
+| `scripts/analyze_predictions.py` | 冻结预测审计、运算类型细分与直接分数输出诊断 |
+| `scripts/generate_easy_math.py` | 有限一位数加减问题池与可学习性数据划分 |
+| `scripts/expand_easy_coverage.py` / `scripts/compare_shared_validation.py` | 保持验证题不变的数据覆盖率对照及明确审计的跨清单同题比较 |
 | `docs/` | 数据卡、评测协议、实验指南、贡献和实测记录 |
 
 原始规划保留为 [项目规划参考](docs/project_plan.md)，其中后续阶段尚未实现的内容不代表本仓库已经支持。大权重和完整预测默认不进入 Git；保留结果清单并按需归档。上游代码、权重及依赖来源见 [第三方说明](THIRD_PARTY_NOTICES.md)。

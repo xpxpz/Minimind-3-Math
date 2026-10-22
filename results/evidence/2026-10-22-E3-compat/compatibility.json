@@ -1,0 +1,13 @@
+{
+  "updates": 200,
+  "matched_modules": 16,
+  "trainable_parameters": 393216,
+  "training_logs_exact_equal": true,
+  "max_absolute_training_loss_difference": 0.0,
+  "last_tensors_exact_equal": true,
+  "max_absolute_tensor_difference": 0.0,
+  "official_last_sha256": "005c3d9bfdf391b60d9f96b0ee302918179d4b965c81c8674e4f24587ae1c9ae",
+  "custom_last_sha256": "005c3d9bfdf391b60d9f96b0ee302918179d4b965c81c8674e4f24587ae1c9ae",
+  "checker_sha256": "cbb747354037c4e5151f148e3bf40d12588fa08489fa4f2d7115a7eef3ce73ad",
+  "passed": true
+}
